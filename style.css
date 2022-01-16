@@ -1,0 +1,98 @@
+body{
+
+}
+
+#image{
+   position: absolute;
+   left: -1px;
+   top: -1px;
+    width: 1540px;
+    height: 480px;
+ 
+}
+.flex-container{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 66%;
+    left    : 1%;
+}
+.flex-container2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 1%;
+    left: 65rem;
+    justify-content: space-around;
+}
+.card-img-top{
+    height: 300px;
+    width: 350px;
+    border: 3px solid #000;
+}
+
+
+.wrapper {	
+	margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.form-signin {
+  max-width: 380px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  
+   
+}
+
+  .form-signin-heading,
+	.checkbox {
+	  margin-bottom: 120px;
+	}
+
+	.checkbox {
+	  font-weight: normal;
+	}
+
+	.form-control {
+	  position: relative;
+	  font-size: 20px;
+	  height: auto;
+	  padding: 10px;
+    }
+
+	input[type="text"] {
+	  margin-bottom: 1px;
+	  border-bottom-left-radius: 0;
+	  border-bottom-right-radius: 0;
+	}
+
+	input[type="password"] {
+	  margin-bottom: 20px;
+	  border-top-left-radius: 0;
+	  border-top-right-radius: 0;
+	}
+    
+    .cards{
+        position: absolute;
+        left: 85%;
+    }
+    #Iq{
+        position: absolute;
+        left: 33%;
+        font-size: 100px;
+        bottom: 80%;
+        filter: drop-shadow(0px 0px 10px black);
+    }
