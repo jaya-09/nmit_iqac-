@@ -1,14 +1,21 @@
 body{
 
 }
+#logo{ 
+	position:fixed; 
+	top:0; 
+	left:0; 
+} 
+#container{width: 400px;}
 
-#image{
-   position: absolute;
-   left: -1px;
-   top: -1px;
-    width: 1540px;
-    height: 480px;
- 
+#image1 {width: 100px; height: 100px; background-color: black; float: left;}
+#image2 {width: 100px; height: 100px; background-color: blue; float: left;}
+#image3 {width: 100px; height: 100px; background-color: black; float: left;}
+#image4 {width: 100px; height: 100px; background-color: blue; float: left;}
+
+
+@media only screen and (max-width: 399px){
+    #container{width: 100%;}
 }
 .flex-container{
     display: flex;
@@ -20,7 +27,7 @@ body{
     width: auto;
     height: auto;
     position: absolute;
-    top: 66%;
+    top: 10%;
     left    : 1%;
 }
 .flex-container2{
@@ -33,25 +40,25 @@ body{
     width: auto;
     height: auto;
     position: absolute;
-    top: 1%;
-    left: 65rem;
+    top: -1%;
+    left: 92rem;
     justify-content: space-around;
 }
 .card-img-top{
-    height: 300px;
-    width: 350px;
+    height: 270px;
+    width: 700px;
     border: 3px solid #000;
 }
 
 
 .wrapper {	
-	margin-top: 80px;
-  margin-bottom: 80px;
+	margin-top: 50px;
+  margin-bottom: 100px;
 }
 
 .form-signin {
   max-width: 380px;
-  padding: 15px 35px 45px;
+  padding: 90px 200px 90px;
   margin: 0 auto;
   
    
@@ -59,7 +66,7 @@ body{
 
   .form-signin-heading,
 	.checkbox {
-	  margin-bottom: 120px;
+	  margin-bottom: 90px;
 	}
 
 	.checkbox {
@@ -68,9 +75,9 @@ body{
 
 	.form-control {
 	  position: relative;
-	  font-size: 20px;
+	  font-size: 100px;
 	  height: auto;
-	  padding: 10px;
+	  padding: 10px 50px 50px 50px;
     }
 
 	input[type="text"] {
@@ -87,12 +94,15 @@ body{
     
     .cards{
         position: absolute;
-        left: 85%;
+        left: 60%;
+        padding: 0px 0px 0px 0px;
+        
+        margin-left: 390px;
     }
     #Iq{
         position: absolute;
-        left: 33%;
-        font-size: 100px;
-        bottom: 80%;
-        filter: drop-shadow(0px 0px 10px black);
+        left: 250px;
+        font-size: 70px;
+        bottom: 70%;
+        filter: drop-shadow(10px 10px 10px black);
     }
