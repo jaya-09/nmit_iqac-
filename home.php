@@ -53,26 +53,26 @@ session_start();
               <a button type="button" class="btn btn-primary"
                 href="./index.php">Logout</button></a>
             </div>
-
+<form action="./fdetails.php" method="post">
             <div class="card grid-margin">
               <div class="card-body">
                 <h3 id="introduction" class="mb-4">Faculty details </h3>
 
                 <div class="input-group mb-3">
-                  <button type="button" class="btn btn-secondary" required="true">Faculty Name</button>
-                  <input type="text" class="form-control" aria-label="Sizing example input"
+                  <button type="button" class="btn btn-secondary" required="true" >Faculty Name</button>
+                  <input name="fname" type="text" class="form-control" aria-label="Sizing example input"
                     aria-describedby="inputGroup-sizing-default">
                 </div>
                 <div class="input-group mb-3">
-                  <button type="button" class="btn btn-secondary" required="true">Faculty ID</button>
-                  <input type="text" class="form-control" aria-label="Sizing example input"
+                  <button type="button" class="btn btn-secondary" required="true" >Faculty ID</button>
+                  <input name="fid" type="text" class="form-control" aria-label="Sizing example input"
                     aria-describedby="inputGroup-sizing-default">
                 </div>
 
 
                 <div class="input-group mb-2">
-                  <button type="button" class="btn btn-secondary" required="true">Designation</button>
-                  <select class="custom-select" id="inputGroupSelect01">
+                  <button type="button" class="btn btn-secondary" required="true" >Designation</button>
+                  <select name="fdesig" class="custom-select" id="inputGroupSelect01">
                     <option selected>select</option>
                     <option value="1">Professor</option>
                     <option value="2">Associate Professor</option>
@@ -82,8 +82,8 @@ session_start();
 
 
                 <div class="input-group mb-3">
-                  <button type="button" class="btn btn-secondary" required="true">Department</button>
-                  <select class="custom-select" id="inputGroupSelect01">
+                  <button type="button" class="btn btn-secondary" required="true" >Department</button>
+                  <select name="fdept" class="custom-select" id="inputGroupSelect01">
                     <option selected>select</option>
                     <option value="1">Aeronautical Engineering</option>
                     <option value="2">Artificial Intelligence & Cyber Security</option>
@@ -111,9 +111,9 @@ session_start();
                           id="inputGroup-sizing-lg">AY
                         </span>
                       </div>
-                      <input class="date-own form-control" style="width: 150 px;" type="text" placeholder="From"
+                      <input class="date-own form-control" name="fromy" style="width: 150 px;" type="text" placeholder="From"
                         required="true">
-                      <input class="date-own form-control" style="width: 150 px;" type="text" placeholder="To"
+                      <input class="date-own form-control" name="toy" style="width: 150 px;" type="text" placeholder="To"
                         required="true">
                     </div>
                   </div>
@@ -121,9 +121,9 @@ session_start();
                     <div class="input-group-prepend">
                       <div class="container">
                         <div class="radio_container" reqired="true">
-                          <input type="radio" name="radio" id="one" checked>
+                          <input type="radio" name="radio" name="sem" value="odd" id="one" checked>
                           <label for="one">odd</label>
-                          <input type="radio" name="radio" id="two">
+                          <input type="radio" name="radio" name="sem" value="even" id="two">
                           <label for="two">even</label>
 
                         </div>
@@ -135,9 +135,9 @@ session_start();
 
                     <div style="text-align:center">
 
-                      <a class="btn btn-primary btn-lg" href="./subjectdeatils.html" role="button"
+                      <button type="submit" class="btn btn-primary btn-lg" href="./subjectdetails.html" role="button"
                         style="align-items: center; margin:auto;">Save & Next
-                      </a>
+                      </button>
                       <!-- 192.168.25.16 -->
 
 
@@ -154,7 +154,7 @@ session_start();
           </div>
         </div>
 
-
+</form>
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"
           integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.45.0/codemirror.min.js"></script>
