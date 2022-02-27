@@ -1193,7 +1193,7 @@
                     popup.classList.toggle("show");
                 }
             </script>
-            <a class="btn btn-primary btn-lg" href="./home.html" role="button"
+            <a class="btn btn-primary btn-lg" href="./home.php" role="button"
                 style="background-color: #007bff;">Home</a>
         </div>
 

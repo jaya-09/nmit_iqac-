@@ -5,7 +5,7 @@
 	$dbpass = "";
 	$db = "audit";
 
- $conn = mysqli_connect($dbhost, $dbuser, $dbpass,$db) or die("Connect failed: %s\n". $conn -> error); 
+ $conn = mysqli_connect($dbhost, $dbuser, $dbpass,$db) or die("Connect failed: . $conn -> error"); 
  
  
  if ($conn) {

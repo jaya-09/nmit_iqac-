@@ -4563,7 +4563,7 @@
 
     <div style="text-align:center">
 
-      <a href="./table2.html" button class="btn fifth" style="align-items: center;">Save &
+      <a href="./table2.php" button class="btn fifth" style="align-items: center;">Save &
         Next</button></a>
 
     </div>

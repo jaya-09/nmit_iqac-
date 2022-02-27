@@ -27,7 +27,20 @@ if (isset($_POST['uname']) && isset($_POST['password'])) {
 
 		if (mysqli_num_rows($result) == 1) {
 			$row = mysqli_fetch_assoc($result);
-            if ($row['username'] == $uname && $row['password'] == $pass) {
+
+			if($uname == 'admin')
+			{
+				if ($row['username'] == $uname && $row['password'] == $pass) {
+					$_SESSION['name'] = $row['name'];
+					header("Location: admin.html");
+					exit();
+				}else{
+					header("Location: index.php?error=Incorect User name or password");
+					exit();
+				}
+			}
+
+            else if ($row['username'] == $uname && $row['password'] == $pass) {
             	$_SESSION['name'] = $row['name'];
             	$_SESSION['desig'] = $row['designation'];
             	$_SESSION['dept'] = $row['dept'];
