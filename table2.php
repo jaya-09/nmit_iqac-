@@ -28,7 +28,7 @@
 
 
             </div>
-
+<form method="post" action="process2.php">
             <div class="flex-containers">
 
                 <table class="tg" style="table-layout: fixed; width: 1479px">
@@ -86,38 +86,38 @@
                             <td class="tg-0pky" colspan="">Nature of the Project</td>
                             <td class="tg-0pky" colspan="4">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" name="16b1">
+                                    <input class="form-check-input" type="checkbox" value="Industry Relevant" id="flexCheckDefault" name="16b1">
                                     <label class="form-check-label" for="flexCheckDefault">
                                         Industry Relevant
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" name="16b2">
+                                    <input class="form-check-input" type="checkbox" value="Research" id="flexCheckDefault" name="16b2">
                                     <label class="form-check-label" for="flexCheckDefault">
                                         Research
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" name="16b3">
+                                    <input class="form-check-input" type="checkbox" value="Innovative product Development" id="flexCheckDefault" name="16b3">
                                     <label class="form-check-label" for="flexCheckDefault">
                                         Innovative product Development
                                     </label>
                                 </div>
 
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" name="16b4">
+                                    <input class="form-check-input" type="checkbox" value="Societal application" id="flexCheckDefault" name="16b4">
                                     <label class="form-check-label" for="flexCheckDefault">
                                         Societal application
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" name="16b5">
+                                    <input class="form-check-input" type="checkbox" value="Environment" id="flexCheckDefault" name="16b5">
                                     <label class="form-check-label" for="flexCheckDefault">
                                         Environment
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" name="16b6">
+                                    <input class="form-check-input" type="checkbox" value="Any other" id="flexCheckDefault" name="16b6">
                                     <label class="form-check-label" for="flexCheckDefault">
                                         Any other
                                     </label>
@@ -138,25 +138,25 @@
                             </td>
                             <td class="tg-0pky" colspan="4">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" name="16c1">
+                                    <input class="form-check-input" type="checkbox" value="Publication" id="flexCheckDefault" name="16c1">
                                     <label class="form-check-label" for="flexCheckDefault">
                                         Publication
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" name="16c2">
+                                    <input class="form-check-input" type="checkbox" value="Award" id="flexCheckDefault" name="16c2">
                                     <label class="form-check-label" for="flexCheckDefault">
                                         Award
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" name="16c3">
+                                    <input class="form-check-input" type="checkbox" value="Patent" id="flexCheckDefault" name="16c3">
                                     <label class="form-check-label" for="flexCheckDefault">
                                         Patent
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" name="16c4">
+                                    <input class="form-check-input" type="checkbox" value="Funding" id="flexCheckDefault" name="16c4">
                                     <label class="form-check-label" for="flexCheckDefault">
                                         Funding
                                     </label>
@@ -696,37 +696,37 @@
                 </td>
                 <td class="tg-0pky" colspan="4">
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" name="20b1">
+                        <input class="form-check-input" type="checkbox" value="Inter-National Organization" id="flexCheckDefault" name="20b1">
                         <label class="form-check-label" for="flexCheckDefault">
                             Inter-National Organization
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"  name="20b2">
+                        <input class="form-check-input" type="checkbox" value="National Organization" id="flexCheckDefault"  name="20b2">
                         <label class="form-check-label" for="flexCheckDefault">
                             National Organization
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" name="20b3">
+                        <input class="form-check-input" type="checkbox" value="State-National Organization" id="flexCheckDefault" name="20b3">
                         <label class="form-check-label" for="flexCheckDefault">
                             State-National Organization
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" name="20b4">
+                        <input class="form-check-input" type="checkbox" value="Industry" id="flexCheckDefault" name="20b4">
                         <label class="form-check-label" for="flexCheckDefault">
                             Industry
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" name="20b5">
+                        <input class="form-check-input" type="checkbox" value="NMIT" id="flexCheckDefault" name="20b5">
                         <label class="form-check-label" for="flexCheckDefault">
                             NMIT
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" name="20b6">
+                        <input class="form-check-input" type="checkbox" value="Any other" id="flexCheckDefault" name="20b6">
                         <label class="form-check-label" for="flexCheckDefault">
                             Any other
                         </label>
@@ -993,25 +993,25 @@
                 <td class="tg-0pky" style="font-weight: bold;">Are you a member of.</td>
                 <td class="tg-0pky" colspan="4">
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" name="24a1">
+                        <input class="form-check-input" type="checkbox" value="DUGC" id="flexCheckDefault" name="24a1">
                         <label class="form-check-label" for="flexCheckDefault">
                             DUGC
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" name="24a2">
+                        <input class="form-check-input" type="checkbox" value="DPGC" id="flexCheckDefault" name="24a2">
                         <label class="form-check-label" for="flexCheckDefault">
                             DPGC
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" name="24a3">
+                        <input class="form-check-input" type="checkbox" value="BOS" id="flexCheckDefault" name="24a3">
                         <label class="form-check-label" for="flexCheckDefault">
                             BOS
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" name="24a4">
+                        <input class="form-check-input" type="checkbox" value="BOE" id="flexCheckDefault" name="24a4">
                         <label class="form-check-label" for="flexCheckDefault">
                             BOE
                         </label>
@@ -1181,10 +1181,10 @@
         <div style="text-align:center">
 
 
-            <div class="popup    btn btn-primary btn-lg active" onclick="myFunction()"
+            <button type="submit" class="popup    btn btn-primary btn-lg active" onclick="myFunction()"
                 style="background-color: #007bff;">SUBMIT
                 <span class="popuptext" id="myPopup">Submitted</span>
-            </div>
+</button>
 
             <script>
                 // When the user clicks on div, open the popup
@@ -1196,7 +1196,7 @@
             <a class="btn btn-primary btn-lg" href="./home.php" role="button"
                 style="background-color: #007bff;">Home</a>
         </div>
-
+</form>
 
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
             integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
