@@ -101,7 +101,7 @@
             </div>
           </div>
         </div>
-        <h4 id="names" style="color: white;padding: 45rem 0rem 0rem  45rem; "> Created by Lasya Sistla & Jaya Shiva
-          Darshini<br> Department of ISE </h4>
+        <h4 id="names" style="color: white;padding: 45rem 0rem 0rem  45rem; "> Created by Lasya Sistla ,Jaya Shiva
+          Darshini & Satvik A<br> Department of ISE </h4>
   </body>
 </html>
