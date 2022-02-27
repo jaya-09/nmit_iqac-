@@ -1029,14 +1029,14 @@
                 </td>
                 <td class="tg-0pky" colspan="4">
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios25c" id="exampleRadios1"
+                        <input class="form-check-input" type="radio" name="25a" id="exampleRadios1"
                             value="option1">
                         <label class="form-check-label" for="exampleRadios1">
                             YES
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios25c" id="exampleRadios2"
+                        <input class="form-check-input" type="radio" name="25a" id="exampleRadios2"
                             value="option2">
                         <label class="form-check-label" for="exampleRadios2">
                             NO
@@ -1054,7 +1054,7 @@
                     
                         <div class="form-group">
 
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=12px
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=12px name="25b"
                                 cols="33"></textarea>
                         </div>
                     
@@ -1070,7 +1070,7 @@
                     
                         <div class="form-group">
 
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=12px
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=12px name="25c"
                                 cols="33"></textarea>
                         </div>
                     
@@ -1087,7 +1087,7 @@
                     
                         <div class="form-group">
 
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=12px
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=12px name="25d"
                                 cols="33"></textarea>
                         </div>
                     
@@ -1104,7 +1104,7 @@
                     
                         <div class="form-group">
 
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=12px
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=12px name="25e"
                                 cols="33"></textarea>
                         </div>
                     
@@ -1124,7 +1124,7 @@
                     
                         <div class="form-group">
 
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" width=12px
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" width=12px name="26a"
                                 cols="110"></textarea>
                         </div>
                     
@@ -1141,7 +1141,7 @@
                     
                         <div class="form-group">
 
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" width=12px
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" width=12px name="27a"
                                 cols="110"></textarea>
                         </div>
                     
@@ -1158,7 +1158,7 @@
                     
                         <div class="form-group">
 
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" width=12px
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" width=12px name="28a"
                                 cols="110"></textarea>
                         </div>
                     
