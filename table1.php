@@ -62,7 +62,7 @@
     </div>
 
     <div class="flex-containers">
-
+<form action="process.php" method="post">
       <table class="tg" style="table-layout: fixed; width: 1479px">
         <colgroup>
           <col style="width: 50px">
@@ -102,14 +102,14 @@
               <div class="form-check">
 
 
-                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                <input class="form-check-input" type="radio" name="sub1" id="exampleRadios1" value="option1">
                 <label class="form-check-label" for="exampleRadios1">
 
                   YES
                 </label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                <input class="form-check-input" type="radio" name="sub1" id="exampleRadios2" value="option2">
                 <label class="form-check-label" for="exampleRadios2">
                   NO
                 </label>
@@ -118,13 +118,13 @@
             </td>
             <td class="tg-0pky">
               <div class="form-check">
-                <input class="form-check-input" type="radio" name="Radios" id="Radios1" value="option1">
+                <input class="form-check-input" type="radio" name="sub2" id="Radios1" value="option1">
                 <label class="form-check-label" for="Radios1">
                   YES
                 </label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="radio" name="Radios" id="Radios2" value="option2">
+                <input class="form-check-input" type="radio" name="sub2" id="Radios2" value="option2">
                 <label class="form-check-label" for="Radios2">
                   NO
                 </label>
@@ -448,13 +448,14 @@
             <td class="tg-0pky"></td>
             <td class="tg-0pky" colspan="5"> Note: kindly write your observation on the above
               <br>
-              <form>
+              
+
                 <div class="form-group">
 
                   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=12px
                     cols="111"></textarea>
                 </div>
-              </form>
+              
 
             </td>
           </tr>
@@ -533,13 +534,14 @@
             <td class="tg-0pky"></td>
             <td class="tg-0pky" colspan="5"> Note: kindly write your observation on the above
               <br>
-              <form>
+              
+
                 <div class="form-group">
 
                   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=12px
                     cols="111"></textarea>
                 </div>
-              </form>
+              
 
             </td>
           </tr>
@@ -1073,13 +1075,14 @@
             <td class="tg-0pky"></td>
             <td class="tg-0pky" colspan="5"> Note: kindly write your observation on the above
               <br>
-              <form>
+              
+
                 <div class="form-group">
 
-                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=12px
+                  <textarea class="form-control" name="textTest" id="exampleFormControlTextarea1" rows="3" width=12px
                     cols="111"></textarea>
                 </div>
-              </form>
+              
 
             </td>
           </tr>
@@ -1486,13 +1489,14 @@
             <td class="tg-0pky"></td>
             <td class="tg-0pky" colspan="5"> Note: kindly write your observation on the above
               <br>
-              <form>
+              
+
                 <div class="form-group">
 
                   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=12px
                     cols="111"></textarea>
                 </div>
-              </form>
+              
 
             </td>
           </tr>
@@ -1525,13 +1529,14 @@
             <td class="tg-0pky"></td>
             <td class="tg-0pky" colspan="5">If yes, Give Details
               <br>
-              <form>
+              
+
                 <div class="form-group">
 
                   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=12px
                     cols="111"></textarea>
                 </div>
-              </form>
+              
 
             </td>
           </tr>
@@ -1723,13 +1728,14 @@
             <td class="tg-0pky"></td>
             <td class="tg-0pky" colspan="5"> Subject 1
               <br>
-              <form>
+              
+
                 <div class="form-group">
 
                   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=12px
                     cols="111"></textarea>
                 </div>
-              </form>
+              
 
 
             </td>
@@ -1738,13 +1744,14 @@
             <td class="tg-0pky"></td>
             <td class="tg-0pky" colspan="5"> Subject 2
               <br>
-              <form>
+              
+
                 <div class="form-group">
 
                   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=12px
                     cols="111"></textarea>
                 </div>
-              </form>
+              
 
 
             </td>
@@ -1753,13 +1760,14 @@
             <td class="tg-0pky"></td>
             <td class="tg-0pky" colspan="5"> Subject 3
               <br>
-              <form>
+              
+
                 <div class="form-group">
 
                   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=12px
                     cols="111"></textarea>
                 </div>
-              </form>
+              
 
 
             </td>
@@ -1768,13 +1776,14 @@
             <td class="tg-0pky"></td>
             <td class="tg-0pky" colspan="5"> Subject 4
               <br>
-              <form>
+              
+
                 <div class="form-group">
 
                   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=12px
                     cols="111"></textarea>
                 </div>
-              </form>
+              
 
 
             </td>
@@ -2071,13 +2080,14 @@
             <td class="tg-0pky"></td>
             <td class="tg-0pky" colspan="5"> Subject 1
               <br>
-              <form>
+              
+
                 <div class="form-group">
 
                   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=12px
                     cols="111"></textarea>
                 </div>
-              </form>
+              
 
 
             </td>
@@ -2086,13 +2096,14 @@
             <td class="tg-0pky"></td>
             <td class="tg-0pky" colspan="5"> Subject 2
               <br>
-              <form>
+              
+
                 <div class="form-group">
 
                   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=12px
                     cols="111"></textarea>
                 </div>
-              </form>
+              
 
 
             </td>
@@ -2101,13 +2112,14 @@
             <td class="tg-0pky"></td>
             <td class="tg-0pky" colspan="5"> Subject 3
               <br>
-              <form>
+              
+
                 <div class="form-group">
 
                   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=12px
                     cols="111"></textarea>
                 </div>
-              </form>
+              
 
 
             </td>
@@ -2116,13 +2128,14 @@
             <td class="tg-0pky"></td>
             <td class="tg-0pky" colspan="5"> Subject 4
               <br>
-              <form>
+              
+
                 <div class="form-group">
 
                   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=12px
                     cols="111"></textarea>
                 </div>
-              </form>
+              
 
 
             </td>
@@ -2139,13 +2152,14 @@
             <td class="tg-0pky"></td>
             <td class="tg-0pky" colspan="5"> Subject 1
               <br>
-              <form>
+              
+
                 <div class="form-group">
 
                   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=12px
                     cols="111"></textarea>
                 </div>
-              </form>
+              
 
 
             </td>
@@ -2154,13 +2168,14 @@
             <td class="tg-0pky"></td>
             <td class="tg-0pky" colspan="5"> Subject 2
               <br>
-              <form>
+              
+
                 <div class="form-group">
 
                   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=12px
                     cols="111"></textarea>
                 </div>
-              </form>
+              
 
 
             </td>
@@ -2169,13 +2184,14 @@
             <td class="tg-0pky"></td>
             <td class="tg-0pky" colspan="5"> Subject 3
               <br>
-              <form>
+              
+
                 <div class="form-group">
 
                   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=12px
                     cols="111"></textarea>
                 </div>
-              </form>
+              
 
 
             </td>
@@ -2184,13 +2200,14 @@
             <td class="tg-0pky"></td>
             <td class="tg-0pky" colspan="5"> Subject 4
               <br>
-              <form>
+              
+
                 <div class="form-group">
 
                   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=12px
                     cols="111"></textarea>
                 </div>
-              </form>
+              
 
 
             </td>
@@ -2224,13 +2241,14 @@
             <td class="tg-0pky"></td>
             <td class="tg-0pky" colspan="5"> Note: kindly write your observation on the effectiveness of the Rubrics:
               <br>
-              <form>
+              
+
                 <div class="form-group">
 
                   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=12px
                     cols="111"></textarea>
                 </div>
-              </form>
+              
 
             </td>
           </tr>
@@ -2281,13 +2299,14 @@
               <td class="tg-0pky" colspan="4">
 
 
-                <form>
+                
+
                   <div class="form-group">
 
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" width=50px
                       cols="54"> </textarea>
                   </div>
-                </form>
+                
               </td>
             </tr>
             <tr>
@@ -2312,13 +2331,14 @@
               <td class="tg-0pky" colspan="4">
 
 
-                <form>
+                
+
                   <div class="form-group">
 
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" width=50px
                       cols="54"></textarea>
                   </div>
-                </form>
+                
               </td>
             </tr>
             <tr>
@@ -2343,13 +2363,14 @@
               <td class="tg-0pky" colspan="4">
 
 
-                <form>
+                
+
                   <div class="form-group">
 
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" width=50px
                       cols="54"></textarea>
                   </div>
-                </form>
+                
               </td>
             </tr>
             <tr>
@@ -2372,26 +2393,28 @@
               </td>
 
               <td class="tg-0pky" colspan="4">
-                <form>
+                
+
                   <div class="form-group">
 
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" width=50px
                       cols="54"></textarea>
                   </div>
-                </form>
+                
               </td>
             </tr>
             <tr>
               <td class="tg-0pky"></td>
               <td class="tg-0pky" colspan="7"> Note: kindly write your observation on the Course Exit Survey,
                 <br>
-                <form>
+                
+
                   <div class="form-group">
 
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=12px
                       cols="111"></textarea>
                   </div>
-                </form>
+                
 
               </td>
             </tr>
@@ -2520,13 +2543,14 @@
 
 
                   <br>
-                  <form>
+                  
+
                     <div class="form-group">
 
                       <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=12px
                         cols="111"></textarea>
                     </div>
-                  </form>
+                  
 
                 </td>
               </tr>
@@ -2580,13 +2604,14 @@
             <tr>
               <td class="tg-0pky"> </td>
               <td class="tg-0pky">
-                <form>
+                
+
                   <div class="form-group">
 
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=30px
                       cols="63"></textarea>
                   </div>
-                </form>
+                
               </td>
               <td class="tg-0pky"><input type="number" id="number" style="width: 50px"></td>
               <td class="tg-0pky"><input type="number" id="number" style="width: 50px"></td>
@@ -2597,13 +2622,14 @@
             <tr>
               <td class="tg-0pky"> </td>
               <td class="tg-0pky">
-                <form>
+                
+
                   <div class="form-group">
 
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=30px
                       cols="63"></textarea>
                   </div>
-                </form>
+                
               </td>
               <td class="tg-0pky"><input type="number" id="number" style="width: 50px"></td>
               <td class="tg-0pky"><input type="number" id="number" style="width: 50px"></td>
@@ -2614,13 +2640,14 @@
             <tr>
               <td class="tg-0pky"> </td>
               <td class="tg-0pky">
-                <form>
+                
+
                   <div class="form-group">
 
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=30px
                       cols="63"></textarea>
                   </div>
-                </form>
+                
               </td>
               <td class="tg-0pky"><input type="number" id="number" style="width: 50px"></td>
               <td class="tg-0pky"><input type="number" id="number" style="width: 50px"></td>
@@ -2631,13 +2658,14 @@
             <tr>
               <td class="tg-0pky"> </td>
               <td class="tg-0pky">
-                <form>
+                
+
                   <div class="form-group">
 
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=30px
                       cols="63"></textarea>
                   </div>
-                </form>
+                
               </td>
               <td class="tg-0pky"><input type="number" id="number" style="width: 50px"></td>
               <td class="tg-0pky"><input type="number" id="number" style="width: 50px"></td>
@@ -2651,13 +2679,14 @@
 
 
                 <br>
-                <form>
+                
+
                   <div class="form-group">
 
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" width=12px
                       cols="111"></textarea>
                   </div>
-                </form>
+                
 
               </td>
             </tr>
@@ -2974,13 +3003,14 @@
                 components
 
                 <br>
-                <form>
+                
+
                   <div class="form-group">
 
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=12px
                       cols="111"></textarea>
                   </div>
-                </form>
+                
 
               </td>
             </tr>
@@ -3471,13 +3501,14 @@
               <td class="tg-0pky"></td>
               <td class="tg-0pky" colspan="5"> SUBJECT 1 -Remarks:
                 <br>
-                <form>
+                
+
                   <div class="form-group">
 
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=12px
                       cols="111"></textarea>
                   </div>
-                </form>
+                
 
               </td>
             </tr>
@@ -3485,13 +3516,14 @@
               <td class="tg-0pky"></td>
               <td class="tg-0pky" colspan="5"> SUBJECT 2 -Remarks:
                 <br>
-                <form>
+                
+
                   <div class="form-group">
 
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=12px
                       cols="111"></textarea>
                   </div>
-                </form>
+                
 
               </td>
             </tr>
@@ -3499,13 +3531,14 @@
               <td class="tg-0pky"></td>
               <td class="tg-0pky" colspan="5"> SUBJECT 3 -Remarks:
                 <br>
-                <form>
+                
+
                   <div class="form-group">
 
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=12px
                       cols="111"></textarea>
                   </div>
-                </form>
+                
 
               </td>
             </tr>
@@ -3513,13 +3546,14 @@
               <td class="tg-0pky"></td>
               <td class="tg-0pky" colspan="5"> SUBJECT 4 -Remarks:
                 <br>
-                <form>
+                
+
                   <div class="form-group">
 
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=12px
                       cols="111"></textarea>
                   </div>
-                </form>
+                
 
               </td>
             </tr>
@@ -3664,13 +3698,14 @@
 
 
                 <br>
-                <form>
+                
+
                   <div class="form-group">
 
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=12px
                       cols="111"></textarea>
                   </div>
-                </form>
+                
 
               </td>
             </tr>
@@ -4004,13 +4039,14 @@
 
 
                 <br>
-                <form>
+                
+
                   <div class="form-group">
 
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=12px
                       cols="111"></textarea>
                   </div>
-                </form>
+                
 
               </td>
             </tr>
@@ -4047,13 +4083,14 @@
               <td class="tg-0pky" colspan="3">
 
 
-                <form>
+                
+
                   <div class="form-group">
 
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" width=30px
                       cols="60"></textarea>
                   </div>
-                </form>
+                
               </td>
             </tr>
             <tr>
@@ -4079,13 +4116,14 @@
               <td class="tg-0pky" colspan="3">
 
 
-                <form>
+                
+
                   <div class="form-group">
 
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" width=50px
                       cols="60"></textarea>
                   </div>
-                </form>
+                
               </td>
             </tr>
             <tr>
@@ -4111,13 +4149,14 @@
               <td class="tg-0pky" colspan="3">
 
 
-                <form>
+                
+
                   <div class="form-group">
 
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" width=50px
                       cols="60"></textarea>
                   </div>
-                </form>
+                
               </td>
             </tr>
             <tr>
@@ -4143,13 +4182,14 @@
               <td class="tg-0pky" colspan="3">
 
 
-                <form>
+                
+
                   <div class="form-group">
 
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" width=50px
                       cols="60"></textarea>
                   </div>
-                </form>
+                
               </td>
             </tr>
 
@@ -4176,13 +4216,14 @@
               <td class="tg-0pky" colspan="3">
 
 
-                <form>
+                
+
                   <div class="form-group">
 
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" width=50px
                       cols="60"></textarea>
                   </div>
-                </form>
+                
               </td>
             </tr>
 
@@ -4209,13 +4250,14 @@
               <td class="tg-0pky" colspan="3">
 
 
-                <form>
+                
+
                   <div class="form-group">
 
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" width=50px
                       cols="60"></textarea>
                   </div>
-                </form>
+                
               </td>
             </tr>
 
@@ -4240,12 +4282,13 @@
                 </div>
               </td>
               <td class="tg-0pky" colspan="3">
-                <form>
+                
+
                   <div class="form-group">
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" width=50px
                       cols="60"></textarea>
                   </div>
-                </form>
+                
               </td>
             </tr>
 
@@ -4271,12 +4314,13 @@
                 </div>
               </td>
               <td class="tg-0pky" colspan="3">
-                <form>
+                
+
                   <div class="form-group">
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" width=50px
                       cols="60"></textarea>
                   </div>
-                </form>
+                
               </td>
             </tr>
 
@@ -4302,12 +4346,13 @@
                 </div>
               </td>
               <td class="tg-0pky" colspan="3">
-                <form>
+                
+
                   <div class="form-group">
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" width=50px
                       cols="60"></textarea>
                   </div>
-                </form>
+                
               </td>
             </tr>
 
@@ -4333,12 +4378,13 @@
                 </div>
               </td>
               <td class="tg-0pky" colspan="3">
-                <form>
+                
+
                   <div class="form-group">
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" width=50px
                       cols="60"></textarea>
                   </div>
-                </form>
+                
               </td>
             </tr>
 
@@ -4363,12 +4409,13 @@
                 </div>
               </td>
               <td class="tg-0pky" colspan="3">
-                <form>
+                
+
                   <div class="form-group">
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" width=50px
                       cols="60"></textarea>
                   </div>
-                </form>
+                
               </td>
             </tr>
 
@@ -4395,12 +4442,13 @@
                 </div>
               </td>
               <td class="tg-0pky" colspan="3">
-                <form>
+                
+
                   <div class="form-group">
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" width=50px
                       cols="60"></textarea>
                   </div>
-                </form>
+                
               </td>
             </tr>
 
@@ -4425,12 +4473,13 @@
                 </div>
               </td>
               <td class="tg-0pky" colspan="3">
-                <form>
+                
+
                   <div class="form-group">
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" width=50px
                       cols="60"></textarea>
                   </div>
-                </form>
+                
               </td>
             </tr>
 
@@ -4455,12 +4504,13 @@
                 </div>
               </td>
               <td class="tg-0pky" colspan="3">
-                <form>
+                
+
                   <div class="form-group">
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" width=50px
                       cols="60"></textarea>
                   </div>
-                </form>
+                
               </td>
             </tr>
 
@@ -4485,12 +4535,13 @@
                 </div>
               </td>
               <td class="tg-0pky" colspan="3">
-                <form>
+                
+
                   <div class="form-group">
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" width=50px
                       cols="60"></textarea>
                   </div>
-                </form>
+                
               </td>
             </tr>
 
@@ -4515,12 +4566,13 @@
                 </div>
               </td>
               <td class="tg-0pky" colspan="3">
-                <form>
+                
+
                   <div class="form-group">
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" width=50px
                       cols="60"></textarea>
                   </div>
-                </form>
+                
               </td>
             </tr>
             <tr>
@@ -4529,13 +4581,14 @@
 
 
                 <br>
-                <form>
+                
+
                   <div class="form-group">
 
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=12px
                       cols="117"></textarea>
                   </div>
-                </form>
+                
 
               </td>
             </tr>
@@ -4549,9 +4602,7 @@
 
         </tbody>
         <br>
-        <a href="./table2.html" class="btn btn-primary btn-lg active" role="button"
-          aria-pressed="true" style="position: fixed;">SAVE & NEXT </a>
-
+        
 
       </table>
     </div>
@@ -4562,13 +4613,14 @@
 
 
     <div style="text-align:center">
-
+<!-- 
       <a href="./table2.php" button class="btn fifth" style="align-items: center;">Save &
-        Next</button></a>
-
+        Next</button></a> -->
+      <button type="submit" value="Save & Next" class="btn fifth" >Save & Next</button>
     </div>
 
 
+</form>
 
 
 
