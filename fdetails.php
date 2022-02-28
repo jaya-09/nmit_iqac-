@@ -1,6 +1,16 @@
+
 <?php
+
 session_start();
- $fname = $_POST["fname"];
+
+if($_SESSION['loggedin']!='TRUE'){
+  header("Location: login-error.html");
+  exit();
+};
+
+
+
+$fname = $_POST["fname"];
  $fid = $_POST["fid"];
  $fdesig = $_POST["fdesig"];
  $fdept = $_POST["fdept"];

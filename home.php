@@ -1,6 +1,11 @@
 <?php 
 session_start();
-?>
+
+if($_SESSION['loggedin']!='TRUE'){
+  header("Location: login-error.html");
+  exit();
+};
+  ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -51,7 +56,7 @@ session_start();
 
             <div class="text-right">
               <a button type="button" class="btn btn-primary"
-                href="./index.php">Logout</button></a>
+                href="./logout.php">Logout</button></a>
             </div>
 <form action="./fdetails.php" method="post">
             <div class="card grid-margin">
@@ -170,3 +175,5 @@ session_start();
   </body>
 
 </html>
+
+

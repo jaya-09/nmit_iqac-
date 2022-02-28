@@ -2,6 +2,11 @@
     error_reporting(0);
     session_start();
 
+if($_SESSION['loggedin']!='TRUE'){
+  header("Location: login-error.html");
+  exit();
+};
+
     $field270 = $_POST["16a"];
 
     $field271 = $_POST["16b1"];

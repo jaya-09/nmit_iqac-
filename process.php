@@ -1,5 +1,10 @@
 <?php
     session_start();
+
+    if($_SESSION['loggedin']!='TRUE'){
+      header("Location: login-error.html");
+      exit();
+    };
     error_reporting(0);
 
     $field1 = $_POST["1a1"];

@@ -1,3 +1,12 @@
+<?php 
+session_start();
+
+if($_SESSION['loggedin']!='TRUE'){
+  header("Location: login-error.html");
+  exit();
+};
+  ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
