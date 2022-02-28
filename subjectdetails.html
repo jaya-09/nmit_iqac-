@@ -26,30 +26,30 @@
                 Subject Details
             </div>
 
-
+<form action="./subjectdetails.php" method="post">
             <div class="input-group input-group-lg" style="text-align: center; width: 60%; padding-top: 3%;">
                 <div class="input-group-prepend">
                     <span class="input-group-text" style="background-color:#275a6d; color: white;"
                         id="inputGroup-sizing-lg">Subject
                         1</span>
                 </div>
-                <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-lg"
+                <input type="text" class="form-control" name="sub1" aria-label="Small" aria-describedby="inputGroup-sizing-lg"
                     placeholder="Subject Name" required="true">
 
-                <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-lg"
-                    placeholder="Subject Code">
+                <input type="text" class="form-control" name="sub1c" aria-label="Small" aria-describedby="inputGroup-sizing-lg"
+                    placeholder="Subject Code" required="true">
             </div>
 
-            <div class="input-group input-group-lg" style="text-align: center; width: 60%; padding-top: 1%;">
+            <div class="input-group input-group-lg"  style="text-align: center; width: 60%; padding-top: 1%;">
                 <div class="input-group-prepend">
-                    <span class="input-group-text" style="background-color: #275a6d; color: white;"
+                    <span class="input-group-text"  style="background-color: #275a6d; color: white;"
                         id=" inputGroup-sizing-lg">Subject
                         2</span>
                 </div>
-                <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-lg"
-                    placeholder="Subject Name" required="true">
+                <input type="text" class="form-control" name="sub2"  aria-label="Small" aria-describedby="inputGroup-sizing-lg"
+                    placeholder="Subject Name">
 
-                <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-lg"
+                <input type="text" class="form-control" name="sub2c"  aria-label="Small" aria-describedby="inputGroup-sizing-lg"
                     placeholder="Subject Code">
             </div>
             <div class="input-group input-group-lg" style="text-align: center; width: 60%; padding-top: 1%">
@@ -58,10 +58,10 @@
                         id="inputGroup-sizing-lg">Subject
                         3</span>
                 </div>
-                <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-lg"
-                    placeholder="Subject Name" required="true">
+                <input type="text" class="form-control" name="sub3" aria-label="Small" aria-describedby="inputGroup-sizing-lg"
+                    placeholder="Subject Name" >
 
-                <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-lg"
+                <input type="text" class="form-control" name="sub3c" aria-label="Small" aria-describedby="inputGroup-sizing-lg"
                     placeholder="Subject Code">
             </div>
             <div class="input-group input-group-lg" style="text-align: center; width: 60%; padding-top: 1%">
@@ -70,10 +70,10 @@
                         id="inputGroup-sizing-lg">Subject
                         4</span>
                 </div>
-                <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-lg"
-                    placeholder="Subject Name" required="true">
+                <input type="text" class="form-control" name="sub4" aria-label="Small" aria-describedby="inputGroup-sizing-lg"
+                    placeholder="Subject Name">
 
-                <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-lg"
+                <input type="text" class="form-control" name="sub4c" aria-label="Small" aria-describedby="inputGroup-sizing-lg"
                     placeholder="Subject Code">
             </div>
 
@@ -81,17 +81,17 @@
         </div>
         <div style="padding-top: 2%;  padding-left: 45%;">
 
-            <a class="btn btn-primary btn-lg" href="./table1.php" role="button">Save & Next</a>
+            <button type="submit" class="btn btn-primary btn-lg" href="./table1.php" role="button">Save & Next</button>
         </div>
 
 
-        <div class="form-group">
+        <!-- <div class="form-group">
             <button class="btn btn-success btn-lg float-right" type="submit"
                 style="background-color: #007bff;margin-top: 5%;">
                 Save
             </button>
-        </div>
-
+        </div> -->
+    </form>
 
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
             integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"

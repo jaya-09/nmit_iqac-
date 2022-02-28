@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Table</title>
+        <title>Form Page 2</title>
         <link href="styl.css" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
             integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -22,13 +22,13 @@
                 <img src="NMIT Header.jpg" width="1900px" height="150px">
                 <div class="text-right">
                     <a button type="button" class="btn btn-primary" style="background-color: #007bff;"
-                        href="./home.html">Home</button></a>
+                        href="./home.php">Home</button></a>
                 </div>
 
 
 
             </div>
-
+<form action="./process2.php" method="post">
             <div class="flex-containers">
 
                 <table class="tg" style="table-layout: fixed; width: 1479px">
@@ -62,14 +62,14 @@
                             <td class="tg-0pky" colspan="1">Identification of Problem statement by:</td>
                             <td class="tg-0pky" colspan="4">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="exampleRadios16a"
+                                    <input class="form-check-input" type="radio" name="16a"
                                         id="exampleRadios1" value="option1">
                                     <label class="form-check-label" for="exampleRadios1">
                                         FACULTY
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="exampleRadios16a"
+                                    <input class="form-check-input" type="radio" name="16a"
                                         id="exampleRadios2" value="option2">
                                     <label class="form-check-label" for="exampleRadios2">
                                         STUDENT
@@ -86,38 +86,38 @@
                             <td class="tg-0pky" colspan="">Nature of the Project</td>
                             <td class="tg-0pky" colspan="4">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <input class="form-check-input" type="checkbox" value="Industry Relevant" id="flexCheckDefault" name="16b1">
                                     <label class="form-check-label" for="flexCheckDefault">
                                         Industry Relevant
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <input class="form-check-input" type="checkbox" value="Research" id="flexCheckDefault" name="16b2">
                                     <label class="form-check-label" for="flexCheckDefault">
                                         Research
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <input class="form-check-input" type="checkbox" value="Innovative product Development" id="flexCheckDefault" name="16b3">
                                     <label class="form-check-label" for="flexCheckDefault">
                                         Innovative product Development
                                     </label>
                                 </div>
 
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <input class="form-check-input" type="checkbox" value="Societal application" id="flexCheckDefault" name="16b4">
                                     <label class="form-check-label" for="flexCheckDefault">
                                         Societal application
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <input class="form-check-input" type="checkbox" value="Environment" id="flexCheckDefault" name="16b5">
                                     <label class="form-check-label" for="flexCheckDefault">
                                         Environment
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <input class="form-check-input" type="checkbox" value="Any other" id="flexCheckDefault" name="16b6">
                                     <label class="form-check-label" for="flexCheckDefault">
                                         Any other
                                     </label>
@@ -138,25 +138,25 @@
                             </td>
                             <td class="tg-0pky" colspan="4">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <input class="form-check-input" type="checkbox" value="Publication" id="flexCheckDefault" name="16c1">
                                     <label class="form-check-label" for="flexCheckDefault">
                                         Publication
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <input class="form-check-input" type="checkbox" value="Award" id="flexCheckDefault" name="16c2">
                                     <label class="form-check-label" for="flexCheckDefault">
                                         Award
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <input class="form-check-input" type="checkbox" value="Patent" id="flexCheckDefault" name="16c3">
                                     <label class="form-check-label" for="flexCheckDefault">
                                         Patent
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <input class="form-check-input" type="checkbox" value="Funding" id="flexCheckDefault" name="16c4">
                                     <label class="form-check-label" for="flexCheckDefault">
                                         Funding
                                     </label>
@@ -175,14 +175,14 @@
 
                             <td class="tg-0pky" colspan="4">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="exampleRadios16aaa"
+                                    <input class="form-check-input" type="radio" name="16da" 
                                         id="exampleRadios1" value="option1">
                                     <label class="form-check-label" for="exampleRadios1">
                                         YES
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="exampleRadios16aaa"
+                                    <input class="form-check-input" type="radio" name="16da"
                                         id="exampleRadios2" value="option2">
                                     <label class="form-check-label" for="exampleRadios2">
                                         NO
@@ -193,27 +193,27 @@
                                 <form class="bd-example">
                                     <p>
                                         <label for="input">Funding agency</label>
-                                    <form>
+                                    
 
 
-                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3 "
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3 " name="16dr1"
                                             width=12px cols="33"></textarea>
 
-                                    </form>
+                                    
                                     </p>
-                                </form>
+                                
 
                                 <form class="bd-example">
                                     <p>
                                         <label for="input">Amount</label><br>
-                                    <form>
-                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3 "
+                                    
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3 " name="16dr2"
                                             width=12px cols="33"></textarea>
 
-                                    </form>
+                                    
 
                                     </p>
-                                </form>
+                                
 
 
                             </td>
@@ -226,14 +226,14 @@
                             </td>
                             <td class="tg-0pky" colspan="4">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="exampleRadios16c"
+                                    <input class="form-check-input" type="radio" name="16e"
                                         id="exampleRadios1" value="option1">
                                     <label class="form-check-label" for="exampleRadios1">
                                         YES
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="exampleRadios16c"
+                                    <input class="form-check-input" type="radio" name="16e"
                                         id="exampleRadios2" value="option2">
                                     <label class="form-check-label" for="exampleRadios2">
                                         No
@@ -249,13 +249,13 @@
                             <td class="tg-0pky" colspan="4">
 
 
-                                <form>
+                                
                                     <div class="form-group">
 
-                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3 "
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3 " name="16r"
                                             width=12px cols="33"></textarea>
                                     </div>
-                                </form>
+                                
                             </td>
                         </tr>
                         <!--17th QUESTION   -->
@@ -264,17 +264,17 @@
                             <td class="tg-0pky" style="font-weight: bold;" colspan="">Mentoring</td>
                             <td class="tg-0pky" colspan="4">
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions17aaa"
+                                    <input class="form-check-input" type="radio" name="17a"
                                         id="inlineRadio1" value="option1">
                                     <label class="form-check-label" for="inlineRadio1"> Done Regularly </label>
                                 </div>
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions17aaa"
+                                    <input class="form-check-input" type="radio" name="17a"
                                         id="inlineRadio2" value="option2">
                                     <label class="form-check-label" for="inlineRadio2">Not Done Regularly </label>
                                 </div>
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions17aaa"
+                                    <input class="form-check-input" type="radio" name="17a"
                                         id="inlineRadio2" value="option3">
                                     <label class="form-check-label" for="inlineRadio2"> NA </label>
                                 </div>
@@ -283,13 +283,13 @@
                             <td class="tg-0pky"></td>
                             <td class="tg-0pky" colspan="5"> Outcome/Remarks:
                                 <br>
-                                <form>
+                                
                                     <div class="form-group">
 
-                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="17b"
                                             width=12px cols="111"></textarea>
                                     </div>
-                                </form>
+                                
 
                             </td>
                         </tr>
@@ -298,12 +298,12 @@
                             <td class="tg-0pky" colspan="">a. Mentoring records </td>
                             <td class="tg-0pky" colspan="4">
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions17b"
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions17b" name="17c"
                                         id="inlineRadio1" value="option1">
                                     <label class="form-check-label" for="inlineRadio1"> Maintained </label>
                                 </div>
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions17b"
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions17b" name="17c"
                                         id="inlineRadio2" value="option2">
                                     <label class="form-check-label" for="inlineRadio2">Not Maintained </label>
                                 </div>
@@ -313,13 +313,13 @@
                             <td class="tg-0pky"></td>
                             <td class="tg-0pky" colspan="5"> Reasons for not Manintaining
                                 <br>
-                                <form>
+                                
                                     <div class="form-group">
 
-                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="17d"
                                             width=12px cols="111"></textarea>
                                     </div>
-                                </form>
+                                
 
                             </td>
                         </tr>
@@ -328,12 +328,12 @@
                             <td class="tg-0pky" colspan="">b. Identification of Weak Students </td>
                             <td class="tg-0pky" colspan="4">
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions17c"
+                                    <input class="form-check-input" type="radio" name="17e"
                                         id="inlineRadio1" value="option1">
                                     <label class="form-check-label" for="inlineRadio1"> Identified </label>
                                 </div>
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions17c"
+                                    <input class="form-check-input" type="radio" name="17e"
                                         id="inlineRadio2" value="option2">
                                     <label class="form-check-label" for="inlineRadio2">Not Identified </label>
                                 </div>
@@ -349,27 +349,27 @@
                             </td>
                             <td class="tg-0pky" colspan="4">
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions17aaac"
+                                    <input class="form-check-input" type="radio" name="17f"
                                         id="inlineRadio1" value="option1">
                                     <label class="form-check-label" for="inlineRadio1"> Daily </label>
                                 </div>
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions17aaac"
+                                    <input class="form-check-input" type="radio" name="17f"
                                         id="inlineRadio2" value="option2">
                                     <label class="form-check-label" for="inlineRadio2">Weekly </label>
                                 </div>
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions17aaac"
+                                    <input class="form-check-input" type="radio" name="17f"
                                         id="inlineRadio2" value="option3">
                                     <label class="form-check-label" for="inlineRadio2"> Once in 15 days </label>
                                 </div>
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions17aaac"
+                                    <input class="form-check-input" type="radio" name="17f"
                                         id="inlineRadio2" value="option4">
                                     <label class="form-check-label" for="inlineRadio2"> Montly </label>
                                 </div>
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions17aaac"
+                                    <input class="form-check-input" type="radio" name="17f"
                                         id="inlineRadio2" value="option5">
                                     <label class="form-check-label" for="inlineRadio2"> Not Done </label>
                                 </div>
@@ -381,19 +381,19 @@
                             <td class="tg-0pky" colspan="">d. Mentor-parents Interaction held</td>
                             <td class="tg-0pky" colspan="4">
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions17aad"
+                                    <input class="form-check-input" type="radio" name="17g1"
                                         id="inlineRadio1" value="option1">
                                     <label class="form-check-label" for="inlineRadio1"> YES</label>
                                 </div>
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions17aad"
+                                    <input class="form-check-input" type="radio" name="17g1"
                                         id="inlineRadio2" value="option2">
                                     <label class="form-check-label" for="inlineRadio2">NO </label>
                                 </div>
                                 <br>
                                 <div>
                                     <label for="number">If YES, Frequency of interaction </label>
-                                    <input type="number" id="number" style="width: 50px">
+                                    <input type="number" id="number" style="width: 50px" name="17g2">
 
                                 </div>
 
@@ -406,7 +406,7 @@
                             <td class="tg-0pky" colspan="4">
                                 <div>
                                     <label for="number">Number </label>
-                                    <input type="number" id="number" style="width: 50px">
+                                    <input type="number" id="number" style="width: 50px" name="17h">
 
                                 </div>
 
@@ -414,18 +414,18 @@
 
                         <tr>
                             <td class="tg-0pky"></td>
-                            <td class="tg-0pky" colspan="1">Names of students benefited from the mentoring activity
+                            <td class="tg-0pky" colspan="1">Names of students benefited from the mentoring activity (seperate using commas)
                             </td>
                             <td class="tg-0pky" colspan="4">
 
 
-                                <form>
+                                
                                     <div class="form-group">
 
-                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" name="17i"
                                             width=12px cols="33"></textarea>
                                     </div>
-                                </form>
+                                
                             </td>
                         </tr>
                         <tr>
@@ -433,13 +433,13 @@
                             <td class="tg-0pky" colspan="5"> f. Any best practices: Remarks
 
                                 <br>
-                                <form>
+                                
                                     <div class="form-group">
 
-                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="17j"
                                             width=12px cols="111"></textarea>
                                     </div>
-                                </form>
+                                
 
                             </td>
                         </tr>
@@ -451,7 +451,7 @@
                         <tr style="background-color :#dcf0fa;">
                             <td class="tg-0pky" style="font-weight: bold;">18</td>
                             <td class="tg-0pky" style="font-weight: bold;" colspan="5">Publications during AY Number of
-                                papers ( Total Number of papers: <input type="number" id="number" style="width: 50px"> )
+                                papers ( Total Number of papers: <input type="number" id="number" style="width: 50px" name="18a"> )
                             </td>
                         </tr>
                         <tr>
@@ -459,14 +459,14 @@
                             <td class="tg-0pky" colspan="1">a. At least 1 paper</td>
                             <td class="tg-0pky" colspan="4">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="exampleRadios18a"
+                                    <input class="form-check-input" type="radio" name="18b"
                                         id="exampleRadios1" value="option1">
                                     <label class="form-check-label" for="exampleRadios1">
                                         YES
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="exampleRadios18a"
+                                    <input class="form-check-input" type="radio" name="18b"
                                         id="exampleRadios2" value="option2">
                                     <label class="form-check-label" for="exampleRadios2">
                                         NO
@@ -482,14 +482,14 @@
 
                             <td class="tg-0pky" colspan="4">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="exampleRadios18b"
+                                    <input class="form-check-input" type="radio" name="18c1"
                                         id="exampleRadios1" value="option1">
                                     <label class="form-check-label" for="exampleRadios1">
                                         SCOPUS
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="exampleRadios18b"
+                                    <input class="form-check-input" type="radio" name="18c1"
                                         id="exampleRadios2" value="option2">
                                     <label class="form-check-label" for="exampleRadios2">
                                         WEB OF SCIENCE
@@ -497,16 +497,16 @@
                                 </div>
 
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="exampleRadios18b"
-                                        id="exampleRadios2" value="option2">
+                                    <input class="form-check-input" type="radio" name="18c1"
+                                        id="exampleRadios2" value="option3">
                                     <label class="form-check-label" for="exampleRadios2">
                                         GOOGLE SCHOLAR
                                     </label>
                                 </div>
             </div>
             <div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios18b" id="exampleRadios2"
-                    value="option2">
+                <input class="form-check-input" type="radio" name="18c1" id="exampleRadios2"
+                    value="option4">
                 <label class="form-check-label" for="exampleRadios2">
                     ANY OTHER
                 </label>
@@ -517,13 +517,13 @@
             <form class="bd-example">
                 <p>
                     <label for="input">Mention the same :</label>
-                <form>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3 " width=12px
+                
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3 " width=12px name="18c2"
                         cols="33"></textarea>
 
-                </form>
+                
                 </p>
-            </form>
+            
 
 
             </td>
@@ -538,14 +538,14 @@
                 <td class="tg-0pky" colspan="1">c Papers in Q1/Q2/Q3/Q4 rated journals</td>
                 <td class="tg-0pky" colspan="4">
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios18c" id="exampleRadios1"
+                        <input class="form-check-input" type="radio" name="18d" id="exampleRadios1"
                             value="option1">
                         <label class="form-check-label" for="exampleRadios1">
                             YES
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios18c" id="exampleRadios2"
+                        <input class="form-check-input" type="radio" name="18d" id="exampleRadios2"
                             value="option2">
                         <label class="form-check-label" for="exampleRadios2">
                             NO
@@ -569,14 +569,14 @@
                 <td class="tg-0pky" colspan="1">a. Filed and Published:</td>
                 <td class="tg-0pky" colspan="4">
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios19a" id="exampleRadios1"
+                        <input class="form-check-input" type="radio" name="19a" id="exampleRadios1"
                             value="option1">
                         <label class="form-check-label" for="exampleRadios1">
                             YES
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios19a" id="exampleRadios2"
+                        <input class="form-check-input" type="radio" name="19a" id="exampleRadios2"
                             value="option2">
                         <label class="form-check-label" for="exampleRadios2">
                             NO
@@ -591,14 +591,14 @@
                 </td>
                 <td class="tg-0pky" colspan="4">
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios19c" id="exampleRadios1"
+                        <input class="form-check-input" type="radio" name="19b" id="exampleRadios1"
                             value="option1">
                         <label class="form-check-label" for="exampleRadios1">
                             YES
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios19c" id="exampleRadios2"
+                        <input class="form-check-input" type="radio" name="19b" id="exampleRadios2"
                             value="option2">
                         <label class="form-check-label" for="exampleRadios2">
                             No
@@ -614,13 +614,13 @@
                 <td class="tg-0pky" colspan="4">
 
 
-                    <form>
+                    
                         <div class="form-group">
 
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" width=12px
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" width=12px name="19c"
                                 cols="33"></textarea>
                         </div>
-                    </form>
+                    
                 </td>
             </tr>
 
@@ -631,14 +631,14 @@
                 </td>
                 <td class="tg-0pky" colspan="4">
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios19d" id="exampleRadios1"
+                        <input class="form-check-input" type="radio" name="19d" id="exampleRadios1"
                             value="option1">
                         <label class="form-check-label" for="exampleRadios1">
                             YES
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios19d" id="exampleRadios2"
+                        <input class="form-check-input" type="radio" name="19d" id="exampleRadios2"
                             value="option2">
                         <label class="form-check-label" for="exampleRadios2">
                             No
@@ -654,13 +654,13 @@
                 <td class="tg-0pky" colspan="4">
 
 
-                    <form>
+                    
                         <div class="form-group">
 
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" width=12px
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" width=12px name="19e"
                                 cols="33"></textarea>
                         </div>
-                    </form>
+                    
                 </td>
             </tr>
 
@@ -672,14 +672,14 @@
                 </td>
                 <td class="tg-0pky" colspan="4">
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios20c" id="exampleRadios1"
+                        <input class="form-check-input" type="radio" name="20a" id="exampleRadios1"
                             value="option1">
                         <label class="form-check-label" for="exampleRadios1">
                             YES
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios20c" id="exampleRadios2"
+                        <input class="form-check-input" type="radio" name="20a" id="exampleRadios2"
                             value="option2">
                         <label class="form-check-label" for="exampleRadios2">
                             No
@@ -696,37 +696,37 @@
                 </td>
                 <td class="tg-0pky" colspan="4">
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <input class="form-check-input" type="checkbox" value="Inter-National Organization" id="flexCheckDefault" name="20b1">
                         <label class="form-check-label" for="flexCheckDefault">
                             Inter-National Organization
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <input class="form-check-input" type="checkbox" value="National Organization" id="flexCheckDefault"  name="20b2">
                         <label class="form-check-label" for="flexCheckDefault">
                             National Organization
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <input class="form-check-input" type="checkbox" value="State-National Organization" id="flexCheckDefault" name="20b3">
                         <label class="form-check-label" for="flexCheckDefault">
                             State-National Organization
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <input class="form-check-input" type="checkbox" value="Industry" id="flexCheckDefault" name="20b4">
                         <label class="form-check-label" for="flexCheckDefault">
                             Industry
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <input class="form-check-input" type="checkbox" value="NMIT" id="flexCheckDefault" name="20b5">
                         <label class="form-check-label" for="flexCheckDefault">
                             NMIT
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <input class="form-check-input" type="checkbox" value="Any other" id="flexCheckDefault" name="20b6">
                         <label class="form-check-label" for="flexCheckDefault">
                             Any other
                         </label>
@@ -739,50 +739,50 @@
                 <td class="tg-0pky"></td>
                 <td class="tg-0pky" colspan="5"> Provide details:
                     <br>
-                    <form>
+                    
                         <div class="form-group">
 
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=12px
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=12px  name="20c"
                                 cols="111"></textarea>
                         </div>
-                    </form>
+                    
 
                 </td>
             </tr>
             <tr>
                 <td class="tg-0pky"></td>
                 <td class="tg-0pky" colspan="1">
-                    b. Title of the Project
-                    <form>
+                    <h4> b. Title of the Project </h4>
+                    
                         <div class="form-group">
 
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="8" width=12px
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="8" width=12px name="20d1"
                                 cols="70"></textarea>
                         </div>
-                    </form>
+                    
 
                 </td>
 
                 <td class="tg-0pky" colspan="4">
                     <h6>Funded</h6>
-                    <form>
+                    
                         <div class="form-group">
 
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=12px
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=12px name="20d2"
                                 cols="30"></textarea>
                         </div>
-                    </form>
+                    
 
 
 
                     <h6>amount</h6>
-                    <form>
+                    
                         <div class="form-group">
 
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=12px
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=12px name="20d3"
                                 cols="30"></textarea>
                         </div>
-                    </form>
+                    
 
                 </td>
 
@@ -792,22 +792,22 @@
                 <td class="tg-0pky" colspan="">c. Status of the Project </td>
                 <td class="tg-0pky" colspan="4">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions20aaa" id="inlineRadio1"
+                        <input class="form-check-input" type="radio" name="20e" id="inlineRadio1"
                             value="option1">
                         <label class="form-check-label" for="inlineRadio1"> Completed </label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions20aaa" id="inlineRadio2"
+                        <input class="form-check-input" type="radio" name="20e" id="inlineRadio2"
                             value="option2">
                         <label class="form-check-label" for="inlineRadio2">Report Available </label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions20aaa" id="inlineRadio2"
+                        <input class="form-check-input" type="radio" name="20e" id="inlineRadio2"
                             value="option3">
                         <label class="form-check-label" for="inlineRadio2"> On - Going </label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions20aaa" id="inlineRadio2"
+                        <input class="form-check-input" type="radio" name="20e" id="inlineRadio2"
                             value="option4">
                         <label class="form-check-label" for="inlineRadio2">Applied </label>
                     </div>
@@ -832,14 +832,14 @@
                 </td>
                 <td class="tg-0pky" colspan="4">
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios21c" id="exampleRadios1"
+                        <input class="form-check-input" type="radio" name="21a" id="exampleRadios1"
                             value="option1">
                         <label class="form-check-label" for="exampleRadios1">
                             YES
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios21c" id="exampleRadios2"
+                        <input class="form-check-input" type="radio" name="21a" id="exampleRadios2"
                             value="option2">
                         <label class="form-check-label" for="exampleRadios2">
                             No
@@ -851,13 +851,13 @@
                 <td class="tg-0pky"></td>
                 <td class="tg-0pky" colspan="5"> Provide details:
                     <br>
-                    <form>
+                    
                         <div class="form-group">
 
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=12px
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=12px name="21b"
                                 cols="111"></textarea>
                         </div>
-                    </form>
+                    
 
                 </td>
             </tr>
@@ -869,14 +869,14 @@
                 </td>
                 <td class="tg-0pky" colspan="4">
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios22c" id="exampleRadios1"
+                        <input class="form-check-input" type="radio" name="22a" id="exampleRadios1"
                             value="option1">
                         <label class="form-check-label" for="exampleRadios1">
                             YES
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios22c" id="exampleRadios2"
+                        <input class="form-check-input" type="radio" name="22a" id="exampleRadios2"
                             value="option2">
                         <label class="form-check-label" for="exampleRadios2">
                             No
@@ -888,13 +888,13 @@
                 <td class="tg-0pky"></td>
                 <td class="tg-0pky" colspan="5"> Nature of the activity:
                     <br>
-                    <form>
+                    
                         <div class="form-group">
 
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=12px
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=12px name="22b"
                                 cols="111"></textarea>
                         </div>
-                    </form>
+                    
 
                 </td>
             </tr>
@@ -903,13 +903,13 @@
                 <td class="tg-0pky"></td>
                 <td class="tg-0pky" colspan="5"> Duration of the activity:
                     <br>
-                    <form>
+                    
                         <div class="form-group">
 
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=12px
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=12px name="22c"
                                 cols="111"></textarea>
                         </div>
-                    </form>
+                    
 
                 </td>
             </tr>
@@ -918,13 +918,13 @@
                 <td class="tg-0pky"></td>
                 <td class="tg-0pky" colspan="5"> Report submitted to Dean:
                     <br>
-                    <form>
+                    
                         <div class="form-group">
 
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=12px
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=12px name="22d"
                                 cols="111"></textarea>
                         </div>
-                    </form>
+                    
 
                 </td>
             </tr>
@@ -944,14 +944,14 @@
                 </td>
                 <td class="tg-0pky" colspan="4">
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios23c" id="exampleRadios1"
+                        <input class="form-check-input" type="radio" name="23a" id="exampleRadios1"
                             value="option1">
                         <label class="form-check-label" for="exampleRadios1">
                             YES
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios23c" id="exampleRadios2"
+                        <input class="form-check-input" type="radio" name="23a" id="exampleRadios2"
                             value="option2">
                         <label class="form-check-label" for="exampleRadios2">
                             No
@@ -963,13 +963,13 @@
                 <td class="tg-0pky"></td>
                 <td class="tg-0pky" colspan="5"> Remarks:
                     <br>
-                    <form>
+                    
                         <div class="form-group">
 
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" width=12px
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" width=12px name="23b"
                                 cols="111"></textarea>
                         </div>
-                    </form>
+                    
 
                 </td>
             </tr>
@@ -993,25 +993,25 @@
                 <td class="tg-0pky" style="font-weight: bold;">Are you a member of.</td>
                 <td class="tg-0pky" colspan="4">
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <input class="form-check-input" type="checkbox" value="DUGC" id="flexCheckDefault" name="24a1">
                         <label class="form-check-label" for="flexCheckDefault">
                             DUGC
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <input class="form-check-input" type="checkbox" value="DPGC" id="flexCheckDefault" name="24a2">
                         <label class="form-check-label" for="flexCheckDefault">
                             DPGC
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <input class="form-check-input" type="checkbox" value="BOS" id="flexCheckDefault" name="24a3">
                         <label class="form-check-label" for="flexCheckDefault">
                             BOS
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <input class="form-check-input" type="checkbox" value="BOE" id="flexCheckDefault" name="24a4">
                         <label class="form-check-label" for="flexCheckDefault">
                             BOE
                         </label>
@@ -1029,14 +1029,14 @@
                 </td>
                 <td class="tg-0pky" colspan="4">
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios25c" id="exampleRadios1"
+                        <input class="form-check-input" type="radio" name="25a" id="exampleRadios1"
                             value="option1">
                         <label class="form-check-label" for="exampleRadios1">
                             YES
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios25c" id="exampleRadios2"
+                        <input class="form-check-input" type="radio" name="25a" id="exampleRadios2"
                             value="option2">
                         <label class="form-check-label" for="exampleRadios2">
                             NO
@@ -1051,13 +1051,13 @@
                 <td class="tg-0pky" colspan="4">
 
 
-                    <form>
+                    
                         <div class="form-group">
 
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=12px
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=12px name="25b"
                                 cols="33"></textarea>
                         </div>
-                    </form>
+                    
                 </td>
             </tr>
             <tr>
@@ -1067,13 +1067,13 @@
                 <td class="tg-0pky" colspan="4">
 
 
-                    <form>
+                    
                         <div class="form-group">
 
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=12px
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=12px name="25c"
                                 cols="33"></textarea>
                         </div>
-                    </form>
+                    
                 </td>
             </tr>
 
@@ -1084,13 +1084,13 @@
                 <td class="tg-0pky" colspan="4">
 
 
-                    <form>
+                    
                         <div class="form-group">
 
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=12px
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=12px name="25d"
                                 cols="33"></textarea>
                         </div>
-                    </form>
+                    
                 </td>
             </tr>
 
@@ -1099,12 +1099,15 @@
                 <td class="tg-0pky" colspan="1">Nature of Interaction
                 </td>
                 <td class="tg-0pky" colspan="4">
-                    <form>
+
+
+                    
                         <div class="form-group">
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=12px
+
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" width=12px name="25e"
                                 cols="33"></textarea>
                         </div>
-                    </form>
+                    
                 </td>
             </tr>
 
@@ -1118,13 +1121,13 @@
                 <td class="tg-0pky" style="font-weight: bold;" colspan="5">Faculty contribution towards slow learners
                     and fast learners:
                     <br>
-                    <form>
+                    
                         <div class="form-group">
 
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" width=12px
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" width=12px name="26a"
                                 cols="110"></textarea>
                         </div>
-                    </form>
+                    
                 </td>
             </tr>
             <!--27th QUESTION-->
@@ -1135,13 +1138,13 @@
                 <td class="tg-0pky" style="font-weight: bold;" colspan="5">Faculty contribution towards departmental
                     activities:
                     <br>
-                    <form>
+                    
                         <div class="form-group">
 
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" width=12px
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" width=12px name="27a"
                                 cols="110"></textarea>
                         </div>
-                    </form>
+                    
                 </td>
             </tr>
             <!--28th QUESTION-->
@@ -1152,13 +1155,13 @@
                 <td class="tg-0pky" style="font-weight: bold;" colspan="5">Faculty contribution towards institutional
                     activities:
                     <br>
-                    <form>
+                    
                         <div class="form-group">
 
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" width=12px
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" width=12px name="28a"
                                 cols="110"></textarea>
                         </div>
-                    </form>
+                    
                 </td>
             </tr>
 
@@ -1170,18 +1173,18 @@
             </table>
         </div>
         <br><br>
-        <div id="mybutton">
+        <!-- <div id="mybutton">
             <button class="feedback" style="border-radius: 12%;">Save</button>
-        </div>
+        </div> -->
 
 
         <div style="text-align:center">
 
 
-            <div class="popup    btn btn-primary btn-lg active" onclick="myFunction()"
+            <button class="popup btn btn-primary btn-lg active" type="submit" onclick="myFunction()"
                 style="background-color: #007bff;">SUBMIT
                 <span class="popuptext" id="myPopup">Submitted</span>
-            </div>
+            </button>
 
             <script>
                 // When the user clicks on div, open the popup
@@ -1193,7 +1196,7 @@
             <a class="btn btn-primary btn-lg" href="./home.php" role="button"
                 style="background-color: #007bff;">Home</a>
         </div>
-
+            </form>
 
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
             integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
