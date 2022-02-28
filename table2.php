@@ -30,10 +30,10 @@ if($_SESSION['loggedin']!='TRUE'){
         <div class="flex-container">
             <div id="logo">
                 <img src="NMIT Header.jpg" width="1900px" height="150px">
-                <div class="text-right">
+                <!-- <div class="text-right">
                     <a button type="button" class="btn btn-primary" style="background-color: #007bff;"
                         href="./home.php">Home</button></a>
-                </div>
+                </div> -->
 
 
 
@@ -762,7 +762,7 @@ if($_SESSION['loggedin']!='TRUE'){
             <tr>
                 <td class="tg-0pky"></td>
                 <td class="tg-0pky" colspan="1">
-                    <h4> b. Title of the Project </h4>
+                     b. Title of the Project
                     
                         <div class="form-group">
 

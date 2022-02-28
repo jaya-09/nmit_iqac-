@@ -2706,7 +2706,7 @@ if($_SESSION['loggedin']!='TRUE'){
               <div class="form-check">
                   <input class="form-check-input" type="radio" name="12a1" id="12a1" value="option1">
                   <label class="form-check-label" for="12a1">
-                  â‰¥4
+                  >=4
                   </label>
                 </div>
                 <div class="form-check">
@@ -2722,7 +2722,7 @@ if($_SESSION['loggedin']!='TRUE'){
               <div class="form-check">
                   <input class="form-check-input" type="radio" name="12a2" id="12a2" value="option1">
                   <label class="form-check-label" for="12a2">
-                  â‰¥4
+                  >=4
                   </label>
                 </div>
                 <div class="form-check">
@@ -2738,7 +2738,7 @@ if($_SESSION['loggedin']!='TRUE'){
               <div class="form-check">
                   <input class="form-check-input" type="radio" name="12a3" id="12a3" value="option1">
                   <label class="form-check-label" for="12a33">
-                  â‰¥4
+                  >=4
                   </label>
                 </div>
                 <div class="form-check">
@@ -2754,7 +2754,7 @@ if($_SESSION['loggedin']!='TRUE'){
               <div class="form-check">
                   <input class="form-check-input" type="radio" name="12a4" id="12a4" value="option1">
                   <label class="form-check-label" for="12a4">
-                  â‰¥4
+                  >=4
                   </label>
                 </div>
                 <div class="form-check">
@@ -3458,7 +3458,6 @@ if($_SESSION['loggedin']!='TRUE'){
 
               <td class="tg-0pky">
                 <div class="form-check form-check-inline">
-                    value="option1">
                   <input class="form-check-input" type="radio" name="13f4" id="13f41"
                     value="option1">
                   <label class="form-check-label" for="13f41">Found</label>
@@ -4586,9 +4585,9 @@ if($_SESSION['loggedin']!='TRUE'){
       </table>
     </div>
 
-    <div id="mybutton">
+    <!-- <div id="mybutton">
       <button class="feedback" style="border-radius: 12%;">Save</button>
-    </div>
+    </div> -->
 
 
     <div style="text-align:center">
