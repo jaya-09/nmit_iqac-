@@ -62,4 +62,6 @@ input[type="radio"]:checked + label {
     transition: 0.3s;
 }
 
-
+.ui-datepicker-calendar {
+    display: none;
+    }
