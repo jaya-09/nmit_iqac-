@@ -2727,13 +2727,13 @@
 
               <td class="tg-0pky">
               <div class="form-check">
-                  <input class="form-check-input" type="radio" name="12a3" id="12a33" value="option1">
+                  <input class="form-check-input" type="radio" name="12a3" id="12a3" value="option1">
                   <label class="form-check-label" for="12a33">
                   ≥4
                   </label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="12a3" id="12a3" value="option2">
+                  <input class="form-check-input" type="radio" name="12a3" id="12a33" value="option2">
                   <label class="form-check-label" for="12a3">
                     <4
                   </label>
@@ -3025,55 +3025,55 @@
 
               <td class="tg-0pky">
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13a2" id="inlineRadio1"
+                  <input class="form-check-input" type="radio" name="13a2" id="13a21"
                     value="option1">
-                  <label class="form-check-label" for="inlineRadio1">Accurate</label>
+                  <label class="form-check-label" for="13a21">Accurate</label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13a2" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="13a2" id="13a22"
                     value="option2">
-                  <label class="form-check-label" for="inlineRadio2">Not Accurate</label>
+                  <label class="form-check-label" for="13a22">Not Accurate</label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13a2" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="13a2" id="13a23"
                     value="option3">
-                  <label class="form-check-label" for="inlineRadio2">Not found</label>
+                  <label class="form-check-label" for="13a23">Not found</label>
                 </div>
               </td>
 
               <td class="tg-0pky">
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13a3" id="inlineRadio1"
+                  <input class="form-check-input" type="radio" name="13a3" id="13a31"
                     value="option1">
-                  <label class="form-check-label" for="inlineRadio1">Accurate</label>
+                  <label class="form-check-label" for="13a31">Accurate</label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13a3" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="13a3" id="13a32"
                     value="option2">
-                  <label class="form-check-label" for="inlineRadio2">Not Accurate</label>
+                  <label class="form-check-label" for="13a32">Not Accurate</label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13a3" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="13a3" id="13a33"
                     value="option3">
-                  <label class="form-check-label" for="inlineRadio2">Not found</label>
+                  <label class="form-check-label" for="13a33">Not found</label>
                 </div>
               </td>
 
               <td class="tg-0pky">
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13a4" id="inlineRadio1"
+                  <input class="form-check-input" type="radio" name="13a4" id="13a41"
                     value="option1">
-                  <label class="form-check-label" for="inlineRadio1">Accurate</label>
+                  <label class="form-check-label" for="13a41">Accurate</label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13a4" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="13a4" id="13a42"
                     value="option2">
-                  <label class="form-check-label" for="inlineRadio2">Not Accurate</label>
+                  <label class="form-check-label" for="13a42">Not Accurate</label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13a4" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="13a4" id="13a43"
                     value="option3">
-                  <label class="form-check-label" for="inlineRadio2">Not found</label>
+                  <label class="form-check-label" for="13a43">Not found</label>
                 </div>
               </td>
             </tr>
@@ -3088,73 +3088,73 @@
 
               <td class="tg-0pky">
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13b1" id="inlineRadio1"
+                  <input class="form-check-input" type="radio" name="13b1" id="13b11"
                     value="option1">
-                  <label class="form-check-label" for="inlineRadio1">Accurate</label>
+                  <label class="form-check-label" for="13b11">Accurate</label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13b1" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="13b1" id="13b12"
                     value="option2">
-                  <label class="form-check-label" for="inlineRadio2">Not Accurate</label>
+                  <label class="form-check-label" for="13b12">Not Accurate</label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13b1" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="13b1" id="13b13"
                     value="option3">
-                  <label class="form-check-label" for="inlineRadio2">Not found</label>
+                  <label class="form-check-label" for="13b13">Not found</label>
                 </div>
               </td>
 
               <td class="tg-0pky">
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13b2" id="inlineRadio1"
+                  <input class="form-check-input" type="radio" name="13b2" id="13b21"
                     value="option1">
-                  <label class="form-check-label" for="inlineRadio1">Accurate</label>
+                  <label class="form-check-label" for="13b21">Accurate</label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13b2" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="13b2" id="13b22"
                     value="option2">
-                  <label class="form-check-label" for="inlineRadio2">Not Accurate</label>
+                  <label class="form-check-label" for="13b22">Not Accurate</label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13b2" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="13b2" id="13b23"
                     value="option3">
-                  <label class="form-check-label" for="inlineRadio2">Not found</label>
+                  <label class="form-check-label" for="13b23">Not found</label>
                 </div>
               </td>
 
               <td class="tg-0pky">
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13b3" id="inlineRadio1"
+                  <input class="form-check-input" type="radio" name="313b" id="313b1"
                     value="option1">
-                  <label class="form-check-label" for="inlineRadio1">Accurate</label>
+                  <label class="form-check-label" for="313b1">Accurate</label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13b3" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="13b3" id="13b32"
                     value="option2">
-                  <label class="form-check-label" for="inlineRadio2">Not Accurate</label>
+                  <label class="form-check-label" for="13b32">Not Accurate</label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13b3" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="13b3" id="13b33"
                     value="option3">
-                  <label class="form-check-label" for="inlineRadio2">Not found</label>
+                  <label class="form-check-label" for="13b33">Not found</label>
                 </div>
               </td>
 
               <td class="tg-0pky">
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13b4" id="inlineRadio1"
+                  <input class="form-check-input" type="radio" name="13b4" id="13b41"
                     value="option1">
-                  <label class="form-check-label" for="inlineRadio1">Accurate</label>
+                  <label class="form-check-label" for="13b41">Accurate</label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13b4" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="13b4" id="13b42"
                     value="option2">
-                  <label class="form-check-label" for="inlineRadio2">Not Accurate</label>
+                  <label class="form-check-label" for="13b42">Not Accurate</label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13b4" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="13b4" id="13b43"
                     value="option3">
-                  <label class="form-check-label" for="inlineRadio2">Not found</label>
+                  <label class="form-check-label" for="13b43">Not found</label>
                 </div>
               </td>
             </tr>
@@ -3168,73 +3168,73 @@
 
               <td class="tg-0pky">
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13c1" id="inlineRadio1"
+                  <input class="form-check-input" type="radio" name="13c1" id="13c11"
                     value="option1">
-                  <label class="form-check-label" for="inlineRadio1">Accurate</label>
+                  <label class="form-check-label" for="13c11">Accurate</label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13c1" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="13c1" id="13c12"
                     value="option2">
-                  <label class="form-check-label" for="inlineRadio2">Not Accurate</label>
+                  <label class="form-check-label" for="13c12">Not Accurate</label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13c1" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="13c1" id="13c13"
                     value="option3">
-                  <label class="form-check-label" for="inlineRadio2">Not found</label>
+                  <label class="form-check-label" for="13c13">Not found</label>
                 </div>
               </td>
 
               <td class="tg-0pky">
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13c2" id="inlineRadio1"
+                  <input class="form-check-input" type="radio" name="13c2" id="13c21"
                     value="option1">
-                  <label class="form-check-label" for="inlineRadio1">Accurate</label>
+                  <label class="form-check-label" for="13c21">Accurate</label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13c2" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="13c2" id="13c22"
                     value="option2">
-                  <label class="form-check-label" for="inlineRadio2">Not Accurate</label>
+                  <label class="form-check-label" for="13c22">Not Accurate</label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13c2" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="13c2" id="13c23"
                     value="option3">
-                  <label class="form-check-label" for="inlineRadio2">Not found</label>
+                  <label class="form-check-label" for="13c23">Not found</label>
                 </div>
               </td>
 
               <td class="tg-0pky">
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13c3" id="inlineRadio1"
+                  <input class="form-check-input" type="radio" name="13c3" id="13c31"
                     value="option1">
-                  <label class="form-check-label" for="inlineRadio1">Accurate</label>
+                  <label class="form-check-label" for="13c31">Accurate</label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13c3" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="13c3" id="13c32"
                     value="option2">
-                  <label class="form-check-label" for="inlineRadio2">Not Accurate</label>
+                  <label class="form-check-label" for="13c32">Not Accurate</label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13c3" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="13c3" id="13c33"
                     value="option3">
-                  <label class="form-check-label" for="inlineRadio2">Not found</label>
+                  <label class="form-check-label" for="13c33">Not found</label>
                 </div>
               </td>
 
               <td class="tg-0pky">
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13c4" id="inlineRadio1"
+                  <input class="form-check-input" type="radio" name="13c3" id="13c31"
                     value="option1">
-                  <label class="form-check-label" for="inlineRadio1">Accurate</label>
+                  <label class="form-check-label" for="13c31">Accurate</label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13c4" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="13c4" id="13c32"
                     value="option2">
-                  <label class="form-check-label" for="inlineRadio2">Not Accurate</label>
+                  <label class="form-check-label" for="13c32">Not Accurate</label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13c4" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="13c4" id="13c33"
                     value="option3">
-                  <label class="form-check-label" for="inlineRadio2">Not found</label>
+                  <label class="form-check-label" for="13c33">Not found</label>
                 </div>
               </td>
             </tr>
@@ -3248,73 +3248,73 @@
 
               <td class="tg-0pky">
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13d1" id="inlineRadio1"
+                  <input class="form-check-input" type="radio" name="13d1" id="13d11"
                     value="option1">
-                  <label class="form-check-label" for="inlineRadio1">Accurate</label>
+                  <label class="form-check-label" for="13d11">Accurate</label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13d1" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="13d1" id="13d12"
                     value="option2">
-                  <label class="form-check-label" for="inlineRadio2">Not Accurate</label>
+                  <label class="form-check-label" for="13d12">Not Accurate</label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13d1" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="13d1" id="13d13"
                     value="option3">
-                  <label class="form-check-label" for="inlineRadio2">Not found</label>
+                  <label class="form-check-label" for="13d13">Not found</label>
                 </div>
               </td>
 
               <td class="tg-0pky">
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13d2" id="inlineRadio1"
+                  <input class="form-check-input" type="radio" name="13d2" id="13d21"
                     value="option1">
-                  <label class="form-check-label" for="inlineRadio1">Accurate</label>
+                  <label class="form-check-label" for="13d21">Accurate</label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13d2" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="13d2" id="13d22"
                     value="option2">
-                  <label class="form-check-label" for="inlineRadio2">Not Accurate</label>
+                  <label class="form-check-label" for="13d22">Not Accurate</label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13d2" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="13d2" id="13d23"
                     value="option3">
-                  <label class="form-check-label" for="inlineRadio2">Not found</label>
+                  <label class="form-check-label" for="13d23">Not found</label>
                 </div>
               </td>
 
               <td class="tg-0pky">
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13d3" id="inlineRadio1"
+                  <input class="form-check-input" type="radio" name="13d3" id="13d31"
                     value="option1">
-                  <label class="form-check-label" for="inlineRadio1">Accurate</label>
+                  <label class="form-check-label" for="13d31">Accurate</label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13d3" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="13d3" id="13d32"
                     value="option2">
-                  <label class="form-check-label" for="inlineRadio2">Not Accurate</label>
+                  <label class="form-check-label" for="13d32">Not Accurate</label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13d3" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="13d3" id="13d33"
                     value="option3">
-                  <label class="form-check-label" for="inlineRadio2">Not found</label>
+                  <label class="form-check-label" for="13d33">Not found</label>
                 </div>
               </td>
 
               <td class="tg-0pky">
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13d4" id="inlineRadio1"
+                  <input class="form-check-input" type="radio" name="13d4" id="13d41"
                     value="option1">
-                  <label class="form-check-label" for="inlineRadio1">Accurate</label>
+                  <label class="form-check-label" for="13d41">Accurate</label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13d4" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="13d4" id="13d42"
                     value="option2">
-                  <label class="form-check-label" for="inlineRadio2">Not Accurate</label>
+                  <label class="form-check-label" for="13d42">Not Accurate</label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13d4" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="13d4" id="13d43"
                     value="option3">
-                  <label class="form-check-label" for="inlineRadio2">Not found</label>
+                  <label class="form-check-label" for="13d43">Not found</label>
                 </div>
               </td>
             </tr>
@@ -3328,73 +3328,73 @@
 
               <td class="tg-0pky">
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13e1" id="inlineRadio1"
+                  <input class="form-check-input" type="radio" name="13e1" id="13e11"
                     value="option1">
-                  <label class="form-check-label" for="inlineRadio1">Accurate</label>
+                  <label class="form-check-label" for="13e11">Accurate</label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13e1" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="13e1" id="13e12"
                     value="option2">
-                  <label class="form-check-label" for="inlineRadio2">Not Accurate</label>
+                  <label class="form-check-label" for="13e12">Not Accurate</label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13e1" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="13e1" id="13e13"
                     value="option3">
-                  <label class="form-check-label" for="inlineRadio2">Not found</label>
+                  <label class="form-check-label" for="13e13">Not found</label>
                 </div>
               </td>
 
               <td class="tg-0pky">
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13e2" id="inlineRadio1"
+                  <input class="form-check-input" type="radio" name="13e2" id="13e21"
                     value="option1">
-                  <label class="form-check-label" for="inlineRadio1">Accurate</label>
+                  <label class="form-check-label" for="13e21">Accurate</label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13e2" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="13e2" id="13e22"
                     value="option2">
-                  <label class="form-check-label" for="inlineRadio2">Not Accurate</label>
+                  <label class="form-check-label" for="13e22">Not Accurate</label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13e2" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="13e2" id="13e23"
                     value="option3">
-                  <label class="form-check-label" for="inlineRadio2">Not found</label>
+                  <label class="form-check-label" for="13e23">Not found</label>
                 </div>
               </td>
 
               <td class="tg-0pky">
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13e3" id="inlineRadio1"
+                  <input class="form-check-input" type="radio" name="13e3" id="13e31"
                     value="option1">
-                  <label class="form-check-label" for="inlineRadio1">Accurate</label>
+                  <label class="form-check-label" for="13e31">Accurate</label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13e3" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="13e3" id="13e32"
                     value="option2">
-                  <label class="form-check-label" for="inlineRadio2">Not Accurate</label>
+                  <label class="form-check-label" for="13e32">Not Accurate</label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13e3" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="13e3" id="13e33"
                     value="option3">
-                  <label class="form-check-label" for="inlineRadio2">Not found</label>
+                  <label class="form-check-label" for="13e33">Not found</label>
                 </div>
               </td>
 
               <td class="tg-0pky">
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13e4" id="inlineRadio1"
+                  <input class="form-check-input" type="radio" name="13e4" id="13e41"
                     value="option1">
-                  <label class="form-check-label" for="inlineRadio1">Accurate</label>
+                  <label class="form-check-label" for="13e41">Accurate</label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13e4" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="13e4" id="13e42"
                     value="option2">
-                  <label class="form-check-label" for="inlineRadio2">Not Accurate</label>
+                  <label class="form-check-label" for="13e42">Not Accurate</label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13e4" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="13e4" id="13e43"
                     value="option3">
-                  <label class="form-check-label" for="inlineRadio2">Not found</label>
+                  <label class="form-check-label" for="13e43">Not found</label>
                 </div>
               </td>
             </tr>
@@ -3408,55 +3408,56 @@
               <td class="tg-0pky">
 
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13f1" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="13f1" id="13f11"
                     value="option1">
-                  <label class="form-check-label" for="inlineRadio2">Found</label>
+                  <label class="form-check-label" for="13f11">Found</label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13f1" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="13f1" id="13f12"
                     value="option2">
-                  <label class="form-check-label" for="inlineRadio2">Not found</label>
+                  <label class="form-check-label" for="13f12">Not found</label>
                 </div>
               </td>
 
               <td class="tg-0pky">
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13f2" id="inlineRadio1"
+                  <input class="form-check-input" type="radio" name="13f2" id="13f21"
                     value="option1">
-                  <label class="form-check-label" for="inlineRadio1">Found</label>
+                  <label class="form-check-label" for="13f21">Found</label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13f2" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="13f2" id="13f22"
                     value="option2">
-                  <label class="form-check-label" for="inlineRadio2">Not Found</label>
-                </div>
-
-              </td>
-
-              <td class="tg-0pky">
-                <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13f3" id="inlineRadio1"
-                    value="option1">
-                  <label class="form-check-label" for="inlineRadio1">Found</label>
-                </div>
-                <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13f3" id="inlineRadio2"
-                    value="option2">
-                  <label class="form-check-label" for="inlineRadio2">Not Found</label>
+                  <label class="form-check-label" for="13f22">Not Found</label>
                 </div>
 
               </td>
 
               <td class="tg-0pky">
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13f4" id="inlineRadio1"
+                  <input class="form-check-input" type="radio" name="13f3" id="13f31"
                     value="option1">
-                  <label class="form-check-label" for="inlineRadio1">Found</label>
+                  <label class="form-check-label" for="13f31">Found</label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13f4" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="13f3" id="13f32"
                     value="option2">
-                  <label class="form-check-label" for="inlineRadio2">Not Found</label>
+                  <label class="form-check-label" for="13f32">Not Found</label>
+                </div>
+
+              </td>
+
+              <td class="tg-0pky">
+                <div class="form-check form-check-inline">
+                    value="option1">
+                  <input class="form-check-input" type="radio" name="13f4" id="13f41"
+                    value="option1">
+                  <label class="form-check-label" for="13f41">Found</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="13f4" id="13f42"
+                    value="option2">
+                  <label class="form-check-label" for="13f42">Not Found</label>
                 </div>
 
               </td>
@@ -3534,17 +3535,17 @@
                 <div class="form-check">
 
 
-                  <input class="form-check-input" type="radio" name="13g1" id="exampleRadios1"
+                  <input class="form-check-input" type="radio" name="13g1" id="13g11"
                     value="option1">
-                  <label class="form-check-label" for="exampleRadios1">
+                  <label class="form-check-label" for="13g11">
 
                     YES
                   </label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="13g1" id="exampleRadios2"
+                  <input class="form-check-input" type="radio" name="13g1" id="13g12"
                     value="option2">
-                  <label class="form-check-label" for="exampleRadios2">
+                  <label class="form-check-label" for="13g12">
                     NO
                   </label>
 
@@ -3552,14 +3553,14 @@
               </td>
               <td class="tg-0pky">
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="13g2" id="Radios1" value="option1">
-                  <label class="form-check-label" for="Radios1">
+                  <input class="form-check-input" type="radio" name="13g2" id="13g21" value="option1">
+                  <label class="form-check-label" for="13g21">
                     YES
                   </label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="13g2" id="Radios2" value="option2">
-                  <label class="form-check-label" for="Radios2">
+                  <input class="form-check-input" type="radio" name="13g2" id="13g22" value="option2">
+                  <label class="form-check-label" for="13g22">
                     NO
                   </label>
                 </div>
@@ -3567,28 +3568,28 @@
               </td>
               <td class="tg-0pky">
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="13g3" id="Radiosa1" value="option1">
-                  <label class="form-check-label" for="Radiosa1">
+                  <input class="form-check-input" type="radio" name="13g3" id="13g31" value="option1">
+                  <label class="form-check-label" for="13g31">
                     YES
                   </label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="13g3" id="Radiosa2" value="option2">
-                  <label class="form-check-label" for="Radiosa2">
+                  <input class="form-check-input" type="radio" name="13g3" id="13g32" value="option2">
+                  <label class="form-check-label" for="13g32">
                     NO
                   </label>
                 </div>
               </td>
               <td class="tg-0pky">
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="13g4" id="Radiosb1" value="option1">
-                  <label class="form-check-label" for="Radiosb1">
+                  <input class="form-check-input" type="radio" name="13g4" id="13g41" value="option1">
+                  <label class="form-check-label" for="13g41">
                     YES
                   </label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="13g4" id="Radiosb2" value="option2">
-                  <label class="form-check-label" for="Radiosb2">
+                  <input class="form-check-input" type="radio" name="13g4" id="13g42" value="option2">
+                  <label class="form-check-label" for="13g42">
                     NO
                   </label>
                 </div>
@@ -3601,17 +3602,17 @@
                 <div class="form-check">
 
 
-                  <input class="form-check-input" type="radio" name="13h1" id="exampleRadios1"
+                  <input class="form-check-input" type="radio" name="13h1" id="13h11"
                     value="option1">
-                  <label class="form-check-label" for="exampleRadios1">
+                  <label class="form-check-label" for="13h11">
 
                     YES
                   </label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="13h1" id="exampleRadios2"
+                  <input class="form-check-input" type="radio" name="13h1" id="13h12"
                     value="option2">
-                  <label class="form-check-label" for="exampleRadios2">
+                  <label class="form-check-label" for="13h12">
                     NO
                   </label>
 
@@ -3619,14 +3620,14 @@
               </td>
               <td class="tg-0pky">
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="13h2" id="Radios1" value="option1">
-                  <label class="form-check-label" for="Radios1">
+                  <input class="form-check-input" type="radio" name="13h2" id="13h21" value="option1">
+                  <label class="form-check-label" for="13h21">
                     YES
                   </label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="13h2" id="Radios2" value="option2">
-                  <label class="form-check-label" for="Radios2">
+                  <input class="form-check-input" type="radio" name="13h2" id="13h22" value="option2">
+                  <label class="form-check-label" for="13h22">
                     NO
                   </label>
                 </div>
@@ -3634,28 +3635,28 @@
               </td>
               <td class="tg-0pky">
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="13h3" id="Radiosa1" value="option1">
-                  <label class="form-check-label" for="Radiosa1">
+                  <input class="form-check-input" type="radio" name="13h3" id="13h31" value="option1">
+                  <label class="form-check-label" for="13h31">
                     YES
                   </label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="13h3" id="Radiosa2" value="option2">
-                  <label class="form-check-label" for="Radiosa2">
+                  <input class="form-check-input" type="radio" name="13h3" id="13h32" value="option2">
+                  <label class="form-check-label" for="13h32">
                     NO
                   </label>
                 </div>
               </td>
               <td class="tg-0pky">
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="13h4" id="Radiosb1" value="option1">
-                  <label class="form-check-label" for="Radiosb1">
+                  <input class="form-check-input" type="radio" name="13h4" id="13h41" value="option1">
+                  <label class="form-check-label" for="13h41">
                     YES
                   </label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="13h4" id="Radiosb2" value="option2">
-                  <label class="form-check-label" for="Radiosb2">
+                  <input class="form-check-input" type="radio" name="13h4" id="13h42" value="option2">
+                  <label class="form-check-label" for="13h42">
                     NO
                   </label>
                 </div>
@@ -3723,76 +3724,76 @@
 
               <td class="tg-0pky">
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="14a1" id="inlineRadio1"
+                  <input class="form-check-input" type="radio" name="14a1" id="14a11"
                     value="option1">
-                  <label class="form-check-label" for="inlineRadio1">≥85% </label>
+                  <label class="form-check-label" for="14a11">≥85% </label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="14a1" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="14a1" id="14a12"
                     value="option2">
-                  <label class="form-check-label" for="inlineRadio2">85% < and ≤75% </label>
+                  <label class="form-check-label" for="14a12">85% < and ≤75% </label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="14a1" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="14a1" id="14a13"
                     value="option3">
-                  <label class="form-check-label" for="inlineRadio2">
+                  <label class="form-check-label" for="14a13">
                     <75% </label>
                 </div>
               </td>
 
               <td class="tg-0pky">
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="14a2" id="inlineRadio1"
+                  <input class="form-check-input" type="radio" name="14a2" id="14a21"
                     value="option1">
-                  <label class="form-check-label" for="inlineRadio1">≥85% </label>
+                  <label class="form-check-label" for="14a21">≥85% </label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="14a2" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="14a2" id="14a22"
                     value="option2">
-                  <label class="form-check-label" for="inlineRadio2">85% < and ≤75% </label>
+                  <label class="form-check-label" for="14a22">85% < and ≤75% </label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="14a2" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="14a2" id="14a23"
                     value="option3">
-                  <label class="form-check-label" for="inlineRadio2">
+                  <label class="form-check-label" for="14a23">
                     <75% </label>
                 </div>
               </td>
 
               <td class="tg-0pky">
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="14a3" id="inlineRadio1"
+                  <input class="form-check-input" type="radio" name="14a3" id="14a31"
                     value="option1">
-                  <label class="form-check-label" for="inlineRadio1">≥85% </label>
+                  <label class="form-check-label" for="14a31">≥85% </label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="14a3" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="14a3" id="14a32"
                     value="option2">
-                  <label class="form-check-label" for="inlineRadio2">85% < and ≤75% </label>
+                  <label class="form-check-label" for="14a32">85% < and ≤75% </label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="14a3" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="14a3" id="14a33"
                     value="option3">
-                  <label class="form-check-label" for="inlineRadio2">
+                  <label class="form-check-label" for="14a33">
                     <75% </label>
                 </div>
               </td>
 
               <td class="tg-0pky">
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="14a4" id="inlineRadio1"
+                  <input class="form-check-input" type="radio" name="14a4" id="14a41"
                     value="option1">
-                  <label class="form-check-label" for="inlineRadio1">≥85% </label>
+                  <label class="form-check-label" for="14a41">≥85% </label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="14a4" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="14a4" id="14a42"
                     value="option2">
-                  <label class="form-check-label" for="inlineRadio2">85% < and ≤75% </label>
+                  <label class="form-check-label" for="14a42">85% < and ≤75% </label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="14a4" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="14a4" id="14a43"
                     value="option3">
-                  <label class="form-check-label" for="inlineRadio2">
+                  <label class="form-check-label" for="14a43">
                     <75% </label>
                 </div>
               </td>
@@ -3807,73 +3808,73 @@
 
               <td class="tg-0pky">
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="14b1" id="inlineRadio1"
+                  <input class="form-check-input" type="radio" name="14b1" id="14b11"
                     value="option1">
-                  <label class="form-check-label" for="inlineRadio1"> No X Grades </label>
+                  <label class="form-check-label" for="14b11"> No X Grades </label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="14b1" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="14b1" id="14b12"
                     value="option2">
-                  <label class="form-check-label" for="inlineRadio2">X/F≤1 </label>
+                  <label class="form-check-label" for="14b12">X/F≤1 </label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="14b1" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="14b1" id="14b13"
                     value="option3">
-                  <label class="form-check-label" for="inlineRadio2">X/F>1 </label>
+                  <label class="form-check-label" for="14b13">X/F>1 </label>
                 </div>
               </td>
 
               <td class="tg-0pky">
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="14b2" id="inlineRadio1"
+                  <input class="form-check-input" type="radio" name="14b2" id="14b21"
                     value="option1">
-                  <label class="form-check-label" for="inlineRadio1">No X Grades </label>
+                  <label class="form-check-label" for="14b21">No X Grades </label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="14b2" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="14b2" id="14b22"
                     value="option2">
-                  <label class="form-check-label" for="inlineRadio2">X/F≤1 </label>
+                  <label class="form-check-label" for="14b22">X/F≤1 </label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="14b2" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="14b2" id="14b23"
                     value="option3">
-                  <label class="form-check-label" for="inlineRadio2">X/F>1 </label>
+                  <label class="form-check-label" for="14b23">X/F>1 </label>
                 </div>
               </td>
 
               <td class="tg-0pky">
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="14b3" id="inlineRadio1"
+                  <input class="form-check-input" type="radio" name="14b3" id="14b31"
                     value="option1">
-                  <label class="form-check-label" for="inlineRadio1">No X Grades </label>
+                  <label class="form-check-label" for="14b31">No X Grades </label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="14b3" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="14b3" id="14b32"
                     value="option2">
-                  <label class="form-check-label" for="inlineRadio2">X/F≤1 </label>
+                  <label class="form-check-label" for="14b32">X/F≤1 </label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="14b3" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="14b3" id="14b33"
                     value="option3">
-                  <label class="form-check-label" for="inlineRadio2">X/F>1 </label>
+                  <label class="form-check-label" for="14b33">X/F>1 </label>
                 </div>
               </td>
 
               <td class="tg-0pky">
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="14b4" id="inlineRadio1"
+                  <input class="form-check-input" type="radio" name="14b4" id="14b41"
                     value="option1">
-                  <label class="form-check-label" for="inlineRadio1">No X Grades </label>
+                  <label class="form-check-label" for="14b41">No X Grades </label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="14b4" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="14b4" id="14b42"
                     value="option2">
-                  <label class="form-check-label" for="inlineRadio2">X/F≤1 </label>
+                  <label class="form-check-label" for="14b42">X/F≤1 </label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="14b4" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="14b4" id="14b43"
                     value="option3">
-                  <label class="form-check-label" for="inlineRadio2"> X/F>1 </label>
+                  <label class="form-check-label" for="14b43"> X/F>1 </label>
                 </div>
               </td>
             </tr>
@@ -3887,29 +3888,29 @@
 
               <td class="tg-0pky">
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="14c1" id="inlineRadio1"
+                  <input class="form-check-input" type="radio" name="14c1" id="14c11"
                     value="option1">
-                  <label class="form-check-label" for="inlineRadio1"> >50% </label>
+                  <label class="form-check-label" for="14c11"> >50% </label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="14c1" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="14c1" id="14c12"
                     value="option2">
-                  <label class="form-check-label" for="inlineRadio2">>40% </label>
+                  <label class="form-check-label" for="14c12">>40% </label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="14c1" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="14c1" id="14c13"
                     value="option3">
-                  <label class="form-check-label" for="inlineRadio2">>30% </label>
+                  <label class="form-check-label" for="14c13">>30% </label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="14c1" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="14c1" id="14c14"
                     value="option4">
-                  <label class="form-check-label" for="inlineRadio2">>20% </label>
+                  <label class="form-check-label" for="14c14">>20% </label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="14c1" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="14c1" id="14c15"
                     value="option5">
-                  <label class="form-check-label" for="inlineRadio2"> ≤10% </label>
+                  <label class="form-check-label" for="14c15"> ≤10% </label>
                 </div>
               </td>
 
@@ -3917,87 +3918,87 @@
 
               <td class="tg-0pky">
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="14c2" id="inlineRadio1"
+                  <input class="form-check-input" type="radio" name="14c2" id="14c21"
                     value="option1">
-                  <label class="form-check-label" for="inlineRadio1"> >50% </label>
+                  <label class="form-check-label" for="14c21"> >50% </label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="14c2" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="14c2" id="14c22"
                     value="option2">
-                  <label class="form-check-label" for="inlineRadio2">>40% </label>
+                  <label class="form-check-label" for="14c22">>40% </label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="14c2" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="14c2" id="14c23"
                     value="option3">
-                  <label class="form-check-label" for="inlineRadio2">>30% </label>
+                  <label class="form-check-label" for="14c23">>30% </label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="14c2" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="14c2" id="14c24"
                     value="option4">
-                  <label class="form-check-label" for="inlineRadio2">>20% </label>
+                  <label class="form-check-label" for="14c24">>20% </label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="14c2" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="14c2" id="14c25"
                     value="option5">
-                  <label class="form-check-label" for="inlineRadio2"> ≤10% </label>
+                  <label class="form-check-label" for="14c25"> ≤10% </label>
                 </div>
               </td>
               </td>
 
               <td class="tg-0pky">
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="14c3" id="inlineRadio1"
+                  <input class="form-check-input" type="radio" name="14c3" id="14c31"
                     value="option1">
-                  <label class="form-check-label" for="inlineRadio1"> >50% </label>
+                  <label class="form-check-label" for="14c31"> >50% </label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="14c3" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="14c3" id="14c32"
                     value="option2">
-                  <label class="form-check-label" for="inlineRadio2">>40% </label>
+                  <label class="form-check-label" for="14c32">>40% </label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="14c3" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="14c3" id="14c33"
                     value="option3">
-                  <label class="form-check-label" for="inlineRadio2">>30% </label>
+                  <label class="form-check-label" for="14c33">>30% </label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="14c3" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="14c3" id="14c34"
                     value="option4">
-                  <label class="form-check-label" for="inlineRadio2">>20% </label>
+                  <label class="form-check-label" for="14c34">>20% </label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="14c3" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="14c3" id="14c35"
                     value="option5">
-                  <label class="form-check-label" for="inlineRadio2"> ≤10% </label>
+                  <label class="form-check-label" for="14c35"> ≤10% </label>
                 </div>
               </td>
               </td>
 
               <td class="tg-0pky">
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="14c4" id="inlineRadio1"
+                  <input class="form-check-input" type="radio" name="14c4" id="14c41"
                     value="option1">
-                  <label class="form-check-label" for="inlineRadio1"> >50% </label>
+                  <label class="form-check-label" for="14c41"> >50% </label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="14c4" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="14c4" id="14c42"
                     value="option2">
-                  <label class="form-check-label" for="inlineRadio2">>40% </label>
+                  <label class="form-check-label" for="14c42">>40% </label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="14c4" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="14c4" id="14c44"
                     value="option3">
-                  <label class="form-check-label" for="inlineRadio2">>30% </label>
+                  <label class="form-check-label" for="14c44">>30% </label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="14c4" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="14c4" id="14c45"
                     value="option4">
-                  <label class="form-check-label" for="inlineRadio2">>20% </label>
+                  <label class="form-check-label" for="14c45">>20% </label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="14c4" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="14c4" id="14c46"
                     value="option5">
-                  <label class="form-check-label" for="inlineRadio2"> ≤10% </label>
+                  <label class="form-check-label" for="14c46"> ≤10% </label>
                 </div>
               </td>
 
@@ -4012,7 +4013,7 @@
 
                   <div class="form-group">
 
-                    <textarea class="form-control" name="14r" id="exampleFormControlTextarea1" rows="3" width=12px
+                    <textarea class="form-control" name="14r" id="14r1" rows="3" width=12px
                       cols="111"></textarea>
                   </div>
                 
@@ -4035,16 +4036,16 @@
               </td>
               <td class="tg-0pky">
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="15a" id="exampleRadios1"
+                  <input class="form-check-input" type="radio" name="15a" id="15a1"
                     value="option1">
-                  <label class="form-check-label" for="exampleRadios1">
+                  <label class="form-check-label" for="15a1">
                     YES
                   </label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="15a" id="exampleRadios2"
+                  <input class="form-check-input" type="radio" name="15a" id="15a2"
                     value="option2">
-                  <label class="form-check-label" for="exampleRadios2">
+                  <label class="form-check-label" for="15a2">
                     NO
                   </label>
                 </div>
@@ -4056,7 +4057,7 @@
 
                   <div class="form-group">
 
-                    <textarea class="form-control" name="15ar" id="exampleFormControlTextarea1" rows="5" width=30px
+                    <textarea class="form-control" name="15ar" id="15ar1" rows="5" width=30px
                       cols="60"></textarea>
                   </div>
                 
@@ -4068,16 +4069,16 @@
               </td>
               <td class="tg-0pky">
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="15b" id="exampleRadios1"
+                  <input class="form-check-input" type="radio" name="15b" id="15b1"
                     value="option1">
-                  <label class="form-check-label" for="exampleRadios1">
+                  <label class="form-check-label" for="15b1">
                     YES
                   </label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="15b" id="exampleRadios2"
+                  <input class="form-check-input" type="radio" name="15b" id="15b2"
                     value="option2">
-                  <label class="form-check-label" for="exampleRadios2">
+                  <label class="form-check-label" for="15b2">
                     NO
                   </label>
                 </div>
@@ -4089,7 +4090,7 @@
 
                   <div class="form-group">
 
-                    <textarea class="form-control" name="15br" id="exampleFormControlTextarea1" rows="5" width=50px
+                    <textarea class="form-control" name="15br" id="15br1" rows="5" width=50px
                       cols="60"></textarea>
                   </div>
                 
@@ -4101,16 +4102,16 @@
               </td>
               <td class="tg-0pky">
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="15c" id="exampleRadios1"
+                  <input class="form-check-input" type="radio" name="15c" id="15c1"
                     value="option1">
-                  <label class="form-check-label" for="exampleRadios1">
+                  <label class="form-check-label" for="15c1">
                     YES
                   </label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="15c" id="exampleRadios2"
+                  <input class="form-check-input" type="radio" name="15c" id="15c2"
                     value="option2">
-                  <label class="form-check-label" for="exampleRadios2">
+                  <label class="form-check-label" for="15c2">
                     NO
                   </label>
                 </div>
@@ -4122,7 +4123,7 @@
 
                   <div class="form-group">
 
-                    <textarea class="form-control" name="15cr" id="exampleFormControlTextarea1" rows="5" width=50px
+                    <textarea class="form-control" name="15cr" id="15cr1" rows="5" width=50px
                       cols="60"></textarea>
                   </div>
                 
@@ -4134,16 +4135,16 @@
               </td>
               <td class="tg-0pky">
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="15d" id="exampleRadios1"
+                  <input class="form-check-input" type="radio" name="15d" id="15d1"
                     value="option1">
-                  <label class="form-check-label" for="exampleRadios1">
+                  <label class="form-check-label" for="15d1">
                     YES
                   </label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="15d" id="exampleRadios2"
+                  <input class="form-check-input" type="radio" name="15d" id="15d2"
                     value="option2">
-                  <label class="form-check-label" for="exampleRadios2">
+                  <label class="form-check-label" for="15d2">
                     NO
                   </label>
                 </div>
@@ -4155,7 +4156,7 @@
 
                   <div class="form-group">
 
-                    <textarea class="form-control" name="15dr" id="exampleFormControlTextarea1" rows="5" width=50px
+                    <textarea class="form-control" name="15dr" id="15dr1" rows="5" width=50px
                       cols="60"></textarea>
                   </div>
                 
@@ -4168,16 +4169,16 @@
               </td>
               <td class="tg-0pky">
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="15e" id="exampleRadios1"
+                  <input class="form-check-input" type="radio" name="15e" id="15e1"
                     value="option1">
-                  <label class="form-check-label" for="exampleRadios1">
+                  <label class="form-check-label" for="15e1">
                     YES
                   </label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="15e" id="exampleRadios2"
+                  <input class="form-check-input" type="radio" name="15e" id="15e2"
                     value="option2">
-                  <label class="form-check-label" for="exampleRadios2">
+                  <label class="form-check-label" for="15e2">
                     NO
                   </label>
                 </div>
@@ -4189,7 +4190,7 @@
 
                   <div class="form-group">
 
-                    <textarea class="form-control" name="15er" id="exampleFormControlTextarea1" rows="5" width=50px
+                    <textarea class="form-control" name="15er" id="15er1" rows="5" width=50px
                       cols="60"></textarea>
                   </div>
                 
@@ -4202,16 +4203,16 @@
               </td>
               <td class="tg-0pky">
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="15f" id="exampleRadios1"
+                  <input class="form-check-input" type="radio" name="15f" id="15f1"
                     value="option1">
-                  <label class="form-check-label" for="exampleRadios1">
+                  <label class="form-check-label" for="15f1">
                     YES
                   </label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="15f" id="exampleRadios2"
+                  <input class="form-check-input" type="radio" name="15f" id="15f2"
                     value="option2">
-                  <label class="form-check-label" for="exampleRadios2">
+                  <label class="form-check-label" for="15f2">
                     NO
                   </label>
                 </div>
@@ -4223,7 +4224,7 @@
 
                   <div class="form-group">
 
-                    <textarea class="form-control" name="15fr" id="exampleFormControlTextarea1" rows="5" width=50px
+                    <textarea class="form-control" name="15fr" id="15fr1" rows="5" width=50px
                       cols="60"></textarea>
                   </div>
                 
@@ -4236,16 +4237,16 @@
               </td>
               <td class="tg-0pky">
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="15g" id="exampleRadios1"
+                  <input class="form-check-input" type="radio" name="15g" id="15g1"
                     value="option1">
-                  <label class="form-check-label" for="exampleRadios1">
+                  <label class="form-check-label" for="15g1">
                     YES
                   </label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="15g" id="exampleRadios2"
+                  <input class="form-check-input" type="radio" name="15g" id="15g2"
                     value="option2">
-                  <label class="form-check-label" for="exampleRadios2">
+                  <label class="form-check-label" for="15g2">
                     NO
                   </label>
                 </div>
@@ -4254,7 +4255,7 @@
                 
 
                   <div class="form-group">
-                    <textarea class="form-control" name="15gr" id="exampleFormControlTextarea1" rows="5" width=50px
+                    <textarea class="form-control" name="15gr" id="15gr1" rows="5" width=50px
                       cols="60"></textarea>
                   </div>
                 
@@ -4268,16 +4269,16 @@
               </td>
               <td class="tg-0pky">
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="15h" id="exampleRadios1"
+                  <input class="form-check-input" type="radio" name="15h" id="15h1"
                     value="option1">
-                  <label class="form-check-label" for="exampleRadios1">
+                  <label class="form-check-label" for="15h1">
                     YES
                   </label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="15h" id="exampleRadios2"
+                  <input class="form-check-input" type="radio" name="15h" id="15h2"
                     value="option2">
-                  <label class="form-check-label" for="exampleRadios2">
+                  <label class="form-check-label" for="15h2">
                     NO
                   </label>
                 </div>
@@ -4286,7 +4287,7 @@
                 
 
                   <div class="form-group">
-                    <textarea class="form-control" name="15hr"id="exampleFormControlTextarea1" rows="5" width=50px
+                    <textarea class="form-control" name="15hr"id="15hr1" rows="5" width=50px
                       cols="60"></textarea>
                   </div>
                 
@@ -4300,16 +4301,16 @@
               </td>
               <td class="tg-0pky">
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="15i" id="exampleRadios1"
+                  <input class="form-check-input" type="radio" name="15i" id="15i1"
                     value="option1">
-                  <label class="form-check-label" for="exampleRadios1">
+                  <label class="form-check-label" for="15i1">
                     YES
                   </label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="15i" id="exampleRadios2"
+                  <input class="form-check-input" type="radio" name="15i" id="15i2"
                     value="option2">
-                  <label class="form-check-label" for="exampleRadios2">
+                  <label class="form-check-label" for="15i2">
                     NO
                   </label>
                 </div>
@@ -4318,7 +4319,7 @@
                 
 
                   <div class="form-group">
-                    <textarea class="form-control" name="15ir" id="exampleFormControlTextarea1" rows="5" width=50px
+                    <textarea class="form-control" name="15ir" id="15ir1" rows="5" width=50px
                       cols="60"></textarea>
                   </div>
                 
@@ -4332,16 +4333,16 @@
               </td>
               <td class="tg-0pky">
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="15j" id="exampleRadios1"
+                  <input class="form-check-input" type="radio" name="15j" id="15j1"
                     value="option1">
-                  <label class="form-check-label" for="exampleRadios1">
+                  <label class="form-check-label" for="15j1">
                     YES
                   </label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="15j" id="exampleRadios2"
+                  <input class="form-check-input" type="radio" name="15j" id="15j2"
                     value="option2">
-                  <label class="form-check-label" for="exampleRadios2">
+                  <label class="form-check-label" for="15j2">
                     NO
                   </label>
                 </div>
@@ -4350,7 +4351,7 @@
                 
 
                   <div class="form-group">
-                    <textarea class="form-control" name="15jr" id="exampleFormControlTextarea1" rows="5" width=50px
+                    <textarea class="form-control" name="15jr" id="15jr1" rows="5" width=50px
                       cols="60"></textarea>
                   </div>
                 
@@ -4363,16 +4364,16 @@
               </td>
               <td class="tg-0pky">
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="15k" id="exampleRadios1"
+                  <input class="form-check-input" type="radio" name="15k" id="15k1"
                     value="option1">
-                  <label class="form-check-label" for="exampleRadios1">
+                  <label class="form-check-label" for="15k1">
                     YES
                   </label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="15k" id="exampleRadios2"
+                  <input class="form-check-input" type="radio" name="15k" id="15k2"
                     value="option2">
-                  <label class="form-check-label" for="exampleRadios2">
+                  <label class="form-check-label" for="15k2">
                     NO
                   </label>
                 </div>
@@ -4381,7 +4382,7 @@
                 
 
                   <div class="form-group">
-                    <textarea class="form-control" name="15kr" id="exampleFormControlTextarea1" rows="5" width=50px
+                    <textarea class="form-control" name="15kr" id="15kr" rows="5" width=50px
                       cols="60"></textarea>
                   </div>
                 
@@ -4396,16 +4397,16 @@
               </td>
               <td class="tg-0pky">
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="15l" id="exampleRadios1"
+                  <input class="form-check-input" type="radio" name="15l" id="15l1"
                     value="option1">
-                  <label class="form-check-label" for="exampleRadios1">
+                  <label class="form-check-label" for="15l1">
                     YES
                   </label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="15l" id="exampleRadios2"
+                  <input class="form-check-input" type="radio" name="15l" id="15l2"
                     value="option2">
-                  <label class="form-check-label" for="exampleRadios2">
+                  <label class="form-check-label" for="15l2">
                     NO
                   </label>
                 </div>
@@ -4414,7 +4415,7 @@
                 
 
                   <div class="form-group">
-                    <textarea class="form-control" name="15lr" id="exampleFormControlTextarea1" rows="5" width=50px
+                    <textarea class="form-control" name="15lr" id="15lr1" rows="5" width=50px
                       cols="60"></textarea>
                   </div>
                 
@@ -4427,16 +4428,16 @@
               </td>
               <td class="tg-0pky">
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="15m" id="exampleRadios1"
+                  <input class="form-check-input" type="radio" name="15m" id="15m1"
                     value="option1">
-                  <label class="form-check-label" for="exampleRadios1">
+                  <label class="form-check-label" for="15m1">
                     YES
                   </label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="15m" id="exampleRadios2"
+                  <input class="form-check-input" type="radio" name="15m" id="15m2"
                     value="option2">
-                  <label class="form-check-label" for="exampleRadios2">
+                  <label class="form-check-label" for="15m2">
                     NO
                   </label>
                 </div>
@@ -4445,7 +4446,7 @@
                 
 
                   <div class="form-group">
-                    <textarea class="form-control" name="15mr" id="exampleFormControlTextarea1" rows="5" width=50px
+                    <textarea class="form-control" name="15mr" id="15mr1" rows="5" width=50px
                       cols="60"></textarea>
                   </div>
                 
@@ -4458,16 +4459,16 @@
               </td>
               <td class="tg-0pky">
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="15n" id="exampleRadios1"
+                  <input class="form-check-input" type="radio" name="15n" id="15n1"
                     value="option1">
-                  <label class="form-check-label" for="exampleRadios1">
+                  <label class="form-check-label" for="15n1">
                     YES
                   </label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="15n" id="exampleRadios2"
+                  <input class="form-check-input" type="radio" name="15n" id="15n2"
                     value="option2">
-                  <label class="form-check-label" for="exampleRadios2">
+                  <label class="form-check-label" for="15n2">
                     NO
                   </label>
                 </div>
@@ -4476,7 +4477,7 @@
                 
 
                   <div class="form-group">
-                    <textarea class="form-control" name="15nr" id="exampleFormControlTextarea1" rows="5" width=50px
+                    <textarea class="form-control" name="15nr" id="15nr1" rows="5" width=50px
                       cols="60"></textarea>
                   </div>
                 
@@ -4489,16 +4490,16 @@
               </td>
               <td class="tg-0pky">
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="15o" id="exampleRadios1"
+                  <input class="form-check-input" type="radio" name="15o" id="15o1"
                     value="option1">
-                  <label class="form-check-label" for="exampleRadios1">
+                  <label class="form-check-label" for="15o1">
                     YES
                   </label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="15o" id="exampleRadios2"
+                  <input class="form-check-input" type="radio" name="15o" id="15o2"
                     value="option2">
-                  <label class="form-check-label" for="exampleRadios2">
+                  <label class="form-check-label" for="15o2">
                     NO
                   </label>
                 </div>
@@ -4507,7 +4508,7 @@
                 
 
                   <div class="form-group">
-                    <textarea class="form-control" name="15or" id="exampleFormControlTextarea1" rows="5" width=50px
+                    <textarea class="form-control" name="15or" id="15or1" rows="5" width=50px
                       cols="60"></textarea>
                   </div>
                 
@@ -4520,16 +4521,16 @@
               </td>
               <td class="tg-0pky">
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="15p" id="exampleRadios1"
+                  <input class="form-check-input" type="radio" name="15p" id="15p1"
                     value="option1">
-                  <label class="form-check-label" for="exampleRadios1">
+                  <label class="form-check-label" for="15p1">
                     YES
                   </label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="15p" id="exampleRadios2"
+                  <input class="form-check-input" type="radio" name="15p" id="15p2"
                     value="option2">
-                  <label class="form-check-label" for="exampleRadios2">
+                  <label class="form-check-label" for="15p2">
                     NO
                   </label>
                 </div>
@@ -4538,7 +4539,7 @@
                 
 
                   <div class="form-group">
-                    <textarea class="form-control" name="15pr" id="exampleFormControlTextarea1" rows="5" width=50px
+                    <textarea class="form-control" name="15pr" id="15pr1" rows="5" width=50px
                       cols="60"></textarea>
                   </div>
                 
@@ -4554,7 +4555,7 @@
 
                   <div class="form-group">
 
-                    <textarea class="form-control" name="15pr" id="exampleFormControlTextarea1" rows="3" width=12px
+                    <textarea class="form-control" name="15r" id="15r1git " rows="3" width=12px
                       cols="117"></textarea>
                   </div>
                 
