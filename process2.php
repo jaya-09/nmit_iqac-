@@ -2,6 +2,7 @@
 include "process.php";
 session_start();
     error_reporting(0);
+    session_start();
 
     $field270 = $_POST["16a"];
 
@@ -139,5 +140,4 @@ $_SESSION['csv_line'] = $keys;
  fputcsv($fcon,$_SESSION['csv_line']);
  fclose($fcon);
 
-//  header("Location: ./table2.php");
  ?>
