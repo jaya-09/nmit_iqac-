@@ -2,8 +2,13 @@
 session_start();
 include "db_conn.php";
 
+session_start();
 
-
+if($_SESSION['loggedin']!='TRUE'){
+  header("Location: login-error.html");
+  exit();
+};
+?>
 
 
 <!doctype html>
