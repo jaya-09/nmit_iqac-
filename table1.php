@@ -3007,19 +3007,19 @@
 
               <td class="tg-0pky">
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13a1" id="inlineRadio1"
+                  <input class="form-check-input" type="radio" name="13a1" id="13a11"
                     value="option1">
-                  <label class="form-check-label" for="inlineRadio1">Accurate</label>
+                  <label class="form-check-label" for="13a11">Accurate</label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13a1" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="13a1" id="13a12"
                     value="option2">
-                  <label class="form-check-label" for="inlineRadio2">Not Accurate</label>
+                  <label class="form-check-label" for="13a12">Not Accurate</label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13a1" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="13a1" id="13a13"
                     value="option3">
-                  <label class="form-check-label" for="inlineRadio2">Not found</label>
+                  <label class="form-check-label" for="13a13">Not found</label>
                 </div>
               </td>
 

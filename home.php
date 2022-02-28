@@ -121,9 +121,9 @@ session_start();
                     <div class="input-group-prepend">
                       <div class="container">
                         <div class="radio_container" reqired="true">
-                          <input type="radio" name="radio" name="sem" value="odd" id="one" checked>
+                          <input type="radio" name="sem" value="odd" id="one" checked>
                           <label for="one">odd</label>
-                          <input type="radio" name="radio" name="sem" value="even" id="two">
+                          <input type="radio" name="sem" value="even" id="two">
                           <label for="two">even</label>
 
                         </div>
