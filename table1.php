@@ -4594,7 +4594,7 @@ if($_SESSION['loggedin']!='TRUE'){
 <!-- 
       <a href="./table2.php" button class="btn fifth" style="align-items: center;">Save &
         Next</button></a> -->
-      <button type="submit" value="Save & Next" class="btn fifth" >Save & Next</button>
+      <button type="submit" value="Save & Next" class="btn btn-primary btn-lg fifth" >Save & Next</button>
     </div>
 
 

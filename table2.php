@@ -1203,8 +1203,8 @@ if($_SESSION['loggedin']!='TRUE'){
                     popup.classList.toggle("show");
                 }
             </script>
-            <a class="btn btn-primary btn-lg" href="./home.php" role="button"
-                style="background-color: #007bff;">Home</a>
+            <!-- <a class="btn btn-primary btn-lg" href="./home.php" role="button"
+                style="background-color: #007bff;">Home</a> -->
         </div>
             </form>
 
