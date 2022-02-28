@@ -762,7 +762,7 @@ if($_SESSION['loggedin']!='TRUE'){
             <tr>
                 <td class="tg-0pky"></td>
                 <td class="tg-0pky" colspan="1">
-                    <h4> b. Title of the Project </h4>
+                     b. Title of the Project
                     
                         <div class="form-group">
 
