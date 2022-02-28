@@ -4564,7 +4564,7 @@ if($_SESSION['loggedin']!='TRUE'){
 
                   <div class="form-group">
 
-                    <textarea class="form-control" name="15r" id="15r1git " rows="3" width=12px
+                    <textarea class="form-control" name="15r" id="exampleFormControlTextarea1" rows="3" width=12px
                       cols="117"></textarea>
                   </div>
                 
