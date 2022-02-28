@@ -88,7 +88,7 @@
           <!--1st QUESTION -->
           <tr style="background-color :#dcf0fa;">
             <td class="tg-0pky" style="font-weight: bold;">1</td>
-            <td class="tg-0pky" style="font-weight: bold;">Lesson plans</td>
+            <td class="tg-0pky" style="font-weight: bold;">Lesson plan</td>
             <td class="tg-0pky" style="font-weight: bold;" colspan="1">Subject1</td>
             <td class="tg-0pky" style="font-weight: bold;" colspan="1">Subject2</td>
             <td class="tg-0pky" style="font-weight: bold;" colspan="1">Subject3</td>
@@ -4575,7 +4575,7 @@
 
     <div style="text-align:center">
 
-      <a href="./table2.html" button class="btn fifth" style="align-items: center;">Save &
+      <a href="./table2.php" button class="btn fifth" style="align-items: center;">Save &
         Next</button></a>
 
     </div>

@@ -864,8 +864,7 @@
             <!--22 QUESTION-->
             <tr style="background-color :#dcf0fa;">
                 <td class="tg-0pky" style="font-weight: bold;">22</td>
-                <td class="tg-0pky" style="font-weight: bold;" colspan="1"> Consultancy if any,
-                    FDPs/Workshops/Training/Pedagogy attended
+                <td class="tg-0pky" style="font-weight: bold;" colspan="1"> FDPs/Workshops/Training/Pedagogy attended
 
                 </td>
                 <td class="tg-0pky" colspan="4">
@@ -1191,7 +1190,7 @@
                     popup.classList.toggle("show");
                 }
             </script>
-            <a class="btn btn-primary btn-lg" href="./home.html" role="button"
+            <a class="btn btn-primary btn-lg" href="./home.php" role="button"
                 style="background-color: #007bff;">Home</a>
         </div>
 
