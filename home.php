@@ -64,21 +64,21 @@ if($_SESSION['loggedin']!='TRUE'){
                 <h3 id="introduction" class="mb-4">Faculty details </h3>
 
                 <div class="input-group mb-3">
-                  <button type="button" class="btn btn-secondary" required="true" >Faculty Name</button>
+                  <button type="button" class="btn btn-secondary">Faculty Name</button>
                   <input name="fname" type="text" class="form-control" aria-label="Sizing example input"
-                    aria-describedby="inputGroup-sizing-default">
+                    aria-describedby="inputGroup-sizing-default"  required="true">
                 </div>
                 <div class="input-group mb-3">
-                  <button type="button" class="btn btn-secondary" required="true" >Faculty ID</button>
+                  <button type="button" class="btn btn-secondary" >Faculty ID</button>
                   <input name="fid" type="text" class="form-control" aria-label="Sizing example input"
-                    aria-describedby="inputGroup-sizing-default">
+                    aria-describedby="inputGroup-sizing-default" required="true">
                 </div>
 
 
                 <div class="input-group mb-2">
-                  <button type="button" class="btn btn-secondary" required="true" >Designation</button>
-                  <select name="fdesig" class="custom-select" id="inputGroupSelect01">
-                    <option selected>select</option>
+                  <button type="button" class="btn btn-secondary" >Designation</button>
+                  <select name="fdesig" class="custom-select" id="inputGroupSelect01" required="true" >
+                    <option selected>Select an Option</option>
                     <option value="1">Professor</option>
                     <option value="2">Associate Professor</option>
                     <option value="3">Assistant Professor</option>
@@ -87,9 +87,9 @@ if($_SESSION['loggedin']!='TRUE'){
 
 
                 <div class="input-group mb-3">
-                  <button type="button" class="btn btn-secondary" required="true" >Department</button>
-                  <select name="fdept" class="custom-select" id="inputGroupSelect01">
-                    <option selected>select</option>
+                  <button type="button" class="btn btn-secondary" >Department</button>
+                  <select name="fdept" class="custom-select" id="inputGroupSelect01" required="true" >
+                    <option selected>Select an Option</option>
                     <option value="1">Aeronautical Engineering</option>
                     <option value="2">Artificial Intelligence & Cyber Security</option>
                     <option value="3">Artificial Intelligence & Machine Learning </option>
