@@ -357,6 +357,11 @@
 
 
 $_SESSION['csv_line'] = array();
+date_default_timezone_set("Asia/Calcutta");
+
+array_push($_SESSION['csv_line'],date("Y-m-d H:i:s"));
+array_push($_SESSION['csv_line'],$_SESSION['name']);
+
 array_push($_SESSION['csv_line'],"FACULTY DETAILS:");
 
     $fdeets = explode(",",$_SESSION['fdetails']);
@@ -392,7 +397,6 @@ array_push($_SESSION['csv_line'],"FACULTY DETAILS:");
 
  foreach( $_SESSION['keys1'] as $key ){
      array_push($_SESSION['csv_line'],'' . $_GET[$key]);
-
  }
  array_splice($_SESSION['csv_line'],count($_SESSION['csv_line'])-240,240);
     array_push($_SESSION['csv_line'],"TABLE2:");
