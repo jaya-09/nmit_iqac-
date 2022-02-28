@@ -32,7 +32,8 @@ if (isset($_POST['uname']) && isset($_POST['password'])) {
 			{
 				if ($row['username'] == $uname && $row['password'] == $pass) {
 					$_SESSION['name'] = $row['name'];
-					header("Location: admin.html");
+					$_SESSION['loggedin']='TRUE';
+					header("Location: admin.php");
 					exit();
 				}else{
 					header("Location: index.php?error=Incorect User name or password");
@@ -45,6 +46,7 @@ if (isset($_POST['uname']) && isset($_POST['password'])) {
             	$_SESSION['desig'] = $row['designation'];
             	$_SESSION['dept'] = $row['dept'];
             	$_SESSION['image'] = $row['picture'];
+				$_SESSION['loggedin']='TRUE';
             	header("Location: home.php");
 		        exit();
             }else{

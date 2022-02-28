@@ -1,5 +1,10 @@
 <?php
 session_start();
+
+if($_SESSION['loggedin']!='TRUE'){
+  header("Location: login-error.html");
+  exit();
+};
  $sub1 = $_POST["sub1"];
  $sub1c = $_POST["sub1c"];
  $sub2 = $_POST["sub2"];
