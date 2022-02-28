@@ -16,6 +16,5 @@ session_start();
  }
  $fcontent = implode(",",$csv_line);
  $_SESSION['subdetails'] = $fcontent;
- echo $_SESSION['subdetails'];
  header("Location: table1.php");
  ?>

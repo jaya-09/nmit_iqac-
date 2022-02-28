@@ -28,7 +28,7 @@
 
 
             </div>
-
+<form action="./process2.php" method="post">
             <div class="flex-containers">
 
                 <table class="tg" style="table-layout: fixed; width: 1479px">
@@ -1181,10 +1181,10 @@
         <div style="text-align:center">
 
 
-            <div class="popup    btn btn-primary btn-lg active" onclick="myFunction()"
+            <button class="popup btn btn-primary btn-lg active" type="submit" onclick="myFunction()"
                 style="background-color: #007bff;">SUBMIT
                 <span class="popuptext" id="myPopup">Submitted</span>
-            </div>
+            </button>
 
             <script>
                 // When the user clicks on div, open the popup
@@ -1196,7 +1196,7 @@
             <a class="btn btn-primary btn-lg" href="./home.php" role="button"
                 style="background-color: #007bff;">Home</a>
         </div>
-
+            </form>
 
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
             integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"

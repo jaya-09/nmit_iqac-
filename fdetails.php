@@ -16,6 +16,5 @@ session_start();
  }
  $fcontent = implode(",",$csv_line);
  $_SESSION['fdetails'] = $fcontent;
- echo $_SESSION['fdetails'];
  header("Location: subjectdetails.html");
  ?>

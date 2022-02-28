@@ -1,4 +1,6 @@
 <?php
+include "process.php";
+session_start();
     error_reporting(0);
 
     $field270 = $_POST["16a"];
@@ -109,18 +111,32 @@
     $field338 = $_POST["28a"];
 
 
+$fdeets = explode(",",$_SESSION['fdetails']);
+$subdeets = explode(",",$_SESSION['subdetails']);
+$page1 = explode(",",$_SESSION['keys1']);
+
+ $keys = array();
+ foreach( $fdeets as $deet ){
+    array_push($keys,$deet);
+}
+ foreach( $subdeets as $deet ){
+    array_push($keys,$deet);
+}
+ foreach( $page1 as $deet ){
+    array_push($keys,$deet);
+}
 
 
- $keys = array($field1, 
-$csv_line = $keys;
+   array_push($keys,$field270,$field271,$field272,$field273,$field274,$field275,$field276,$field277,$field278,$field279,$field280,$field281,$field282,$field283,$field284,$field285,$field286,$field287,$field288,$field289,$field290,$field291,$field292,$field293,$field294,$field295,$field296,$field297,$field298,$field299,$field300,$field301,$field302,$field303,$field304,$field305,$field306,$field307,$field308,$field309,$field310,$field311,$field312,$field313,$field314,$field315,$field316,$field317,$field318,$field319,$field320,$field321,$field322,$field323,$field324,$field325,$field326,$field327,$field328,$field329,$field330,$field331,$field332,$field333,$field334,$field335,$field336,$field337,$field338); 
+//  array($field270,$field271,$field272,$field273,$field274,$field275,$field276,$field277,$field278,$field279,$field280,$field281,$field282,$field283,$field284,$field285,$field286,$field287,$field288,$field289,$field290,$field291,$field292,$field293,$field294,$field295,$field296,$field297,$field298,$field299,$field300,$field301,$field302,$field303,$field304,$field305,$field306,$field307,$field308,$field309,$field310,$field311,$field312,$field313,$field314,$field315,$field316,$field317,$field318,$field319,$field320,$field321,$field322,$field323,$field324,$field325,$field326,$field327,$field328,$field329,$field330,$field331,$field332,$field333,$field334,$field335,$field336,$field337,$field338);
+$_SESSION['csv_line'] = $keys;
  foreach( $keys as $key ){
-     array_push($csv_line,'' . $_GET[$key]);
-
+     array_push($_SESSION['csv_line'],'' . $_GET[$key]);
  }
  $fname = 'data.csv'; 
- if(!file_exists($fname)){$csv_line = $csv_line."\r\n" ;}
+ if(!file_exists($fname)){$_SESSION['csv_line'] = $_SESSION['csv_line']."\r\n" ;}
  $fcon = fopen($fname,'a');
- fputcsv($fcon,$fcontent);
+ fputcsv($fcon,$_SESSION['csv_line']);
  fclose($fcon);
 
 //  header("Location: ./table2.php");
