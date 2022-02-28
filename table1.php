@@ -2335,7 +2335,7 @@
 
                   <div class="form-group">
 
-                    <textarea class="form-control" name="92a" id="exampleFormControlTextarea1" rows="4" width=50px
+                    <textarea class="form-control" name="92r" id="exampleFormControlTextarea1" rows="4" width=50px
                       cols="54"></textarea>
                   </div>
                 
@@ -3409,12 +3409,12 @@
 
                 <div class="form-check form-check-inline">
                   <input class="form-check-input" type="radio" name="13f1" id="inlineRadio2"
-                    value="option2">
+                    value="option1">
                   <label class="form-check-label" for="inlineRadio2">Found</label>
                 </div>
                 <div class="form-check form-check-inline">
                   <input class="form-check-input" type="radio" name="13f1" id="inlineRadio2"
-                    value="option3">
+                    value="option2">
                   <label class="form-check-label" for="inlineRadio2">Not found</label>
                 </div>
               </td>
