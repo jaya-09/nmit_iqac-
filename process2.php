@@ -122,5 +122,6 @@ $temp = $_SESSION["csv_line"];
  $fcon = fopen($fname,'a');
 fputcsv($fcon,$_SESSION['csv_line']);
  fclose($fcon);
+ header("Location: ./home.php");
 
  ?>
