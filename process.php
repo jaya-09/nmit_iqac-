@@ -401,8 +401,19 @@ array_push($_SESSION['csv_line'],"FACULTY DETAILS:");
  array_splice($_SESSION['csv_line'],count($_SESSION['csv_line'])-240,240);
     array_push($_SESSION['csv_line'],"TABLE2:");
 
-$_SESSION['sem'] = $_POST['sem'];
-echo '<script>alert("'.$_SESSION['sem'].'")</script>';
+$semdetails = $_POST['sem'];
+echo "<script>alert('$semdetails')</script>";
 
+if($semdetails == "odd"){
+    $fname = 'data.csv'; 
+    if(!file_exists($fname)){$csv_line = $csv_line."\r\n" ;}
+    $fcon = fopen($fname,'a');
+    fputcsv($fcon,$_SESSION['csv_line']);
+    fclose($fcon);
+    header("Location: ./home.php");
+}
+
+else{
  header("Location: ./table2.php");
+}
  ?>
