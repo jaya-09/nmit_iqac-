@@ -8,12 +8,12 @@
  $conn = mysqli_connect($dbhost, $dbuser, $dbpass,$db) or die("Connect failed: . $conn -> error"); 
  
  
- if ($conn) {
-	echo "Connection Success!";
-}
-else{
- echo "Connection Failed";
-}
+//  if ($conn) {
+// 	echo "Connection Success!";
+// }
+// else{
+//  echo "Connection Failed";
+// }
  
 function CloseCon($conn)
  {

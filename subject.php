@@ -1,7 +1,12 @@
 <?php 
 session_start(); 
 include "db_conn.php";
+session_start();
 
+if($_SESSION['loggedin']!='TRUE'){
+  header("Location: login-error.html");
+  exit();
+};
 if (isset($_POST['Faculty name']) && isset($_POST['Faculty ID')&& isset($_POST['Designation'&& isset($_POST['Department']&& isset($_POST['Ay']))) {
 
 	function validate($data){

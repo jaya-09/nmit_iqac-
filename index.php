@@ -10,7 +10,7 @@
 		if (is_array($output))
 			$output = implode(',', $output);
 	
-		echo "<script>console.log('Debug Objects: " . $output . "' );</script>";
+		// echo "<script>console.log('Debug Objects: " . $output . "' );</script>";
 	}
 ?>
 
@@ -63,7 +63,7 @@
 					  <!-- ?php echo "<script>console.log('Debug Objects: " . implode(',', $result) . "' );</script>"?> -->
 					</h5>
                       <p style="font-size: 40px; color: white;  filter: drop-shadow(10px 10px 10px black); ">&nbsp &nbsp
-                        &nbsp &nbsp <b>NMIT-AAAC Faculty Audit</b></p>
+                        &nbsp &nbsp <b>NMIT-AAC Faculty Audit</b></p>
 
                       <div class="col-md-13 position-relative">
 
@@ -101,7 +101,6 @@
             </div>
           </div>
         </div>
-        <h4 id="names" style="color: white;padding: 45rem 0rem 0rem  45rem; "> Created by Lasya Sistla ,Jaya Shiva
-          Darshini & Satvik A<br> Department of ISE </h4>
+        <h4 id="names" style="color: white;padding: 45rem 0rem 0rem  45rem; "> Created by Jaya Shiva Darshini, Satvik A, Kalyan B, Lasya Sistla<br> Department of ISE </h4>
   </body>
 </html>

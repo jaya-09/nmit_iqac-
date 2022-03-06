@@ -1,3 +1,13 @@
+<?php 
+session_start();
+
+if($_SESSION['loggedin']!='TRUE'){
+  header("Location: login-error.html");
+  exit();
+};
+  ?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -20,10 +30,10 @@
         <div class="flex-container">
             <div id="logo">
                 <img src="NMIT Header.jpg" width="1900px" height="150px">
-                <div class="text-right">
+                <!-- <div class="text-right">
                     <a button type="button" class="btn btn-primary" style="background-color: #007bff;"
                         href="./home.php">Home</button></a>
-                </div>
+                </div> -->
 
 
 
@@ -63,15 +73,15 @@
                             <td class="tg-0pky" colspan="4">
                                 <div class="form-check">
                                     <input class="form-check-input" type="radio" name="16a"
-                                        id="exampleRadios1" value="option1">
-                                    <label class="form-check-label" for="exampleRadios1">
+                                        id="16a1" value="option1">
+                                    <label class="form-check-label" for="16a1">
                                         FACULTY
                                     </label>
                                 </div>
                                 <div class="form-check">
                                     <input class="form-check-input" type="radio" name="16a"
-                                        id="exampleRadios2" value="option2">
-                                    <label class="form-check-label" for="exampleRadios2">
+                                        id="16a2" value="option2">
+                                    <label class="form-check-label" for="16a2">
                                         STUDENT
                                     </label>
                                 </div>
@@ -86,39 +96,39 @@
                             <td class="tg-0pky" colspan="">Nature of the Project</td>
                             <td class="tg-0pky" colspan="4">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="Industry Relevant" id="flexCheckDefault" name="16b1">
-                                    <label class="form-check-label" for="flexCheckDefault">
+                                    <input class="form-check-input" type="checkbox" value="Industry Relevant" id="16b1" name="16b1">
+                                    <label class="form-check-label" for="16b1">
                                         Industry Relevant
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="Research" id="flexCheckDefault" name="16b2">
-                                    <label class="form-check-label" for="flexCheckDefault">
+                                    <input class="form-check-input" type="checkbox" value="Research" id="16b2" name="16b2">
+                                    <label class="form-check-label" for="16b2">
                                         Research
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="Innovative product Development" id="flexCheckDefault" name="16b3">
-                                    <label class="form-check-label" for="flexCheckDefault">
+                                    <input class="form-check-input" type="checkbox" value="Innovative product Development" id="16b3" name="16b3">
+                                    <label class="form-check-label" for="16b3">
                                         Innovative product Development
                                     </label>
                                 </div>
 
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="Societal application" id="flexCheckDefault" name="16b4">
-                                    <label class="form-check-label" for="flexCheckDefault">
+                                    <input class="form-check-input" type="checkbox" value="Societal application" id="16b4" name="16b4">
+                                    <label class="form-check-label" for="16b4">
                                         Societal application
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="Environment" id="flexCheckDefault" name="16b5">
-                                    <label class="form-check-label" for="flexCheckDefault">
+                                    <input class="form-check-input" type="checkbox" value="Environment" id="16b5" name="16b5">
+                                    <label class="form-check-label" for="16b5">
                                         Environment
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="Any other" id="flexCheckDefault" name="16b6">
-                                    <label class="form-check-label" for="flexCheckDefault">
+                                    <input class="form-check-input" type="checkbox" value="Any other" id="16b6" name="16b6">
+                                    <label class="form-check-label" for="16b6">
                                         Any other
                                     </label>
                                 </div>
@@ -138,26 +148,26 @@
                             </td>
                             <td class="tg-0pky" colspan="4">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="Publication" id="flexCheckDefault" name="16c1">
-                                    <label class="form-check-label" for="flexCheckDefault">
+                                    <input class="form-check-input" type="checkbox" value="Publication" id="16c1" name="16c1">
+                                    <label class="form-check-label" for="16c1">
                                         Publication
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="Award" id="flexCheckDefault" name="16c2">
-                                    <label class="form-check-label" for="flexCheckDefault">
+                                    <input class="form-check-input" type="checkbox" value="Award" id="16c2" name="16c2">
+                                    <label class="form-check-label" for="16c2">
                                         Award
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="Patent" id="flexCheckDefault" name="16c3">
-                                    <label class="form-check-label" for="flexCheckDefault">
+                                    <input class="form-check-input" type="checkbox" value="Patent" id="16c3" name="16c3">
+                                    <label class="form-check-label" for="16c3">
                                         Patent
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="Funding" id="flexCheckDefault" name="16c4">
-                                    <label class="form-check-label" for="flexCheckDefault">
+                                    <input class="form-check-input" type="checkbox" value="Funding" id="16c4" name="16c4">
+                                    <label class="form-check-label" for="16c4">
                                         Funding
                                     </label>
                                 </div>
@@ -176,15 +186,15 @@
                             <td class="tg-0pky" colspan="4">
                                 <div class="form-check">
                                     <input class="form-check-input" type="radio" name="16da" 
-                                        id="exampleRadios1" value="option1">
-                                    <label class="form-check-label" for="exampleRadios1">
+                                        id="16da1" value="option1">
+                                    <label class="form-check-label" for="16da1">
                                         YES
                                     </label>
                                 </div>
                                 <div class="form-check">
                                     <input class="form-check-input" type="radio" name="16da"
-                                        id="exampleRadios2" value="option2">
-                                    <label class="form-check-label" for="exampleRadios2">
+                                        id="16da2" value="option2">
+                                    <label class="form-check-label" for="16da2">
                                         NO
                                     </label>
                                 </div>
@@ -227,15 +237,15 @@
                             <td class="tg-0pky" colspan="4">
                                 <div class="form-check">
                                     <input class="form-check-input" type="radio" name="16e"
-                                        id="exampleRadios1" value="option1">
-                                    <label class="form-check-label" for="exampleRadios1">
+                                        id="16e1" value="option1">
+                                    <label class="form-check-label" for="16e1">
                                         YES
                                     </label>
                                 </div>
                                 <div class="form-check">
                                     <input class="form-check-input" type="radio" name="16e"
-                                        id="exampleRadios2" value="option2">
-                                    <label class="form-check-label" for="exampleRadios2">
+                                        id="16e2" value="option2">
+                                    <label class="form-check-label" for="16e2">
                                         No
                                     </label>
                                 </div>
@@ -265,18 +275,18 @@
                             <td class="tg-0pky" colspan="4">
                                 <div class="form-check form-check-inline">
                                     <input class="form-check-input" type="radio" name="17a"
-                                        id="inlineRadio1" value="option1">
-                                    <label class="form-check-label" for="inlineRadio1"> Done Regularly </label>
+                                        id="17a1" value="option1">
+                                    <label class="form-check-label" for="17a1"> Done Regularly </label>
                                 </div>
                                 <div class="form-check form-check-inline">
                                     <input class="form-check-input" type="radio" name="17a"
-                                        id="inlineRadio2" value="option2">
-                                    <label class="form-check-label" for="inlineRadio2">Not Done Regularly </label>
+                                        id="17a2" value="option2">
+                                    <label class="form-check-label" for="17a2">Not Done Regularly </label>
                                 </div>
                                 <div class="form-check form-check-inline">
                                     <input class="form-check-input" type="radio" name="17a"
-                                        id="inlineRadio2" value="option3">
-                                    <label class="form-check-label" for="inlineRadio2"> NA </label>
+                                        id="17a3" value="option3">
+                                    <label class="form-check-label" for="17a3"> NA </label>
                                 </div>
                             </td>
                         <tr>
@@ -298,14 +308,14 @@
                             <td class="tg-0pky" colspan="">a. Mentoring records </td>
                             <td class="tg-0pky" colspan="4">
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions17b" name="17c"
-                                        id="inlineRadio1" value="option1">
-                                    <label class="form-check-label" for="inlineRadio1"> Maintained </label>
+                                    <input class="form-check-input" type="radio" name="17c"
+                                        id="17c1" value="option1">
+                                    <label class="form-check-label" for="17c1"> Maintained </label>
                                 </div>
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions17b" name="17c"
-                                        id="inlineRadio2" value="option2">
-                                    <label class="form-check-label" for="inlineRadio2">Not Maintained </label>
+                                    <input class="form-check-input" type="radio" name="17c"
+                                        id="17c2" value="option2">
+                                    <label class="form-check-label" for="17c2">Not Maintained </label>
                                 </div>
 
                             </td>
@@ -329,13 +339,13 @@
                             <td class="tg-0pky" colspan="4">
                                 <div class="form-check form-check-inline">
                                     <input class="form-check-input" type="radio" name="17e"
-                                        id="inlineRadio1" value="option1">
-                                    <label class="form-check-label" for="inlineRadio1"> Identified </label>
+                                        id="17e1" value="option1">
+                                    <label class="form-check-label" for="17e1"> Identified </label>
                                 </div>
                                 <div class="form-check form-check-inline">
                                     <input class="form-check-input" type="radio" name="17e"
-                                        id="inlineRadio2" value="option2">
-                                    <label class="form-check-label" for="inlineRadio2">Not Identified </label>
+                                        id="17e2" value="option2">
+                                    <label class="form-check-label" for="17e2">Not Identified </label>
                                 </div>
 
                             </td>
@@ -350,28 +360,28 @@
                             <td class="tg-0pky" colspan="4">
                                 <div class="form-check form-check-inline">
                                     <input class="form-check-input" type="radio" name="17f"
-                                        id="inlineRadio1" value="option1">
-                                    <label class="form-check-label" for="inlineRadio1"> Daily </label>
+                                        id="17f1" value="option1">
+                                    <label class="form-check-label" for="17f1"> Daily </label>
                                 </div>
                                 <div class="form-check form-check-inline">
                                     <input class="form-check-input" type="radio" name="17f"
-                                        id="inlineRadio2" value="option2">
-                                    <label class="form-check-label" for="inlineRadio2">Weekly </label>
+                                        id="17f2" value="option2">
+                                    <label class="form-check-label" for="17f2">Weekly </label>
                                 </div>
                                 <div class="form-check form-check-inline">
                                     <input class="form-check-input" type="radio" name="17f"
-                                        id="inlineRadio2" value="option3">
-                                    <label class="form-check-label" for="inlineRadio2"> Once in 15 days </label>
+                                        id="17f3" value="option3">
+                                    <label class="form-check-label" for="17f3"> Once in 15 days </label>
                                 </div>
                                 <div class="form-check form-check-inline">
                                     <input class="form-check-input" type="radio" name="17f"
-                                        id="inlineRadio2" value="option4">
-                                    <label class="form-check-label" for="inlineRadio2"> Montly </label>
+                                        id="17f4" value="option4">
+                                    <label class="form-check-label" for="17f4"> Montly </label>
                                 </div>
                                 <div class="form-check form-check-inline">
                                     <input class="form-check-input" type="radio" name="17f"
-                                        id="inlineRadio2" value="option5">
-                                    <label class="form-check-label" for="inlineRadio2"> Not Done </label>
+                                        id="17f5" value="option5">
+                                    <label class="form-check-label" for="17f5"> Not Done </label>
                                 </div>
                             </td>
                         </tr>
@@ -382,13 +392,13 @@
                             <td class="tg-0pky" colspan="4">
                                 <div class="form-check form-check-inline">
                                     <input class="form-check-input" type="radio" name="17g1"
-                                        id="inlineRadio1" value="option1">
-                                    <label class="form-check-label" for="inlineRadio1"> YES</label>
+                                        id="17g11" value="option1">
+                                    <label class="form-check-label" for="17g11"> YES</label>
                                 </div>
                                 <div class="form-check form-check-inline">
                                     <input class="form-check-input" type="radio" name="17g1"
-                                        id="inlineRadio2" value="option2">
-                                    <label class="form-check-label" for="inlineRadio2">NO </label>
+                                        id="17g12" value="option2">
+                                    <label class="form-check-label" for="17g12">NO </label>
                                 </div>
                                 <br>
                                 <div>
@@ -460,15 +470,15 @@
                             <td class="tg-0pky" colspan="4">
                                 <div class="form-check">
                                     <input class="form-check-input" type="radio" name="18b"
-                                        id="exampleRadios1" value="option1">
-                                    <label class="form-check-label" for="exampleRadios1">
+                                        id="18b1" value="option1">
+                                    <label class="form-check-label" for="18b1">
                                         YES
                                     </label>
                                 </div>
                                 <div class="form-check">
                                     <input class="form-check-input" type="radio" name="18b"
-                                        id="exampleRadios2" value="option2">
-                                    <label class="form-check-label" for="exampleRadios2">
+                                        id="18b2" value="option2">
+                                    <label class="form-check-label" for="18b2">
                                         NO
                                     </label>
                                 </div>
@@ -483,31 +493,31 @@
                             <td class="tg-0pky" colspan="4">
                                 <div class="form-check">
                                     <input class="form-check-input" type="radio" name="18c1"
-                                        id="exampleRadios1" value="option1">
-                                    <label class="form-check-label" for="exampleRadios1">
+                                        id="18c11" value="option1">
+                                    <label class="form-check-label" for="18c11">
                                         SCOPUS
                                     </label>
                                 </div>
                                 <div class="form-check">
                                     <input class="form-check-input" type="radio" name="18c1"
-                                        id="exampleRadios2" value="option2">
-                                    <label class="form-check-label" for="exampleRadios2">
+                                        id="18c12" value="option2">
+                                    <label class="form-check-label" for="18c12">
                                         WEB OF SCIENCE
                                     </label>
                                 </div>
 
                                 <div class="form-check">
                                     <input class="form-check-input" type="radio" name="18c1"
-                                        id="exampleRadios2" value="option3">
-                                    <label class="form-check-label" for="exampleRadios2">
+                                        id="18c13" value="option3">
+                                    <label class="form-check-label" for="18c13">
                                         GOOGLE SCHOLAR
                                     </label>
                                 </div>
             </div>
             <div class="form-check">
-                <input class="form-check-input" type="radio" name="18c1" id="exampleRadios2"
+                <input class="form-check-input" type="radio" name="18c1" id="18c14"
                     value="option4">
-                <label class="form-check-label" for="exampleRadios2">
+                <label class="form-check-label" for="18c14">
                     ANY OTHER
                 </label>
             </div>
@@ -538,16 +548,16 @@
                 <td class="tg-0pky" colspan="1">c Papers in Q1/Q2/Q3/Q4 rated journals</td>
                 <td class="tg-0pky" colspan="4">
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="18d" id="exampleRadios1"
+                        <input class="form-check-input" type="radio" name="18d" id="18d1"
                             value="option1">
-                        <label class="form-check-label" for="exampleRadios1">
+                        <label class="form-check-label" for="18d1">
                             YES
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="18d" id="exampleRadios2"
+                        <input class="form-check-input" type="radio" name="18d" id="18d2"
                             value="option2">
-                        <label class="form-check-label" for="exampleRadios2">
+                        <label class="form-check-label" for="18d2">
                             NO
                         </label>
                     </div>
@@ -569,16 +579,16 @@
                 <td class="tg-0pky" colspan="1">a. Filed and Published:</td>
                 <td class="tg-0pky" colspan="4">
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="19a" id="exampleRadios1"
+                        <input class="form-check-input" type="radio" name="19a" id="19a1"
                             value="option1">
-                        <label class="form-check-label" for="exampleRadios1">
+                        <label class="form-check-label" for="19a1">
                             YES
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="19a" id="exampleRadios2"
+                        <input class="form-check-input" type="radio" name="19a" id="19a2"
                             value="option2">
-                        <label class="form-check-label" for="exampleRadios2">
+                        <label class="form-check-label" for="19a2">
                             NO
                         </label>
                     </div>
@@ -591,16 +601,16 @@
                 </td>
                 <td class="tg-0pky" colspan="4">
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="19b" id="exampleRadios1"
+                        <input class="form-check-input" type="radio" name="19b" id="19b1"
                             value="option1">
-                        <label class="form-check-label" for="exampleRadios1">
+                        <label class="form-check-label" for="19b1">
                             YES
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="19b" id="exampleRadios2"
+                        <input class="form-check-input" type="radio" name="19b" id="19b2"
                             value="option2">
-                        <label class="form-check-label" for="exampleRadios2">
+                        <label class="form-check-label" for="19b2">
                             No
                         </label>
                     </div>
@@ -631,16 +641,16 @@
                 </td>
                 <td class="tg-0pky" colspan="4">
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="19d" id="exampleRadios1"
+                        <input class="form-check-input" type="radio" name="19d" id="19d1"
                             value="option1">
-                        <label class="form-check-label" for="exampleRadios1">
+                        <label class="form-check-label" for="19d1">
                             YES
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="19d" id="exampleRadios2"
+                        <input class="form-check-input" type="radio" name="19d" id="19d2"
                             value="option2">
-                        <label class="form-check-label" for="exampleRadios2">
+                        <label class="form-check-label" for="19d2">
                             No
                         </label>
                     </div>
@@ -672,16 +682,16 @@
                 </td>
                 <td class="tg-0pky" colspan="4">
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="20a" id="exampleRadios1"
+                        <input class="form-check-input" type="radio" name="20a" id="20a1"
                             value="option1">
-                        <label class="form-check-label" for="exampleRadios1">
+                        <label class="form-check-label" for="20a1">
                             YES
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="20a" id="exampleRadios2"
+                        <input class="form-check-input" type="radio" name="20a" id="20a2"
                             value="option2">
-                        <label class="form-check-label" for="exampleRadios2">
+                        <label class="form-check-label" for="20a2">
                             No
                         </label>
                     </div>
@@ -696,38 +706,38 @@
                 </td>
                 <td class="tg-0pky" colspan="4">
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="Inter-National Organization" id="flexCheckDefault" name="20b1">
-                        <label class="form-check-label" for="flexCheckDefault">
+                        <input class="form-check-input" type="checkbox" value="Inter-National Organization" id="20b11" name="20b1">
+                        <label class="form-check-label" for="20b11">
                             Inter-National Organization
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="National Organization" id="flexCheckDefault"  name="20b2">
-                        <label class="form-check-label" for="flexCheckDefault">
+                        <input class="form-check-input" type="checkbox" value="National Organization" id="20b21"  name="20b2">
+                        <label class="form-check-label" for="20b21">
                             National Organization
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="State-National Organization" id="flexCheckDefault" name="20b3">
-                        <label class="form-check-label" for="flexCheckDefault">
+                        <input class="form-check-input" type="checkbox" value="State-National Organization" id="20b31" name="20b3">
+                        <label class="form-check-label" for="20b31">
                             State-National Organization
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="Industry" id="flexCheckDefault" name="20b4">
-                        <label class="form-check-label" for="flexCheckDefault">
+                        <input class="form-check-input" type="checkbox" value="Industry" id="20b41" name="20b4">
+                        <label class="form-check-label" for="20b41">
                             Industry
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="NMIT" id="flexCheckDefault" name="20b5">
-                        <label class="form-check-label" for="flexCheckDefault">
+                        <input class="form-check-input" type="checkbox" value="NMIT" id="20b51" name="20b5">
+                        <label class="form-check-label" for="20b51">
                             NMIT
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="Any other" id="flexCheckDefault" name="20b6">
-                        <label class="form-check-label" for="flexCheckDefault">
+                        <input class="form-check-input" type="checkbox" value="Any other" id="20b61" name="20b6">
+                        <label class="form-check-label" for="20b61">
                             Any other
                         </label>
                     </div>
@@ -752,7 +762,7 @@
             <tr>
                 <td class="tg-0pky"></td>
                 <td class="tg-0pky" colspan="1">
-                    <h4> b. Title of the Project </h4>
+                     b. Title of the Project
                     
                         <div class="form-group">
 
@@ -792,24 +802,24 @@
                 <td class="tg-0pky" colspan="">c. Status of the Project </td>
                 <td class="tg-0pky" colspan="4">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="20e" id="inlineRadio1"
+                        <input class="form-check-input" type="radio" name="20e" id="20e1"
                             value="option1">
-                        <label class="form-check-label" for="inlineRadio1"> Completed </label>
+                        <label class="form-check-label" for="20e1"> Completed </label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="20e" id="inlineRadio2"
+                        <input class="form-check-input" type="radio" name="20e" id="20e2"
                             value="option2">
-                        <label class="form-check-label" for="inlineRadio2">Report Available </label>
+                        <label class="form-check-label" for="20e2">Report Available </label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="20e" id="inlineRadio2"
+                        <input class="form-check-input" type="radio" name="20e" id="20e3"
                             value="option3">
-                        <label class="form-check-label" for="inlineRadio2"> On - Going </label>
+                        <label class="form-check-label" for="20e3"> On - Going </label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="20e" id="inlineRadio2"
+                        <input class="form-check-input" type="radio" name="20e" id="20e4"
                             value="option4">
-                        <label class="form-check-label" for="inlineRadio2">Applied </label>
+                        <label class="form-check-label" for="20e4">Applied </label>
                     </div>
 
                 </td>
@@ -832,16 +842,16 @@
                 </td>
                 <td class="tg-0pky" colspan="4">
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="21a" id="exampleRadios1"
+                        <input class="form-check-input" type="radio" name="21a" id="21a1"
                             value="option1">
-                        <label class="form-check-label" for="exampleRadios1">
+                        <label class="form-check-label" for="21a1">
                             YES
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="21a" id="exampleRadios2"
+                        <input class="form-check-input" type="radio" name="21a" id="21a2"
                             value="option2">
-                        <label class="form-check-label" for="exampleRadios2">
+                        <label class="form-check-label" for="21a2">
                             No
                         </label>
                     </div>
@@ -869,16 +879,16 @@
                 </td>
                 <td class="tg-0pky" colspan="4">
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="22a" id="exampleRadios1"
+                        <input class="form-check-input" type="radio" name="22a" id="22a1"
                             value="option1">
-                        <label class="form-check-label" for="exampleRadios1">
+                        <label class="form-check-label" for="22a1">
                             YES
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="22a" id="exampleRadios2"
+                        <input class="form-check-input" type="radio" name="22a" id="22a2"
                             value="option2">
-                        <label class="form-check-label" for="exampleRadios2">
+                        <label class="form-check-label" for="22a2">
                             No
                         </label>
                     </div>
@@ -944,16 +954,16 @@
                 </td>
                 <td class="tg-0pky" colspan="4">
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="23a" id="exampleRadios1"
+                        <input class="form-check-input" type="radio" name="23a" id="23a1"
                             value="option1">
-                        <label class="form-check-label" for="exampleRadios1">
+                        <label class="form-check-label" for="23a1">
                             YES
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="23a" id="exampleRadios2"
+                        <input class="form-check-input" type="radio" name="23a" id="23a2"
                             value="option2">
-                        <label class="form-check-label" for="exampleRadios2">
+                        <label class="form-check-label" for="23a2">
                             No
                         </label>
                     </div>
@@ -993,26 +1003,26 @@
                 <td class="tg-0pky" style="font-weight: bold;">Are you a member of.</td>
                 <td class="tg-0pky" colspan="4">
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="DUGC" id="flexCheckDefault" name="24a1">
-                        <label class="form-check-label" for="flexCheckDefault">
+                        <input class="form-check-input" type="checkbox" value="DUGC" id="24a1" name="24a1">
+                        <label class="form-check-label" for="24a1">
                             DUGC
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="DPGC" id="flexCheckDefault" name="24a2">
-                        <label class="form-check-label" for="flexCheckDefault">
+                        <input class="form-check-input" type="checkbox" value="DPGC" id="24a2" name="24a2">
+                        <label class="form-check-label" for="24a2">
                             DPGC
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="BOS" id="flexCheckDefault" name="24a3">
-                        <label class="form-check-label" for="flexCheckDefault">
+                        <input class="form-check-input" type="checkbox" value="BOS" id="24a3" name="24a3">
+                        <label class="form-check-label" for="24a3">
                             BOS
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="BOE" id="flexCheckDefault" name="24a4">
-                        <label class="form-check-label" for="flexCheckDefault">
+                        <input class="form-check-input" type="checkbox" value="BOE" id="24a4" name="24a4">
+                        <label class="form-check-label" for="24a4">
                             BOE
                         </label>
                     </div>
@@ -1029,16 +1039,16 @@
                 </td>
                 <td class="tg-0pky" colspan="4">
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="25a" id="exampleRadios1"
+                        <input class="form-check-input" type="radio" name="25a" id="25a1"
                             value="option1">
-                        <label class="form-check-label" for="exampleRadios1">
+                        <label class="form-check-label" for="25a1">
                             YES
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="25a" id="exampleRadios2"
+                        <input class="form-check-input" type="radio" name="25a" id="25a2"
                             value="option2">
-                        <label class="form-check-label" for="exampleRadios2">
+                        <label class="form-check-label" for="25a2">
                             NO
                         </label>
                     </div>
@@ -1193,8 +1203,8 @@
                     popup.classList.toggle("show");
                 }
             </script>
-            <a class="btn btn-primary btn-lg" href="./home.php" role="button"
-                style="background-color: #007bff;">Home</a>
+            <!-- <a class="btn btn-primary btn-lg" href="./home.php" role="button"
+                style="background-color: #007bff;">Home</a> -->
         </div>
             </form>
 
