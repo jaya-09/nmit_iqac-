@@ -401,5 +401,8 @@ array_push($_SESSION['csv_line'],"FACULTY DETAILS:");
  array_splice($_SESSION['csv_line'],count($_SESSION['csv_line'])-240,240);
     array_push($_SESSION['csv_line'],"TABLE2:");
 
+$_SESSION['sem'] = $_POST['sem'];
+echo '<script>alert("'.$_SESSION['sem'].'")</script>';
+
  header("Location: ./table2.php");
  ?>

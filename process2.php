@@ -50,14 +50,38 @@ if($_SESSION['loggedin']!='TRUE'){
     
     $field299 = $_POST["18c1"];
     $field300 = $_POST["18c2"];
+    $field339 = $_POST["18c3"];
+    $field340 = $_POST["18c4"];
+    $field341 = $_POST["18c5"];
+    $field342 = $_POST["18c6"];
+    $field343 = $_POST["18c7"];
+    $field344 = $_POST["18c8"];
 
     $field301 = $_POST["18d"];
 
 
-    $field302 = $_POST["19a"];
+    $field302 = $_POST["19aa"];
+    $field345 = $_POST["19a1"];
+    $field346 = $_POST["19a2"];
+    $field347 = $_POST["19a3"];
+    $field348 = $_POST["19a4"];
+    $field349 = $_POST["19a5"];
+    $field350 = $_POST["19a6"];
+
     $field303 = $_POST["19b"];
-    $field304 = $_POST["19c"];
-    $field305 = $_POST["19d"];
+
+    $field304 = $_POST["19c1"];
+    $field351 = $_POST["19c2"];
+    $field352 = $_POST["19c3"];
+    $field353 = $_POST["19c4"];
+
+    $field305 = $_POST["19d1"];
+    $field354 = $_POST["19d2"];
+    $field355 = $_POST["19d3"];
+    $field356 = $_POST["19d4"];
+    $field357 = $_POST["19d5"];
+    $field358 = $_POST["19d6"];
+
     $field306 = $_POST["19e"];
 
 
@@ -116,7 +140,7 @@ if($_SESSION['loggedin']!='TRUE'){
 
 
 $temp = $_SESSION["csv_line"];
- $_SESSION['keys2'] = array($field270,$field271,$field272,$field273,$field274,$field275,$field276,$field277,$field278,$field279,$field280,$field281,$field282,$field283,$field284,$field285,$field286,$field287,$field288,$field289,$field290,$field291,$field292,$field293,$field294,$field295,$field296,$field297,$field298,$field299,$field300,$field301,$field302,$field303,$field304,$field305,$field306,$field307,$field308,$field309,$field310,$field311,$field312,$field313,$field314,$field315,$field316,$field317,$field318,$field319,$field320,$field321,$field322,$field323,$field324,$field325,$field326,$field327,$field328,$field329,$field330,$field331,$field332,$field333,$field334,$field335,$field336,$field337,$field338); 
+ $_SESSION['keys2'] = array($field270,$field271,$field272,$field273,$field274,$field275,$field276,$field277,$field278,$field279,$field280,$field281,$field282,$field283,$field284,$field285,$field286,$field287,$field288,$field289,$field290,$field291,$field292,$field293,$field294,$field295,$field296,$field297,$field298,$field299,$field300,$filed339,$field340,$field341,$field342,$field343,$field344,$field301,$field302,$field345,$field346,$field347,$field348,$field349,$field350,$field303,$field304,$field351,$field352,$field353,$field305,$field354,$field355,$field356,$field357,$field358,$field306,$field307,$field308,$field309,$field310,$field311,$field312,$field313,$field314,$field315,$field316,$field317,$field318,$field319,$field320,$field321,$field322,$field323,$field324,$field325,$field326,$field327,$field328,$field329,$field330,$field331,$field332,$field333,$field334,$field335,$field336,$field337,$field338); 
  $_SESSION['csv_line'] = array_merge($temp,$_SESSION['keys2']);
  foreach($_SESSION['keys2'] as $key ){
      array_push($_SESSION['csv_line'],'' . $_GET[$key]);

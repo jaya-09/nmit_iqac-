@@ -3458,14 +3458,8 @@ if($_SESSION['loggedin']!='TRUE'){
 
               <td class="tg-0pky">
                 <div class="form-check form-check-inline">
-<<<<<<< HEAD
-                    value="option1">
                   <input class="form-check-input" type="radio" name="13f4" id="13f41"
                     value="option1">
-=======
-                  <input class="form-check-input" type="radio" name="13f4" id="13f41"
-                    value="option1">
->>>>>>> 620ae8eda82895bb5b198d52dee63e1ace21e6de
                   <label class="form-check-label" for="13f41">Found</label>
                 </div>
                 <div class="form-check form-check-inline">
@@ -3740,20 +3734,12 @@ if($_SESSION['loggedin']!='TRUE'){
                 <div class="form-check form-check-inline">
                   <input class="form-check-input" type="radio" name="14a1" id="14a11"
                     value="option1">
-<<<<<<< HEAD
-                  <label class="form-check-label" for="14a11">≥85% </label>
-=======
-                  <label class="form-check-label" for="14a11">â‰¥85% </label>
->>>>>>> 620ae8eda82895bb5b198d52dee63e1ace21e6de
+                  <label class="form-check-label" for="14a11">>=85% </label>
                 </div>
                 <div class="form-check form-check-inline">
                   <input class="form-check-input" type="radio" name="14a1" id="14a12"
                     value="option2">
-<<<<<<< HEAD
-                  <label class="form-check-label" for="14a12">85% < and ≤75% </label>
-=======
                   <label class="form-check-label" for="14a12">85% < and >=75% </label>
->>>>>>> 620ae8eda82895bb5b198d52dee63e1ace21e6de
                 </div>
                 <div class="form-check form-check-inline">
                   <input class="form-check-input" type="radio" name="14a1" id="14a13"
@@ -3767,20 +3753,12 @@ if($_SESSION['loggedin']!='TRUE'){
                 <div class="form-check form-check-inline">
                   <input class="form-check-input" type="radio" name="14a2" id="14a21"
                     value="option1">
-<<<<<<< HEAD
-                  <label class="form-check-label" for="14a21">≥85% </label>
-=======
-                  <label class="form-check-label" for="14a21">â‰¥85% </label>
->>>>>>> 620ae8eda82895bb5b198d52dee63e1ace21e6de
+                  <label class="form-check-label" for="14a21">>=85% </label>
                 </div>
                 <div class="form-check form-check-inline">
                   <input class="form-check-input" type="radio" name="14a2" id="14a22"
                     value="option2">
-<<<<<<< HEAD
-                  <label class="form-check-label" for="14a22">85% < and ≤75% </label>
-=======
                   <label class="form-check-label" for="14a22">85% < and >=75% </label>
->>>>>>> 620ae8eda82895bb5b198d52dee63e1ace21e6de
                 </div>
                 <div class="form-check form-check-inline">
                   <input class="form-check-input" type="radio" name="14a2" id="14a23"
@@ -3794,20 +3772,12 @@ if($_SESSION['loggedin']!='TRUE'){
                 <div class="form-check form-check-inline">
                   <input class="form-check-input" type="radio" name="14a3" id="14a31"
                     value="option1">
-<<<<<<< HEAD
-                  <label class="form-check-label" for="14a31">≥85% </label>
-=======
-                  <label class="form-check-label" for="14a31">â‰¥85% </label>
->>>>>>> 620ae8eda82895bb5b198d52dee63e1ace21e6de
+                  <label class="form-check-label" for="14a31">>=85% </label>
                 </div>
                 <div class="form-check form-check-inline">
                   <input class="form-check-input" type="radio" name="14a3" id="14a32"
                     value="option2">
-<<<<<<< HEAD
-                  <label class="form-check-label" for="14a32">85% < and ≤75% </label>
-=======
                   <label class="form-check-label" for="14a32">85% < and >=75% </label>
->>>>>>> 620ae8eda82895bb5b198d52dee63e1ace21e6de
                 </div>
                 <div class="form-check form-check-inline">
                   <input class="form-check-input" type="radio" name="14a3" id="14a33"
@@ -3821,20 +3791,12 @@ if($_SESSION['loggedin']!='TRUE'){
                 <div class="form-check form-check-inline">
                   <input class="form-check-input" type="radio" name="14a4" id="14a41"
                     value="option1">
-<<<<<<< HEAD
-                  <label class="form-check-label" for="14a41">≥85% </label>
-=======
-                  <label class="form-check-label" for="14a41">â‰¥85% </label>
->>>>>>> 620ae8eda82895bb5b198d52dee63e1ace21e6de
+                  <label class="form-check-label" for="14a41">>=85% </label>
                 </div>
                 <div class="form-check form-check-inline">
                   <input class="form-check-input" type="radio" name="14a4" id="14a42"
                     value="option2">
-<<<<<<< HEAD
-                  <label class="form-check-label" for="14a42">85% < and ≤75% </label>
-=======
                   <label class="form-check-label" for="14a42">85% < and >=75% </label>
->>>>>>> 620ae8eda82895bb5b198d52dee63e1ace21e6de
                 </div>
                 <div class="form-check form-check-inline">
                   <input class="form-check-input" type="radio" name="14a4" id="14a43"
@@ -3861,11 +3823,7 @@ if($_SESSION['loggedin']!='TRUE'){
                 <div class="form-check form-check-inline">
                   <input class="form-check-input" type="radio" name="14b1" id="14b12"
                     value="option2">
-<<<<<<< HEAD
-                  <label class="form-check-label" for="14b12">X/F≤1 </label>
-=======
-                  <label class="form-check-label" for="14b12">X/F>=1 </label>
->>>>>>> 620ae8eda82895bb5b198d52dee63e1ace21e6de
+                  <label class="form-check-label" for="14b12">X/F<=1 </label>
                 </div>
                 <div class="form-check form-check-inline">
                   <input class="form-check-input" type="radio" name="14b1" id="14b13"
@@ -3883,11 +3841,7 @@ if($_SESSION['loggedin']!='TRUE'){
                 <div class="form-check form-check-inline">
                   <input class="form-check-input" type="radio" name="14b2" id="14b22"
                     value="option2">
-<<<<<<< HEAD
-                  <label class="form-check-label" for="14b22">X/F≤1 </label>
-=======
-                  <label class="form-check-label" for="14b22">X/F>=1 </label>
->>>>>>> 620ae8eda82895bb5b198d52dee63e1ace21e6de
+                  <label class="form-check-label" for="14b22">X/F<=1 </label>
                 </div>
                 <div class="form-check form-check-inline">
                   <input class="form-check-input" type="radio" name="14b2" id="14b23"
@@ -3905,11 +3859,7 @@ if($_SESSION['loggedin']!='TRUE'){
                 <div class="form-check form-check-inline">
                   <input class="form-check-input" type="radio" name="14b3" id="14b32"
                     value="option2">
-<<<<<<< HEAD
-                  <label class="form-check-label" for="14b32">X/F≤1 </label>
-=======
-                  <label class="form-check-label" for="14b32">X/F>=1 </label>
->>>>>>> 620ae8eda82895bb5b198d52dee63e1ace21e6de
+                  <label class="form-check-label" for="14b32">X/F<=1 </label>
                 </div>
                 <div class="form-check form-check-inline">
                   <input class="form-check-input" type="radio" name="14b3" id="14b33"
@@ -3927,11 +3877,7 @@ if($_SESSION['loggedin']!='TRUE'){
                 <div class="form-check form-check-inline">
                   <input class="form-check-input" type="radio" name="14b4" id="14b42"
                     value="option2">
-<<<<<<< HEAD
-                  <label class="form-check-label" for="14b42">X/F≤1 </label>
-=======
-                  <label class="form-check-label" for="14b42">X/F>=1 </label>
->>>>>>> 620ae8eda82895bb5b198d52dee63e1ace21e6de
+                  <label class="form-check-label" for="14b42">X/F<=1 </label>
                 </div>
                 <div class="form-check form-check-inline">
                   <input class="form-check-input" type="radio" name="14b4" id="14b43"
@@ -3972,11 +3918,7 @@ if($_SESSION['loggedin']!='TRUE'){
                 <div class="form-check form-check-inline">
                   <input class="form-check-input" type="radio" name="14c1" id="14c15"
                     value="option5">
-<<<<<<< HEAD
-                  <label class="form-check-label" for="14c15"> ≤10% </label>
-=======
-                  <label class="form-check-label" for="14c15"> >=10% </label>
->>>>>>> 620ae8eda82895bb5b198d52dee63e1ace21e6de
+                  <label class="form-check-label" for="14c15"> <=10% </label>
                 </div>
               </td>
 
@@ -4006,11 +3948,7 @@ if($_SESSION['loggedin']!='TRUE'){
                 <div class="form-check form-check-inline">
                   <input class="form-check-input" type="radio" name="14c2" id="14c25"
                     value="option5">
-<<<<<<< HEAD
-                  <label class="form-check-label" for="14c25"> ≤10% </label>
-=======
-                  <label class="form-check-label" for="14c25"> >=10% </label>
->>>>>>> 620ae8eda82895bb5b198d52dee63e1ace21e6de
+                  <label class="form-check-label" for="14c25"> <=10% </label>
                 </div>
               </td>
               </td>
@@ -4039,11 +3977,7 @@ if($_SESSION['loggedin']!='TRUE'){
                 <div class="form-check form-check-inline">
                   <input class="form-check-input" type="radio" name="14c3" id="14c35"
                     value="option5">
-<<<<<<< HEAD
-                  <label class="form-check-label" for="14c35"> ≤10% </label>
-=======
-                  <label class="form-check-label" for="14c35"> >=10% </label>
->>>>>>> 620ae8eda82895bb5b198d52dee63e1ace21e6de
+                  <label class="form-check-label" for="14c35"> <=10% </label>
                 </div>
               </td>
               </td>
@@ -4072,11 +4006,7 @@ if($_SESSION['loggedin']!='TRUE'){
                 <div class="form-check form-check-inline">
                   <input class="form-check-input" type="radio" name="14c4" id="14c46"
                     value="option5">
-<<<<<<< HEAD
-                  <label class="form-check-label" for="14c46"> ≤10% </label>
-=======
-                  <label class="form-check-label" for="14c46"> >=10% </label>
->>>>>>> 620ae8eda82895bb5b198d52dee63e1ace21e6de
+                  <label class="form-check-label" for="14c46"><=10% </label>
                 </div>
               </td>
 
@@ -4633,11 +4563,7 @@ if($_SESSION['loggedin']!='TRUE'){
 
                   <div class="form-group">
 
-<<<<<<< HEAD
                     <textarea class="form-control" name="15r" id="15r1git " rows="3" width=12px
-=======
-                    <textarea class="form-control" name="15r" id="exampleFormControlTextarea1" rows="3" width=12px
->>>>>>> 620ae8eda82895bb5b198d52dee63e1ace21e6de
                       cols="117"></textarea>
                   </div>
                 
