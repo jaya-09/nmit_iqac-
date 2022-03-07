@@ -510,32 +510,32 @@ if ($_SESSION['loggedin'] != 'TRUE') {
                                 <td class="tg-0pky" colspan="4">
                                     <div class="form-check">
                                         <input class="form-check-input" type="checkbox" name="18c1" id="18c1"
-                                            value="SCOPUS">
+                                            value="SCOPUS" onchange="togglebox('18c2')">
                                         <label class="form-check-label" for="18c1">
                                             SCOPUS
                                         </label>
-                                        <input type="number" id="number" style="width: 50px" name="18c2">
+                                        <input type="number" id="18c2" style="width: 50px" name="18c2" disabled>
                                     </div>
                                     <div class="form-check">
                                         <input class="form-check-input" type="checkbox" name="18c3" id="18c3"
-                                            value="WEB OF SCIENCE">
+                                            value="WEB OF SCIENCE" onchange="togglebox('18c4')">
                                         <label class="form-check-label" for="18c3">
                                             WEB OF SCIENCE
                                         </label>
-                                        <input type="number" id="number" style="width: 50px" name="18c4">
+                                        <input type="number" id="18c4" style="width: 50px" name="18c4" disabled>
                                     </div>
 
                                     <div class="form-check">
                                         <input class="form-check-input" type="checkbox" name="18c5" id="18c5"
-                                            value="SCI">
+                                            value="SCI" onchange="togglebox('18c6')">
                                         <label class="form-check-label" for="18c5">
                                             SCI
                                         </label>
-                                        <input type="number" id="number" style="width: 50px" name="18c6">
+                                        <input type="number" id="18c6" style="width: 50px" name="18c6" disabled>
                                     </div>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" name="18c7" id="18c7" value="ANY OTHER">
+                    <input class="form-check-input" type="checkbox" name="18c7" id="18c7" value="ANY OTHER" onchange="togglebox('18c8')">
                     <label class="form-check-label" for="18c7">
                         ANY OTHER
                     </label>
@@ -546,8 +546,8 @@ if ($_SESSION['loggedin'] != 'TRUE') {
                 <div class="bd-example">
                     <p><label for="input">Mention the same :</label>
 
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3 " width=12px name="18c8"
-                            cols="33"></textarea>
+                        <textarea class="form-control" id="18c8" rows="3 " width=12px name="18c8"
+                            cols="33" disabled></textarea>
                     </p>
                 </div>
                     </td>
@@ -588,26 +588,26 @@ if ($_SESSION['loggedin'] != 'TRUE') {
                         <td class="tg-0pky" colspan="1">a. Patent Status: (Along with count for each type)</td>
                         <td class="tg-0pky" colspan="4">
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" name="19a1" id="19a1" value="FILED">
+                                <input class="form-check-input" type="checkbox" name="19a1" id="19a1" value="FILED" onchange="togglebox('19a2')">
                                 <label class="form-check-label" for="19a1">
                                     FILED
                                 </label>
-                                <input type="number" id="19a2" style="width: 50px" name="19a2">
+                                <input type="number" id="19a2" style="width: 50px" name="19a2" disabled>
                             </div><br>
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" name="19a3" id="19a3" value="PUBLISHED">
+                                <input class="form-check-input" type="checkbox" name="19a3" id="19a3" value="PUBLISHED" onchange="togglebox('19a4')">
                                 <label class="form-check-label" for="19a3">
                                     PUBLISHED
                                 </label>
-                                <input type="number" id="19a4" style="width: 50px" name="19a4">
+                                <input type="number" id="19a4" style="width: 50px" name="19a4" disabled>
                             </div><br>
 
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" name="19a5" id="19a5" value="GRANTED">
+                                <input class="form-check-input" type="checkbox" name="19a5" id="19a5" value="GRANTED" onchange="togglebox('19a6')">
                                 <label class="form-check-label" for="19a5">
                                     GRANTED
                                 </label>
-                                <input type="number" id="19a6" style="width: 50px" name="19a6">
+                                <input type="number" id="19a6" style="width: 50px" name="19a6" disabled>
                             </div>
         </div>
         <tr>
@@ -656,19 +656,19 @@ if ($_SESSION['loggedin'] != 'TRUE') {
             </td>
             <td class="tg-0pky" colspan="4">
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" name="19c1" id="19c1" value="INDIAN PATENT">
+                    <input class="form-check-input" type="checkbox" name="19c1" id="19c1" value="INDIAN PATENT" onchange="togglebox('19c2')">
                     <label class="form-check-label" for="19c1">
                         INDIAN PATENT
                     </label>
-                    <input type="number" id="19c2" style="width: 50px" name="19c2">
+                    <input type="number" id="19c2" style="width: 50px" name="19c2" disabled>
                 </div>
                 <br>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" name="19c3" id="19c3" value="FOREIGN PATENT">
+                    <input class="form-check-input" type="checkbox" name="19c3" id="19c3" value="FOREIGN PATENT" onchange="togglebox('19c4')">
                     <label class="form-check-label" for="19c3">
                         FOREIGN PATENT
                     </label>
-                    <input type="number" id="number" style="width: 50px" name="19c4">
+                    <input type="number" id="19c4" style="width: 50px" name="19c4" disabled>
                 </div>
 
 
@@ -680,27 +680,27 @@ if ($_SESSION['loggedin'] != 'TRUE') {
             </td>
             <td class="tg-0pky" colspan="4">
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" name="19d1" id="19d1" value="DESIGN">
+                    <input class="form-check-input" type="checkbox" name="19d1" id="19d1" value="DESIGN" onchange="togglebox('19d2')">
                     <label class="form-check-label" for="19d1">
                         DESIGN
                     </label>
-                    <input type="number" id="number" style="width: 50px" name="19d2">
+                    <input type="number" id="19d2" style="width: 50px" name="19d2" disabled>
                 </div>
                 <br>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" name="19d3" id="19d3" value="PRODUCT">
+                    <input class="form-check-input" type="checkbox" name="19d3" id="19d3" value="PRODUCT" onchange="togglebox('19d4')">
                     <label class="form-check-label" for="19d3">
                         PRODUCT
                     </label>
-                    <input type="number" id="number" style="width: 50px" name="19d4">
+                    <input type="number" id="19d4" style="width: 50px" name="19d4" disabled>
                 </div><br>
 
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" name="19d5" id="19d5" value="IDEAS">
+                    <input class="form-check-input" type="checkbox" name="19d5" id="19d5" value="IDEAS" onchange="togglebox('19d6')">
                     <label class="form-check-label" for="19d5">
                         IDEAS
                     </label>
-                    <input type="number" id="19d6" style="width: 50px" name="19d6">
+                    <input type="number" id="19d6" style="width: 50px" name="19d6" disabled>
                 </div>
             </td>
         </tr>
@@ -1238,6 +1238,10 @@ if ($_SESSION['loggedin'] != 'TRUE') {
                 function myFunction() {
                     var popup = document.getElementById("myPopup");
                     popup.classList.toggle("show");
+                }
+                function togglebox(id_sent){ 
+                    document.getElementById(id_sent).disabled = !document.getElementById(id_sent).disabled;
+                    document.getElementById(id_sent).value = "";
                 }
             </script>
             <!-- <a class="btn btn-primary btn-lg" href="./home.php" role="button"
