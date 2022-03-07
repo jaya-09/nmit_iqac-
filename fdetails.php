@@ -18,6 +18,9 @@ $fname = $_POST["fname"];
  $fromy = $_POST["fromy"];
  $toy = $_POST["toy"];
  $sem = $_POST["sem"];
+
+ 
+ $_SESSION['sem'] = $sem;
  // echo "<script>alert('$fieldA')</script>";
  $keys = array($fname,$fid,$fdesig,$fdept,$fromy,$toy,$sem); 
  $csv_line = $keys;

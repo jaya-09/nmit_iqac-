@@ -401,8 +401,7 @@ array_push($_SESSION['csv_line'],"FACULTY DETAILS:");
  array_splice($_SESSION['csv_line'],count($_SESSION['csv_line'])-240,240);
     array_push($_SESSION['csv_line'],"TABLE2:");
 
-$semdetails = $_POST['sem'];
-echo "<script>alert('$semdetails')</script>";
+$semdetails = $_SESSION['sem'];
 
 if($semdetails == "odd"){
     $fname = 'data.csv'; 
