@@ -12,15 +12,20 @@ if($_SESSION['loggedin']!='TRUE'){
 
 $fname = $_POST["fname"];
  $fid = $_POST["fid"];
- $fdesig = $_POST["fdesig"];
  $fdept = $_POST["fdept"];
  $fdesig = $_POST["fdesig"];
  $fromy = $_POST["fromy"];
  $toy = $_POST["toy"];
  $sem = $_POST["sem"];
 
+ $_SESSION['fname'] = $_POST["fname"];
+ $_SESSION['fid'] = $_POST["fid"];
+ $_SESSION['fdept'] = $_POST["fdept"];
+ $_SESSION['fdesig'] = $_POST["fdesig"];
+ $_SESSION['fromy'] = $_POST["fromy"];
+ $_SESSION['toy'] = $_POST["toy"];
+ $_SESSION['sem'] = $_POST["sem"];
  
- $_SESSION['sem'] = $sem;
  // echo "<script>alert('$fieldA')</script>";
  $keys = array($fname,$fid,$fdesig,$fdept,$fromy,$toy,$sem); 
  $csv_line = $keys;
