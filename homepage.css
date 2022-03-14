@@ -1,0 +1,106 @@
+
+body{
+ 
+}
+
+h3{
+  padding-left: 1rem;
+  padding-right: 1rem;
+  align-items: center;
+}
+
+b{
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+
+.mycontainer{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  flex-grow:1;
+}
+
+.itemcont{
+  width: 20vw;
+  display:flex;
+  flex-direction:column;
+  justify-content: flex-start;  
+  align-items:flex-start;
+  flex-grow:1;
+}
+
+.itemcont2{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;  
+  align-items:center;
+  flex-grow:1;
+
+  width: 56vw;
+}
+
+.itemcont3{
+  display:flex;
+  align-items:flex-end;
+  flex-direction:column;
+  justify-content: flex-start;
+  flex-grow:1;
+}
+
+.flex-container{
+  display: block;
+  flex-direction:column;
+  flex-wrap: wrap;
+  align-items: center;
+  
+  width: 50%;
+  height: 50%;
+  position: relative;
+  top: 10%;
+  left: 1%;
+} 
+#Iq{
+  margin-top:5vh;
+  text-align: center;
+  z-index: 5;
+  font-size: 70px;
+  filter: drop-shadow(10px 10px 10px black);
+}
+
+.form-control {
+  position: relative;
+  font-size: 100px;
+  height: auto;
+  padding: 10px 50px 50px 50px;
+  }
+
+  
+.Logfields{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.card{
+  display: block !important;
+  align-items: center;
+  align-content: center;
+  width: 22vw !important;
+}
+
+.card h3{  
+  margin-top: 0;
+}
+
+.card-img-top{
+  height:15vw !important;
+}
+
+
+@media screen and (max-width: 1300px){
+  .card{display:none !important;}
+  .itemcont2,.Logfields,.mycontainer{
+    align-items:center;
+    justify-content: center;
+  }
+}

@@ -1,58 +1,79 @@
-body{
-
+body {
 }
-#logo{ 
-	position:fixed; 
-	top:0; 
-	left:0; 
-} 
-#container{width: 400px;}
-
-#image1 {width: 100px; height: 100px; background-color: black; float: left;}
-#image2 {width: 100px; height: 100px; background-color: blue; float: left;}
-#image3 {width: 100px; height: 100px; background-color: black; float: left;}
-#image4 {width: 100px; height: 100px; background-color: blue; float: left;}
-
-
-@media only screen and (max-width: 399px){
-    #container{width: 100%;}
+#logo {
+  position: fixed;
+  top: 0;
+  left: 0;
 }
-.flex-container{
-    display: flex;
-    flex-direction:column;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    
-    width: auto;
-    height: auto;
-    position: absolute;
-    top: 10%;
-    left    : 1%;
-}
-.flex-container2{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    
-    width: auto;
-    height: auto;
-    position: absolute;
-    top: -1%;
-    left: 92rem;
-    justify-content: space-around;
-}
-.card-img-top{
-    height: 270px;
-    width: 700px;
-    border: 3px solid #000;
+#container {
+  width: 400px;
 }
 
+#image1 {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  float: left;
+}
+#image2 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  float: left;
+}
+#image3 {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  float: left;
+}
+#image4 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  float: left;
+}
 
-.wrapper {	
-	margin-top: 50px;
+@media only screen and (max-width: 399px) {
+  #container {
+    width: 100%;
+  }
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 10%;
+  left: 1%;
+}
+.flex-container2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: -1%;
+  left: 92rem;
+  justify-content: space-around;
+}
+.card-img-top {
+  height: 270px;
+  width: 700px;
+  border: 3px solid #000;
+}
+
+.wrapper {
+  margin-top: 50px;
   margin-bottom: 100px;
 }
 
@@ -60,49 +81,48 @@ body{
   max-width: 380px;
   padding: 90px 200px 90px;
   margin: 0 auto;
-  
-   
 }
 
-  .form-signin-heading,
-	.checkbox {
-	  margin-bottom: 90px;
-	}
+.form-signin-heading,
+.checkbox {
+  margin-bottom: 90px;
+}
 
-	.checkbox {
-	  font-weight: normal;
-	}
+.checkbox {
+  font-weight: normal;
+}
 
-	.form-control {
-	  position: relative;
-	  font-size: 100px;
-	  height: auto;
-	  padding: 10px 50px 50px 50px;
-    }
+.form-control {
+  position: relative;
+  font-size: 100px;
+  height: auto;
+  padding: 10px 50px 50px 50px;
+}
 
-	input[type="text"] {
-	  margin-bottom: 1px;
-	  border-bottom-left-radius: 0;
-	  border-bottom-right-radius: 0;
-	}
+input[type="text"] {
+  margin-bottom: 1px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
 
-	input[type="password"] {
-	  margin-bottom: 20px;
-	  border-top-left-radius: 0;
-	  border-top-right-radius: 0;
-	}
-    
-    .cards{
-        position: absolute;
-        left: 60%;
-        padding: 0px 0px 0px 0px;
-        
-        margin-left: 390px;
-    }
-    #Iq{
-        position: absolute;
-        left: 250px;
-        font-size: 70px;
-        bottom: 70%;
-        filter: drop-shadow(10px 10px 10px black);
-    }
+input[type="password"] {
+  margin-bottom: 20px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.cards {
+  position: absolute;
+  left: 60%;
+  padding: 0px 0px 0px 0px;
+
+  margin-left: 390px;
+}
+#Iq {
+  position: absolute;
+  left: 250px;
+  font-size: 70px;
+  bottom: 70%;
+  filter: drop-shadow(10px 10px 10px black);
+}
+
