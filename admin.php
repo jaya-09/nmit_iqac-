@@ -1,7 +1,7 @@
 <?php
 session_start();
 include "db_conn.php";
-
+error_reporting(0);
 session_start();
 
 if($_SESSION['loggedin']!='TRUE'){
@@ -41,8 +41,8 @@ if($_SESSION['loggedin']!='TRUE'){
             <span>ADMIN</span>
         </h2>
         <div style="text-align: center; padding-top: 2%;">
-            <button type="button" class="btn btn-outline-warning" style="margin: 1em; padding: 1em 2em;">View
-                Responses</button>
+            <a href="./responses.php"><button type="button" class="btn btn-outline-warning" style="margin: 1em; padding: 1em 2em;">View
+                Responses</button></a>
             <button type="button" class="btn btn-outline-warning" style="margin: 1em; padding: 1em 2em;">Edit
                 Responses</button>
             <button type="button" class="btn btn-outline-warning" style="margin: 1em; padding: 1em 2em;">Delete

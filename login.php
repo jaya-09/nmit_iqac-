@@ -42,7 +42,7 @@ if (isset($_POST['uname']) && isset($_POST['password'])) {
 			}
 
             else if ($row['username'] == $uname && $row['password'] == $pass) {
-				$_SESSION['userid'] = $row['userid'];
+				$_SESSION['userid'] = $row['user_id'];
             	$_SESSION['name'] = $row['name'];
             	$_SESSION['desig'] = $row['designation'];
             	$_SESSION['dept'] = $row['dept'];

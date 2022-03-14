@@ -5,6 +5,9 @@ if($_SESSION['loggedin']!='TRUE'){
   header("Location: login-error.html");
   exit();
 };
+
+
+echo "<script>console.log('".$_SESSION['userid']."');</script>";
   ?>
 
 <!DOCTYPE html>

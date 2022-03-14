@@ -8,8 +8,6 @@ if($_SESSION['loggedin']!='TRUE'){
   exit();
 };
 
-
-
 $fname = $_POST["fname"];
  $fid = $_POST["fid"];
  $fdept = $_POST["fdept"];
@@ -26,7 +24,6 @@ $fname = $_POST["fname"];
  $_SESSION['toy'] = $_POST["toy"];
  $_SESSION['sem'] = $_POST["sem"];
  
- // echo "<script>alert('$fieldA')</script>";
  $keys = array($fname,$fid,$fdesig,$fdept,$fromy,$toy,$sem); 
  $csv_line = $keys;
  foreach($keys as $key){
