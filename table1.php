@@ -3231,19 +3231,19 @@ if($_SESSION['loggedin']!='TRUE'){
 
               <td class="tg-0pky">
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13c3" id="13c31"
+                  <input class="form-check-input" type="radio" name="13c4" id="13c41"
                     value="option1">
-                  <label class="form-check-label" for="13c31">Accurate</label>
+                  <label class="form-check-label" for="13c41">Accurate</label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13c4" id="13c32"
+                  <input class="form-check-input" type="radio" name="13c4" id="13c42"
                     value="option2">
-                  <label class="form-check-label" for="13c32">Not Accurate</label>
+                  <label class="form-check-label" for="13c42">Not Accurate</label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="13c4" id="13c33"
+                  <input class="form-check-input" type="radio" name="13c4" id="13c43"
                     value="option3">
-                  <label class="form-check-label" for="13c33">Not found</label>
+                  <label class="form-check-label" for="13c43">Not found</label>
                 </div>
               </td>
             </tr>
