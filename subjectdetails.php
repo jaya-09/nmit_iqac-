@@ -13,6 +13,14 @@ if($_SESSION['loggedin']!='TRUE'){
  $sub3c = $_POST["sub3c"];
  $sub4 = $_POST["sub4"];
  $sub4c = $_POST["sub4c"];
+ $_SESSION['sub1'] = $sub1;
+ $_SESSION['sub1c'] = $sub1c;
+ $_SESSION['sub2'] = $sub2;
+ $_SESSION['sub2c'] = $sub2c;
+ $_SESSION['sub3'] = $sub3;
+ $_SESSION['sub3c'] = $sub3c;
+ $_SESSION['sub4'] = $sub4;
+ $_SESSION['sub4c'] = $sub4c;
  // echo "<script>alert('$fieldA')</script>";
  $keys = array($sub1,$sub1c,$sub2,$sub2c,$sub3,$sub3c,$sub4,$sub4c); 
  $csv_line = $keys;
