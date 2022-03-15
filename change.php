@@ -7,14 +7,12 @@ if($_SESSION['loggedin']!='TRUE'){
     exit();
   };
 include "db_conn.php";
-$qry0 = "select changed from users where username='".$_SESSION['name']."'";
+$qry0 = "select changed from users where username='".$_SESSION['username']."'";
 $result = mysqli_query($conn,$qry0);
 $resultp = mysqli_fetch_array($result);
-
 if($resultp[0] == 1)
 {
-    echo "<script type='text/javascript'>console.log('lol');</script>";
-    header("Location: ./home.php");
+    header("Location: ./error_pass.php");
 }
 
 ?>
