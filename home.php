@@ -50,12 +50,12 @@ echo "<script>console.log('".$_SESSION['userid']."');</script>";
           <h4 class="left-menu-title" style="color: white;" style="font-size: 400%;">Designation : <?php echo $_SESSION['desig'];?>
           </h4>
           <h4 class="left-menu-title" style="color: white;">Department: <?php echo $_SESSION['dept'];?></h4>
-
+          <button class="btn btn-primary" onclick="location.href='./change.php';">Change password</button>
         </div>
         <div class="col-md-9 col-xl-10 main-panel bg-white">
           <div class="main-panel-wrapper">
             <h2 class="mt-2 text-center  text-uppercase mb-4" style="background-color: #1b2a47 ; color: white" ;>
-              Dashboard</h2>
+              Faculty Audit</h2>
 
             <div class="text-right">
               <a button type="button" class="btn btn-primary"
@@ -94,7 +94,7 @@ echo "<script>console.log('".$_SESSION['userid']."');</script>";
                   <select name="fdept" class="custom-select" id="inputGroupSelect01" required="true" >
                     <option selected>Select an Option</option>
                     <option value="1">Aeronautical Engineering</option>
-                    <option value="2">Artificial Intelligence & Cyber Security</option>
+                    <option value="2">Artificial Intelligence & Data Science</option>
                     <option value="3">Artificial Intelligence & Machine Learning </option>
                     <option value="4">Civil Engineering</option>
                     <option value="5">Computer Science Engineering</option>
