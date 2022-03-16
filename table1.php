@@ -21,12 +21,21 @@ if($_SESSION['loggedin']!='TRUE'){
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
   </head>
+<script type="text/javascript">
+  function retrive(){
+    <?php
+      echo "var name = '".$_SESSION['name']."';";
+    ?>
+  
 
+  }
+</script>
+  
   <body style="
       background-image: url('bg1.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;  
-  background-size: cover;">
+  background-size: cover;" onload="retrive();">
 
     <div class="flex-container">
       <div id="logo">
@@ -40,22 +49,22 @@ if($_SESSION['loggedin']!='TRUE'){
   
     <div class="row">
       <div class="col">
-        <span class="input-group-text" id="inputGroup-sizing-lg">SUBJECT1</span>
+        <span class="input-group-text" id="inputGroup-sizing-lg"></span>
 
         <input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-xl">
       </div>
       <div class="col">
-        <span class="input-group-text" id="inputGroup-sizing-lg">SUBJECT2</span>
+        <span class="input-group-text" id="inputGroup-sizing-lg"></span>
 
         <input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-xl">
       </div>
       <div class="col">
-        <span class="input-group-text" id="inputGroup-sizing-lg">SUBJECT3</span>
+        <span class="input-group-text" id="inputGroup-sizing-lg"></span>
 
         <input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-xl">
       </div>
       <div class="col">
-        <span class="input-group-text" id="inputGroup-sizing-lg">SUBJECT4</span>
+        <span class="input-group-text" id="inputGroup-sizing-lg"></span>
 
         <input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-xl">
       </div>
@@ -98,10 +107,10 @@ if($_SESSION['loggedin']!='TRUE'){
           <tr style="background-color :#dcf0fa;">
             <td class="tg-0pky" style="font-weight: bold;">1</td>
             <td class="tg-0pky" style="font-weight: bold;">Lesson plan</td>
-            <td class="tg-0pky" style="font-weight: bold;" colspan="1">Subject1</td>
-            <td class="tg-0pky" style="font-weight: bold;" colspan="1">Subject2</td>
-            <td class="tg-0pky" style="font-weight: bold;" colspan="1">Subject3</td>
-            <td class="tg-0pky" style="font-weight: bold;" colspan="1">Subject4</td>
+            <td class="tg-0pky" style="font-weight: bold;" colspan="1"><?php echo $_SESSION['sub1c'] ?></td>
+            <td class="tg-0pky" style="font-weight: bold;" colspan="1"><?php $temp = $_SESSION['sub2c'] ?  $_SESSION['sub2c']:"<div class='red'>Dont Fill<div>"; echo $temp; ?></td>
+            <td class="tg-0pky" style="font-weight: bold;" colspan="1"><?php $temp = $_SESSION['sub3c'] ?  $_SESSION['sub3c']:"<div class='red'>Dont Fill<div>"; echo $temp; ?></td>
+            <td class="tg-0pky" style="font-weight: bold;" colspan="1"><?php $temp = $_SESSION['sub4c'] ?  $_SESSION['sub4c']:"<div class='red'>Dont Fill<div>"; echo $temp; ?></td>
           </tr>
           <tr>
             <td class="tg-0pky"></td>
@@ -118,7 +127,7 @@ if($_SESSION['loggedin']!='TRUE'){
                 </label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="radio" name="1a1" id="1a12" value="option2">
+                <input class="form-check-input" type="radio" name="1a1" id="1a12" value="option2" >
                 <label class="form-check-label" for="1a12">
                   NO
                 </label>
@@ -323,10 +332,10 @@ if($_SESSION['loggedin']!='TRUE'){
           <tr style="background-color :#dcf0fa;">
             <td class="tg-0pky" style="font-weight: bold;">2</td>
             <td class="tg-0pky" style="font-weight: bold;">Work done Diary</td>
-            <td class="tg-0pky" colspan="1" style="font-weight: bold;">Subject1</td>
-            <td class="tg-0pky" colspan="1" style="font-weight: bold;">Subject2</td>
-            <td class="tg-0pky" colspan="1" style="font-weight: bold;">Subject3</td>
-            <td class="tg-0pky" colspan="1" style="font-weight: bold;">Subject4</td>
+            <td class="tg-0pky" colspan="1" style="font-weight: bold;"><?php echo $_SESSION['sub1c'] ?></td>
+            <td class="tg-0pky" colspan="1" style="font-weight: bold;"><?php $temp = $_SESSION['sub2c'] ?  $_SESSION['sub2c']:"<div class='red'>Dont Fill<div>"; echo $temp; ?></td>
+            <td class="tg-0pky" colspan="1" style="font-weight: bold;"><?php $temp = $_SESSION['sub3c'] ?  $_SESSION['sub3c']:"<div class='red'>Dont Fill<div>"; echo $temp; ?></td>
+            <td class="tg-0pky" colspan="1" style="font-weight: bold;"><?php $temp = $_SESSION['sub4c'] ?  $_SESSION['sub4c']:"<div class='red'>Dont Fill<div>"; echo $temp; ?></td>
           </tr>
           <tr>
             <td class="tg-0pky"></td>
@@ -474,10 +483,10 @@ if($_SESSION['loggedin']!='TRUE'){
           <tr style="background-color :#dcf0fa;">
             <td class="tg-0pky" style="font-weight: bold;">3</td>
             <td class="tg-0pky" style="font-weight: bold;">ATTENDANCE REGISTER</td>
-            <td class="tg-0pky" colspan="1" style="font-weight: bold;">Subject1</td>
-            <td class="tg-0pky" colspan="1" style="font-weight: bold;">Subject2</td>
-            <td class="tg-0pky" colspan="1" style="font-weight: bold;">Subject3</td>
-            <td class="tg-0pky" colspan="1" style="font-weight: bold;">Subject4</td>
+            <td class="tg-0pky" colspan="1" style="font-weight: bold;"><?php echo $_SESSION['sub1c'] ?></td>
+            <td class="tg-0pky" colspan="1" style="font-weight: bold;"><?php $temp = $_SESSION['sub2c'] ?  $_SESSION['sub2c']:"<div class='red'>Dont Fill<div>"; echo $temp; ?></td>
+            <td class="tg-0pky" colspan="1" style="font-weight: bold;"><?php $temp = $_SESSION['sub3c'] ?  $_SESSION['sub3c']:"<div class='red'>Dont Fill<div>"; echo $temp; ?></td>
+            <td class="tg-0pky" colspan="1" style="font-weight: bold;"><?php $temp = $_SESSION['sub4c'] ?  $_SESSION['sub4c']:"<div class='red'>Dont Fill<div>"; echo $temp; ?></td>
           </tr>
           <tr>
             <td class="tg-0pky"></td>
@@ -565,10 +574,10 @@ if($_SESSION['loggedin']!='TRUE'){
             <td class="tg-0pky" style="font-weight: bold;"> a. Student centric activities such as the following are the
               part of the day-to-day
               teaching-learning of the course</td>
-            <td class="tg-0pky" colspan="1" style="font-weight: bold;">Subject1</td>
-            <td class="tg-0pky" colspan="1" style="font-weight: bold;">Subject2</td>
-            <td class="tg-0pky" colspan="1" style="font-weight: bold;">Subject3</td>
-            <td class="tg-0pky" colspan="1" style="font-weight: bold;">Subject4</td>
+            <td class="tg-0pky" colspan="1" style="font-weight: bold;"><?php echo $_SESSION['sub1c'] ?></td>
+            <td class="tg-0pky" colspan="1" style="font-weight: bold;"><?php $temp = $_SESSION['sub2c'] ?  $_SESSION['sub2c']:"<div class='red'>Dont Fill<div>"; echo $temp; ?></td>
+            <td class="tg-0pky" colspan="1" style="font-weight: bold;"><?php $temp = $_SESSION['sub3c'] ?  $_SESSION['sub3c']:"<div class='red'>Dont Fill<div>"; echo $temp; ?></td>
+            <td class="tg-0pky" colspan="1" style="font-weight: bold;"><?php $temp = $_SESSION['sub4c'] ?  $_SESSION['sub4c']:"<div class='red'>Dont Fill<div>"; echo $temp; ?></td>
           </tr>
           <tr>
             <td class="tg-0pky"></td>
@@ -1104,10 +1113,10 @@ if($_SESSION['loggedin']!='TRUE'){
             <td class="tg-0pky" style="font-weight: bold;"> b. Above mentioned student centric activities fulfils the
               present-day requirements in
               terms of:</td>
-            <td class="tg-0pky" colspan="1" style="font-weight: bold;">Subject1</td>
-            <td class="tg-0pky" colspan="1" style="font-weight: bold;">Subject2</td>
-            <td class="tg-0pky" colspan="1" style="font-weight: bold;">Subject3</td>
-            <td class="tg-0pky" colspan="1" style="font-weight: bold;">Subject4</td>
+            <td class="tg-0pky" colspan="1" style="font-weight: bold;"><?php echo $_SESSION['sub1c'] ?></td>
+            <td class="tg-0pky" colspan="1" style="font-weight: bold;"><?php $temp = $_SESSION['sub2c'] ?  $_SESSION['sub2c']:"<div class='red'>Dont Fill<div>"; echo $temp; ?></td>
+            <td class="tg-0pky" colspan="1" style="font-weight: bold;"><?php $temp = $_SESSION['sub3c'] ?  $_SESSION['sub3c']:"<div class='red'>Dont Fill<div>"; echo $temp; ?></td>
+            <td class="tg-0pky" colspan="1" style="font-weight: bold;"><?php $temp = $_SESSION['sub4c'] ?  $_SESSION['sub4c']:"<div class='red'>Dont Fill<div>"; echo $temp; ?></td>
           </tr>
           <tr>
 
@@ -1555,10 +1564,10 @@ if($_SESSION['loggedin']!='TRUE'){
           <tr style="background-color :#dcf0fa;">
             <td class="tg-0pky" style="font-weight: bold;">6</td>
             <td class="tg-0pky" style="font-weight: bold;">TUTORIALS</td>
-            <td class="tg-0pky" colspan="1" style="font-weight: bold;">Subject1</td>
-            <td class="tg-0pky" colspan="1" style="font-weight: bold;">Subject2</td>
-            <td class="tg-0pky" colspan="1" style="font-weight: bold;">Subject3</td>
-            <td class="tg-0pky" colspan="1" style="font-weight: bold;">Subject4</td>
+            <td class="tg-0pky" colspan="1" style="font-weight: bold;"><?php echo $_SESSION['sub1c'] ?></td>
+            <td class="tg-0pky" colspan="1" style="font-weight: bold;"><?php $temp = $_SESSION['sub2c'] ?  $_SESSION['sub2c']:"<div class='red'>Dont Fill<div>"; echo $temp; ?></td>
+            <td class="tg-0pky" colspan="1" style="font-weight: bold;"><?php $temp = $_SESSION['sub3c'] ?  $_SESSION['sub3c']:"<div class='red'>Dont Fill<div>"; echo $temp; ?></td>
+            <td class="tg-0pky" colspan="1" style="font-weight: bold;"><?php $temp = $_SESSION['sub4c'] ?  $_SESSION['sub4c']:"<div class='red'>Dont Fill<div>"; echo $temp; ?></td>
           </tr>
 
 
@@ -1735,7 +1744,7 @@ if($_SESSION['loggedin']!='TRUE'){
           </tr>
           <tr>
             <td class="tg-0pky"></td>
-            <td class="tg-0pky" colspan="5"> Subject 1
+            <td class="tg-0pky" colspan="5"> <?php echo $_SESSION['sub1c'] ?>
               <br>
               
 
@@ -1751,7 +1760,7 @@ if($_SESSION['loggedin']!='TRUE'){
           </tr>
           <tr>
             <td class="tg-0pky"></td>
-            <td class="tg-0pky" colspan="5"> Subject 2
+            <td class="tg-0pky" colspan="5"> <?php $temp = $_SESSION['sub2c'] ?  $_SESSION['sub2c']:"<div class='red'>Dont Fill<div>"; echo $temp; ?>
               <br>
               
 
@@ -1767,7 +1776,7 @@ if($_SESSION['loggedin']!='TRUE'){
           </tr>
           <tr>
             <td class="tg-0pky"></td>
-            <td class="tg-0pky" colspan="5"> Subject 3
+            <td class="tg-0pky" colspan="5"> <?php $temp = $_SESSION['sub3c'] ?  $_SESSION['sub3c']:"<div class='red'>Dont Fill<div>"; echo $temp; ?>
               <br>
               
 
@@ -1783,7 +1792,7 @@ if($_SESSION['loggedin']!='TRUE'){
           </tr>
           <tr>
             <td class="tg-0pky"></td>
-            <td class="tg-0pky" colspan="5"> Subject 4
+            <td class="tg-0pky" colspan="5"> <?php $temp = $_SESSION['sub4c'] ?  $_SESSION['sub4c']:"<div class='red'>Dont Fill<div>"; echo $temp; ?>
               <br>
               
 
@@ -1803,10 +1812,10 @@ if($_SESSION['loggedin']!='TRUE'){
           <tr style="background-color :#dcf0fa;">
             <td class="tg-0pky" style="font-weight: bold;">7</td>
             <td class="tg-0pky" style="font-weight: bold;">Midterm test questions quality (consider blooms level)</td>
-            <td class="tg-0pky" colspan="1" style="font-weight: bold;">Subject1</td>
-            <td class="tg-0pky" colspan="1" style="font-weight: bold;">Subject2</td>
-            <td class="tg-0pky" colspan="1" style="font-weight: bold;">Subject3</td>
-            <td class="tg-0pky" colspan="1" style="font-weight: bold;">Subject4</td>
+            <td class="tg-0pky" colspan="1" style="font-weight: bold;"><?php echo $_SESSION['sub1c'] ?></td>
+            <td class="tg-0pky" colspan="1" style="font-weight: bold;"><?php $temp = $_SESSION['sub2c'] ?  $_SESSION['sub2c']:"<div class='red'>Dont Fill<div>"; echo $temp; ?></td>
+            <td class="tg-0pky" colspan="1" style="font-weight: bold;"><?php $temp = $_SESSION['sub3c'] ?  $_SESSION['sub3c']:"<div class='red'>Dont Fill<div>"; echo $temp; ?></td>
+            <td class="tg-0pky" colspan="1" style="font-weight: bold;"><?php $temp = $_SESSION['sub4c'] ?  $_SESSION['sub4c']:"<div class='red'>Dont Fill<div>"; echo $temp; ?></td>
           </tr>
           <tr>
             <td class="tg-0pky"></td>
@@ -2087,7 +2096,7 @@ if($_SESSION['loggedin']!='TRUE'){
           </tr>
           <tr>
             <td class="tg-0pky"></td>
-            <td class="tg-0pky" colspan="5"> Subject 1
+            <td class="tg-0pky" colspan="5"> <?php echo $_SESSION['sub1c'] ?>
               <br>
               
 
@@ -2103,7 +2112,7 @@ if($_SESSION['loggedin']!='TRUE'){
           </tr>
           <tr>
             <td class="tg-0pky"></td>
-            <td class="tg-0pky" colspan="5"> Subject 2
+            <td class="tg-0pky" colspan="5"> <?php $temp = $_SESSION['sub2c'] ?  $_SESSION['sub2c']:"<div class='red'>Dont Fill<div>"; echo $temp; ?>
               <br>
               
 
@@ -2119,7 +2128,7 @@ if($_SESSION['loggedin']!='TRUE'){
           </tr>
           <tr>
             <td class="tg-0pky"></td>
-            <td class="tg-0pky" colspan="5"> Subject 3
+            <td class="tg-0pky" colspan="5"> <?php $temp = $_SESSION['sub3c'] ?  $_SESSION['sub3c']:"<div class='red'>Dont Fill<div>"; echo $temp; ?>
               <br>
               
 
@@ -2135,7 +2144,7 @@ if($_SESSION['loggedin']!='TRUE'){
           </tr>
           <tr>
             <td class="tg-0pky"></td>
-            <td class="tg-0pky" colspan="5"> Subject 4
+            <td class="tg-0pky" colspan="5"> <?php $temp = $_SESSION['sub4c'] ?  $_SESSION['sub4c']:"<div class='red'>Dont Fill<div>"; echo $temp; ?>
               <br>
               
 
@@ -2159,7 +2168,7 @@ if($_SESSION['loggedin']!='TRUE'){
 
           <tr>
             <td class="tg-0pky"></td>
-            <td class="tg-0pky" colspan="5"> Subject 1
+            <td class="tg-0pky" colspan="5"> <?php echo $_SESSION['sub1c'] ?>
               <br>
               
 
@@ -2175,7 +2184,7 @@ if($_SESSION['loggedin']!='TRUE'){
           </tr>
           <tr>
             <td class="tg-0pky"></td>
-            <td class="tg-0pky" colspan="5"> Subject 2
+            <td class="tg-0pky" colspan="5"> <?php $temp = $_SESSION['sub2c'] ?  $_SESSION['sub2c']:"<div class='red'>Dont Fill<div>"; echo $temp; ?>
               <br>
               
 
@@ -2191,7 +2200,7 @@ if($_SESSION['loggedin']!='TRUE'){
           </tr>
           <tr>
             <td class="tg-0pky"></td>
-            <td class="tg-0pky" colspan="5"> Subject 3
+            <td class="tg-0pky" colspan="5"> <?php $temp = $_SESSION['sub3c'] ?  $_SESSION['sub3c']:"<div class='red'>Dont Fill<div>"; echo $temp; ?>
               <br>
               
 
@@ -2207,7 +2216,7 @@ if($_SESSION['loggedin']!='TRUE'){
           </tr>
           <tr>
             <td class="tg-0pky"></td>
-            <td class="tg-0pky" colspan="5"> Subject 4
+            <td class="tg-0pky" colspan="5"> <?php $temp = $_SESSION['sub4c'] ?  $_SESSION['sub4c']:"<div class='red'>Dont Fill<div>"; echo $temp; ?>
               <br>
               
 
@@ -2288,7 +2297,7 @@ if($_SESSION['loggedin']!='TRUE'){
             </tr>
             <tr>
               <td class="tg-0pky"></td>
-              <td class="tg-0pky">Subject 1</td>
+              <td class="tg-0pky"><?php echo $_SESSION['sub1c'] ?></td>
               <td class="tg-0pky">Course exit survey covers all COs.</td>
               <td class="tg-0pky">
                 <div class="form-check">
@@ -2320,7 +2329,7 @@ if($_SESSION['loggedin']!='TRUE'){
             </tr>
             <tr>
               <td class="tg-0pky"></td>
-              <td class="tg-0pky">Subject 2</td>
+              <td class="tg-0pky"><?php $temp = $_SESSION['sub2c'] ?  $_SESSION['sub2c']:"<div class='red'>Dont Fill<div>"; echo $temp; ?></td>
               <td class="tg-0pky">Course exit survey covers all COs.</td>
               <td class="tg-0pky">
                 <div class="form-check">
@@ -2352,7 +2361,7 @@ if($_SESSION['loggedin']!='TRUE'){
             </tr>
             <tr>
               <td class="tg-0pky"></td>
-              <td class="tg-0pky">Subject 3</td>
+              <td class="tg-0pky"><?php $temp = $_SESSION['sub3c'] ?  $_SESSION['sub3c']:"<div class='red'>Dont Fill<div>"; echo $temp; ?></td>
               <td class="tg-0pky">Course exit survey covers all COs.</td>
               <td class="tg-0pky">
                 <div class="form-check">
@@ -2384,7 +2393,7 @@ if($_SESSION['loggedin']!='TRUE'){
             </tr>
             <tr>
               <td class="tg-0pky"></td>
-              <td class="tg-0pky">Subject 4</td>
+              <td class="tg-0pky"><?php $temp = $_SESSION['sub4c'] ?  $_SESSION['sub4c']:"<div class='red'>Dont Fill<div>"; echo $temp; ?></td>
               <td class="tg-0pky">Course exit survey covers all COs.</td>
               <td class="tg-0pky">
                 <div class="form-check">
@@ -2456,7 +2465,7 @@ if($_SESSION['loggedin']!='TRUE'){
               </tr>
               <tr>
                 <td class="tg-0pky"></td>
-                <td class="tg-0pky">SUBJECT 1</td>
+                <td class="tg-0pky"><?PHP ECHO $_SESSION['sub1c'] ?></td>
                 <td class="tg-0pky" colspan="4">
                   &nbsp &nbsp
                   <input class="form-check-input" type="radio" name="101" id="101"
@@ -2479,7 +2488,7 @@ if($_SESSION['loggedin']!='TRUE'){
               </tr>
               <tr>
                 <td class="tg-0pky"></td>
-                <td class="tg-0pky">SUBJECT 2</td>
+                <td class="tg-0pky"><?php $temp = $_SESSION['sub2c'] ?  $_SESSION['sub2c']:"<div class='red'>Dont Fill<div>"; echo $temp; ?></td>
                 <td class="tg-0pky" colspan="4">
                   &nbsp &nbsp
                   <input class="form-check-input" type="radio" name="102" id="102"
@@ -2502,7 +2511,7 @@ if($_SESSION['loggedin']!='TRUE'){
               </tr>
               <tr>
                 <td class="tg-0pky"></td>
-                <td class="tg-0pky">SUBJECT 3</td>
+                <td class="tg-0pky"><?php $temp = $_SESSION['sub3c'] ?  $_SESSION['sub3c']:"<div class='red'>Dont Fill<div>"; echo $temp; ?></td>
                 <td class="tg-0pky" colspan="4">
                   &nbsp &nbsp
                   <input class="form-check-input" type="radio" name="103" id="103"
@@ -2525,7 +2534,7 @@ if($_SESSION['loggedin']!='TRUE'){
               </tr>
               <tr>
                 <td class="tg-0pky"></td>
-                <td class="tg-0pky">SUBJECT 4</td>
+                <td class="tg-0pky"><?php $temp = $_SESSION['sub4c'] ?  $_SESSION['sub4c']:"<div class='red'>Dont Fill<div>"; echo $temp; ?></td>
                 <td class="tg-0pky" colspan="4">
                   &nbsp &nbsp
                   <input class="form-check-input" type="radio" name="104" id="104"
@@ -2613,7 +2622,7 @@ if($_SESSION['loggedin']!='TRUE'){
             <tr>
               <td class="tg-0pky"> </td>
               
-              <td class="tg-0pky">SUBJECT 1</td>
+              <td class="tg-0pky"><?PHP ECHO $_SESSION['sub1c'] ?></td>
               <td class="tg-0pky"><input type="number" name="11an" id="number" style="width: 50px"></td>
               <td class="tg-0pky"><input type="number" name="11a1" id="number" style="width: 50px"></td>
               <td class="tg-0pky"><input type="number" name="11a2" id="number" style="width: 50px"></td>
@@ -2622,7 +2631,7 @@ if($_SESSION['loggedin']!='TRUE'){
             </tr>
             <tr>
               <td class="tg-0pky"> </td>
-              <td class="tg-0pky">SUBJECT 2</td>
+              <td class="tg-0pky"><?php $temp = $_SESSION['sub2c'] ?  $_SESSION['sub2c']:"<div class='red'>Dont Fill<div>"; echo $temp; ?></td>
               <td class="tg-0pky"><input type="number" name="11bn" id="number" style="width: 50px"></td>
               <td class="tg-0pky"><input type="number" name="11b1" id="number" style="width: 50px"></td>
               <td class="tg-0pky"><input type="number" name="11b2" id="number" style="width: 50px"></td>
@@ -2631,7 +2640,7 @@ if($_SESSION['loggedin']!='TRUE'){
             </tr>
             <tr>
               <td class="tg-0pky"> </td>
-              <td class="tg-0pky">SUBJECT 3</td>
+              <td class="tg-0pky"><?php $temp = $_SESSION['sub3c'] ?  $_SESSION['sub3c']:"<div class='red'>Dont Fill<div>"; echo $temp; ?></td>
               <td class="tg-0pky"><input type="number" name="11cn" id="number" style="width: 50px"></td>
               <td class="tg-0pky"><input type="number" name="11c1" id="number" style="width: 50px"></td>
               <td class="tg-0pky"><input type="number" name="11c2" id="number" style="width: 50px"></td>
@@ -2640,7 +2649,7 @@ if($_SESSION['loggedin']!='TRUE'){
             </tr>
             <tr>
               <td class="tg-0pky"> </td>
-              <td class="tg-0pky">SUBJECT 4</td>
+              <td class="tg-0pky"><?php $temp = $_SESSION['sub4c'] ?  $_SESSION['sub4c']:"<div class='red'>Dont Fill<div>"; echo $temp; ?></td>
               <td class="tg-0pky"><input type="number" name="11dn" id="number" style="width: 50px"></td>
               <td class="tg-0pky"><input type="number" name="11d1" id="number" style="width: 50px"></td>
               <td class="tg-0pky"><input type="number" name="11d2" id="number" style="width: 50px"></td>
@@ -2692,10 +2701,10 @@ if($_SESSION['loggedin']!='TRUE'){
             <tr>
               <td class="tg-0pky"></td>
               <td class="tg-0pky"></td>
-              <td class="tg-0pky" colspan="1"> <b> Subject1 </b></td>
-              <td class="tg-0pky" colspan="1" style="font-weight: bold;">Subject 2</td>
-              <td class="tg-0pky" colspan="1" style="font-weight: bold;">Subject 3</td>
-              <td class="tg-0pky" colspan="1" style="font-weight: bold;">Subject4</td>
+              <td class="tg-0pky" colspan="1"> <b> <?php echo $_SESSION['sub1c'] ?> </b></td>
+              <td class="tg-0pky" colspan="1" style="font-weight: bold;"><?php $temp = $_SESSION['sub2c'] ?  $_SESSION['sub2c']:"<div class='red'>Dont Fill<div>"; echo $temp; ?></td>
+              <td class="tg-0pky" colspan="1" style="font-weight: bold;"><?php $temp = $_SESSION['sub3c'] ?  $_SESSION['sub3c']:"<div class='red'>Dont Fill<div>"; echo $temp; ?></td>
+              <td class="tg-0pky" colspan="1" style="font-weight: bold;"><?php $temp = $_SESSION['sub4c'] ?  $_SESSION['sub4c']:"<div class='red'>Dont Fill<div>"; echo $temp; ?></td>
             </tr>
 
             <tr>
@@ -3004,10 +3013,10 @@ if($_SESSION['loggedin']!='TRUE'){
             <tr style="background-color :#dcf0fa;">
               <td class="tg-0pky"></td>
               <td class="tg-0pky"></td>
-              <td class="tg-0pky" colspan="1" style="font-weight: bold;">Subject1</td>
-              <td class="tg-0pky" colspan="1" style="font-weight: bold;">Subject2</td>
-              <td class="tg-0pky" colspan="1" style="font-weight: bold;">Subject3</td>
-              <td class="tg-0pky" colspan="1" style="font-weight: bold;">Subject4</td></b>
+              <td class="tg-0pky" colspan="1" style="font-weight: bold;"><?php echo $_SESSION['sub1c'] ?></td>
+              <td class="tg-0pky" colspan="1" style="font-weight: bold;"><?php $temp = $_SESSION['sub2c'] ?  $_SESSION['sub2c']:"<div class='red'>Dont Fill<div>"; echo $temp; ?></td>
+              <td class="tg-0pky" colspan="1" style="font-weight: bold;"><?php $temp = $_SESSION['sub3c'] ?  $_SESSION['sub3c']:"<div class='red'>Dont Fill<div>"; echo $temp; ?></td>
+              <td class="tg-0pky" colspan="1" style="font-weight: bold;"><?php $temp = $_SESSION['sub4c'] ?  $_SESSION['sub4c']:"<div class='red'>Dont Fill<div>"; echo $temp; ?></td></b>
             </tr>
             <tr>
               <td class="tg-0pky"></td>
@@ -3477,7 +3486,7 @@ if($_SESSION['loggedin']!='TRUE'){
             </tr>
             <tr>
               <td class="tg-0pky"></td>
-              <td class="tg-0pky" colspan="5"> SUBJECT 1 -Remarks:
+              <td class="tg-0pky" colspan="5"> <?PHP ECHO $_SESSION['sub1c'] ?> -Remarks:
                 <br>
                 
 
@@ -3492,7 +3501,7 @@ if($_SESSION['loggedin']!='TRUE'){
             </tr>
             <tr>
               <td class="tg-0pky"></td>
-              <td class="tg-0pky" colspan="5"> SUBJECT 2 -Remarks:
+              <td class="tg-0pky" colspan="5"> <?php $temp = $_SESSION['sub2c'] ?  $_SESSION['sub2c']. ' -Remarks':"<div class='red'>Dont Fill<div>"; echo $temp; ?> 
                 <br>
                 
 
@@ -3507,7 +3516,7 @@ if($_SESSION['loggedin']!='TRUE'){
             </tr>
             <tr>
               <td class="tg-0pky"></td>
-              <td class="tg-0pky" colspan="5"> SUBJECT 3 -Remarks:
+              <td class="tg-0pky" colspan="5"> <?php $temp = $_SESSION['sub3c'] ?  $_SESSION['sub3c']. ' -Remarks:' :"<div class='red'>Dont Fill<div>"; echo $temp; ?> 
                 <br>
                 
 
@@ -3522,7 +3531,7 @@ if($_SESSION['loggedin']!='TRUE'){
             </tr>
             <tr>
               <td class="tg-0pky"></td>
-              <td class="tg-0pky" colspan="5"> SUBJECT 4 -Remarks:
+              <td class="tg-0pky" colspan="5"> <?php $temp = $_SESSION['sub4c'] ?  $_SESSION['sub4c']. ' -Remarks:':"<div class='red'>Dont Fill<div>"; echo $temp; ?>
                 <br>
                 
 
@@ -3719,10 +3728,10 @@ if($_SESSION['loggedin']!='TRUE'){
             <tr style="background-color :#dcf0fa;">
               <td class="tg-0pky"></td>
               <td class="tg-0pky"></td>
-              <td class="tg-0pky" colspan="1" style="font-weight: bold;">Subject 1</td>
-              <td class="tg-0pky" colspan="1" style="font-weight: bold;">Subject 2</td>
-              <td class="tg-0pky" colspan="1" style="font-weight: bold;">Subject 3</td>
-              <td class="tg-0pky" colspan="1" style="font-weight: bold;">Subject 4</td>
+              <td class="tg-0pky" colspan="1" style="font-weight: bold;"><?php echo $_SESSION['sub1c'] ?></td>
+              <td class="tg-0pky" colspan="1" style="font-weight: bold;"><?php $temp = $_SESSION['sub2c'] ?  $_SESSION['sub2c']:"<div class='red'>Dont Fill<div>"; echo $temp; ?></td>
+              <td class="tg-0pky" colspan="1" style="font-weight: bold;"><?php $temp = $_SESSION['sub3c'] ?  $_SESSION['sub3c']:"<div class='red'>Dont Fill<div>"; echo $temp; ?></td>
+              <td class="tg-0pky" colspan="1" style="font-weight: bold;"><?php $temp = $_SESSION['sub4c'] ?  $_SESSION['sub4c']:"<div class='red'>Dont Fill<div>"; echo $temp; ?></td>
             </tr>
             <tr>
               <td class="tg-0pky"></td>

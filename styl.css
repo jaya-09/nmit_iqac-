@@ -1,5 +1,10 @@
 body {
 }
+
+.red{
+  color: red;
+  font-weight: bold;
+}
 #form {
   width: auto;
   height: 100%;
