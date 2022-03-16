@@ -26,8 +26,6 @@ if($_SESSION['loggedin']!='TRUE'){
     <?php
       echo "var name = '".$_SESSION['name']."';";
     ?>
-  
-
   }
 </script>
   
@@ -40,43 +38,9 @@ if($_SESSION['loggedin']!='TRUE'){
     <div class="flex-container">
       <div id="logo">
         <img src="NMIT Header.jpg" width="1900px" height="150px">
-
-
-
       </div>
-      <!--
-  <div class="wrapper">
-  
-    <div class="row">
-      <div class="col">
-        <span class="input-group-text" id="inputGroup-sizing-lg"></span>
-
-        <input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-xl">
-      </div>
-      <div class="col">
-        <span class="input-group-text" id="inputGroup-sizing-lg"></span>
-
-        <input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-xl">
-      </div>
-      <div class="col">
-        <span class="input-group-text" id="inputGroup-sizing-lg"></span>
-
-        <input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-xl">
-      </div>
-      <div class="col">
-        <span class="input-group-text" id="inputGroup-sizing-lg"></span>
-
-        <input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-xl">
-      </div>
-
-    -->
     </div>
-
-
     </div>
-
-
-
     </div>
 
     <div class="flex-containers">
