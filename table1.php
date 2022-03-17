@@ -8,7 +8,7 @@ if($_SESSION['loggedin']!='TRUE'){
   exit();
 };
 
-
+$_SESSION['ansid'] = -1;
 
 if($_GET['id'] != NULL){
   $query = 'select * from answers1 where ansid="'.$_GET['id'].'"';
@@ -44,24 +44,17 @@ if($_GET['id'] != NULL){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Page 1</title>
     <link href="styl.css" rel="stylesheet">
-
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
   </head>
-<script type="text/javascript">
-  function retrive(){
-    <?php
-      echo "var name = '".$_SESSION['name']."';";
-    ?>
-  }
-</script>
   
   <body style="
       background-image: url('bg1.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;  
-  background-size: cover;" onload="retrive();">
+  background-size: cover;">
 
     <div class="flex-container">
       <div id="logo">
@@ -73,6 +66,7 @@ if($_GET['id'] != NULL){
 
     <div class="flex-containers">
 <form action="process.php" method="post">
+  
       <table class="tg" style="table-layout: fixed; width: 1479px">
         <colgroup>
           <col style="width: 50px">

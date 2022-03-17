@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-
+require "db_conn.php";
 if ($_SESSION['loggedin'] != 'TRUE') {
     header("Location: login-error.html");
     exit();
@@ -93,7 +93,7 @@ if($_SESSION['ansid'] != ""){
                                 </td>
                             <tr>
                                 <td class="tg-0pky"></td>
-                                <td class="tg-0pky" colspan="5">a. Projects guided during AY 20-21</td>
+                                <td class="tg-0pky" colspan="5">a. Projects guided during AY <?php echo$_SESSION['fromy'];?>-<?php echo$_SESSION['toy'];?></td>
 
                             </tr>
                             <tr>
@@ -578,7 +578,7 @@ if($_SESSION['ansid'] != ""){
 
                     <tr style="background-color :#dcf0fa;">
                         <td class="tg-0pky" style="font-weight: bold;">19</td>
-                        <td class="tg-0pky" style="font-weight: bold;" colspan="5">Status of Patent during AY 20-21
+                        <td class="tg-0pky" style="font-weight: bold;" colspan="5">Status of Patent during AY <?php echo$_SESSION['fromy'];?>-<?php echo$_SESSION['toy'];?>
                             <input type="number" id="number" style="width: 50px" name="19aa">
                         </td>
                     </tr>
@@ -1217,8 +1217,16 @@ if($_SESSION['ansid'] != ""){
                     popup.classList.toggle("show");
                 }
                 function togglebox(id_sent){ 
-                    document.getElementById(id_sent).disabled = !document.getElementById(id_sent).disabled;
+
+                    var x = ""+ parseInt(id_sent.charAt(id_sent.length-1))-1;
+                    console.log(  );
+                    if (document.getElementById(""+id_sent.substring(0, id_sent.length-1) + x).checked) {
+                    document.getElementById(id_sent).disabled = false;
+                    }
+                    else{
+                        document.getElementById(id_sent).disabled = true;    
                     document.getElementById(id_sent).value = "";
+                    }
                 }
             </script>
         </div>
@@ -1236,7 +1244,7 @@ if($_SESSION['ansid'] != ""){
 
     </body>
 <?php
-if($_SESSION['ansid'] != ""){
+if($_SESSION['ansid'] != -1){
     $i = 6;
     while($i < $count){
         $corrvalue = $row[$i];
@@ -1255,7 +1263,9 @@ if($_SESSION['ansid'] != ""){
                 }
             }
             else if (corr[0].type == 'checkbox') {
-                corr[0].checked = true;
+                if(corr[0].value == '$corrvalue'){
+                    corr[0].checked = true;
+                }
             }
             else if (corr[0].type == 'text' || corr[0].type =='textarea' || corr[0].type == 'number') {
                 corr[0].value = '$corrvalue';

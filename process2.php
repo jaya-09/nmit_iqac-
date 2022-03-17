@@ -1,5 +1,5 @@
 <?php
-    error_reporting(0);
+    // error_reporting(0);
     session_start();
     
 include "db_conn.php";
@@ -155,9 +155,9 @@ $temp = $_SESSION["csv_line"];
 fputcsv($fcon,$_SESSION['csv_line']);
  fclose($fcon);
  
-  
- if($_SESSION['ansid'] != ""){  
-    $sql1 = "UPDATE answers1 set
+  echo $_SESSION['ansid'];
+ if($_SESSION['ansid'] != -1){  
+    $sql1 = "UPDATE answers2 set
     field270 = '$field270',
     field271 = '$field271',
     field272 = '$field272',
@@ -203,7 +203,7 @@ fputcsv($fcon,$_SESSION['csv_line']);
     field348 = '$field348'
     WHERE `ansid` = '".$_SESSION['ansid']."'";
 
-    $sql2 = "UPDATE answers1 set
+    $sql2 = "UPDATE answers2 set
     field349 = '$field349',
     field350 = '$field350',
     field303 = '$field303',
@@ -258,7 +258,7 @@ fputcsv($fcon,$_SESSION['csv_line']);
 }
 
 else{
- $query = "insert into answers2 values ('".$_SESSION['userid']."','".$_SESSION['fid']."','".$_SESSION['fromy']."','".$_SESSION['toy']."','".$_SESSION['sem']."','$field270', '$field271', '$field272', '$field273', '$field274', '$field275', '$field276', '$field277', '$field278', '$field279', '$field280', '$field281', '$field282', '$field283', '$field284', '$field285', '$field286', '$field287', '$field288', '$field289', '$field290', '$field291', '$field292', '$field293', '$field294', '$field295', '$field296', '$field297', '$field298', '$field299', '$field300', '$field339', '$field340', '$field341', '$field342', '$field343', '$field344', '$field301', '$field302', '$field345', '$field346', '$field347', '$field348', '$field349', '$field350', '$field303', '$field304', '$field351', '$field352', '$field353', '$field305', '$field354', '$field355', '$field356', '$field357', '$field358', '$field306', '$field307', '$field308', '$field309', '$field310', '$field311', '$field312', '$field313', '$field314', '$field315', '$field316', '$field317', '$field318', '$field319', '$field320', '$field321', '$field322', '$field323', '$field324', '$field325', '$field326', '$field327', '$field328', '$field329', '$field330', '$field331', '$field332', '$field333', '$field334', '$field335', '$field336', '$field337', '$field338')";
+ $query = "insert into answers2 values (".$_SESSION['ansidau'].",'".$_SESSION['userid']."','".$_SESSION['fid']."','".$_SESSION['fromy']."','".$_SESSION['toy']."','".$_SESSION['sem']."','$field270', '$field271', '$field272', '$field273', '$field274', '$field275', '$field276', '$field277', '$field278', '$field279', '$field280', '$field281', '$field282', '$field283', '$field284', '$field285', '$field286', '$field287', '$field288', '$field289', '$field290', '$field291', '$field292', '$field293', '$field294', '$field295', '$field296', '$field297', '$field298', '$field299', '$field300', '$field339', '$field340', '$field341', '$field342', '$field343', '$field344', '$field301', '$field302', '$field345', '$field346', '$field347', '$field348', '$field349', '$field350', '$field303', '$field304', '$field351', '$field352', '$field353', '$field305', '$field354', '$field355', '$field356', '$field357', '$field358', '$field306', '$field307', '$field308', '$field309', '$field310', '$field311', '$field312', '$field313', '$field314', '$field315', '$field316', '$field317', '$field318', '$field319', '$field320', '$field321', '$field322', '$field323', '$field324', '$field325', '$field326', '$field327', '$field328', '$field329', '$field330', '$field331', '$field332', '$field333', '$field334', '$field335', '$field336', '$field337', '$field338')";
  mysqli_query($conn,$query);
 }
  header("Location: ./home.php");

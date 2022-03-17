@@ -23,7 +23,7 @@ $fname = $_POST["fname"];
  $_SESSION['fromy'] = $_POST["fromy"];
  $_SESSION['toy'] = $_POST["toy"];
  $_SESSION['sem'] = $_POST["sem"];
- 
+ echo $_SESSION['sem'];
  $keys = array($fname,$fid,$fdesig,$fdept,$fromy,$toy,$sem); 
  $csv_line = $keys;
  foreach($keys as $key){
@@ -31,5 +31,5 @@ $fname = $_POST["fname"];
  }
  $fcontent = implode(",",$csv_line);
  $_SESSION['fdetails'] = $fcontent;
- header("Location: subjectdetails.html");
+//  header("Location: subjectdetails.html");
  ?>
