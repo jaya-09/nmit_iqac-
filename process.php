@@ -675,22 +675,14 @@ if($_SESSION['ansid'] != ""){
     WHERE  
     `ansid` = '".$_SESSION['ansid']."'";
 
-mysqli_query($conn, $sql);
-echo "query run";
-mysqli_query($conn, $sql1);
-echo "query1 run";
-mysqli_query($conn, $sql2);
-echo "query2 run";
-
-
-
+    mysqli_query($conn, $sql);
+    mysqli_query($conn, $sql1);
+    mysqli_query($conn, $sql2);
 
     $sqlx = "SELECT sem FROM answers1 WHERE `ansid` = '".$_SESSION['ansid']."'";
     $result1 = mysqli_query($conn, $sqlx);
     $semdetails = mysqli_fetch_assoc($result1)['sem'];
     mysqli_query($conn, $sql);
-    header("Location: ./home.php");
-
 }
 
 else{

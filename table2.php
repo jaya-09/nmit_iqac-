@@ -6,7 +6,16 @@ if ($_SESSION['loggedin'] != 'TRUE') {
     header("Location: login-error.html");
     exit();
 }
-;
+if($_SESSION['ansid'] != ""){
+    $query = 'select * from answers2 where ansid="'.$_SESSION['ansid'].'"';
+  $cntQry = "select count(*) from information_schema.columns where table_name='answers2'";
+  $retval = mysqli_query($conn, $query);
+  $cntvl = mysqli_query($conn, $cntQry);
+  $count = mysqli_fetch_array($cntvl)[0];
+
+ $corrFields = ['ansid','userid','fid','fromy','toy','sem',"16a","16b1","16b2","16b3","16b4","16b5","16b6","16c1","16c2","16c3","16c4","16da","16dr1","16dr2","16e","16r","17a","17b","17c","17d","17e","17f","17g1","17g2","17h","17i","17j","18a","18b","18c1","18c2","18c3","18c4","18c5","18c6","18c7","18c8","18d","19aa","19a1","19a2","19a3","19a4","19a5","19a6","19b","19c1","19c2","19c3","19c4","19d1","19d2","19d3","19d4","19d5","19d6","19e","20a","20b1","20b2","20b3","20b4","20b5","20b6","20c","20d1","20d2","20d3","20e","21a","21b","22a","22b","22c","22d","23a","23b","24a1","24a2","24a3","24a4","25a","25b","25c","25d","25e","26a","27a","28a"];
+  $row = mysqli_fetch_row($retval);
+}
 ?>
 
 
@@ -1226,5 +1235,35 @@ if ($_SESSION['loggedin'] != 'TRUE') {
             crossorigin="anonymous"></script>
 
     </body>
-
+<?php
+if($_SESSION['ansid'] != ""){
+    $i = 6;
+    while($i < $count){
+        $corrvalue = $row[$i];
+        echo "
+        <script>
+            var corr = document.getElementsByName('$corrFields[$i]');
+            if(corr[0].type == 'radio'){
+                var j = 1;
+                while(j <= 6)
+                {
+                    if('$corrvalue' == 'option' + j){
+                        corr[j-1].checked = true;
+                        break;
+                    }
+                    j++;
+                }
+            }
+            else if (corr[0].type == 'checkbox') {
+                corr[0].checked = true;
+            }
+            else if (corr[0].type == 'text' || corr[0].type =='textarea' || corr[0].type == 'number') {
+                corr[0].value = '$corrvalue';
+            }
+        </script>
+        ";
+        $i++;
+    }
+  }
+?>
 </html>
