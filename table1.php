@@ -66,8 +66,13 @@ if($_GET['id'] != NULL){
 
     <div class="flex-containers">
 <form action="process.php" method="post">
+  <div class="float-right reset-float">
   
-      <table class="tg" style="table-layout: fixed; width: 1479px">
+<input type="reset" value="Reset" class="btn btn-danger btn-lg fifth float-right resetbn"> </input>&nbsp &nbsp	Resets all fields
+
+</div>
+
+<table class="tg" style="table-layout: fixed; width: 1479px">
         <colgroup>
           <col style="width: 50px">
           <col style="width: 583px">
@@ -4584,8 +4589,11 @@ if($_GET['id'] != NULL){
       <a href="./table2.php" button class="btn fifth" style="align-items: center;">Save &
         Next</button></a> -->
       <button type="submit" value="Save & Next" class="btn btn-primary btn-lg fifth" >Save & Next</button>
+      
+
     </div>
 
+    
 
 </form>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

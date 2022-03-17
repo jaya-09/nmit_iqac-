@@ -1,6 +1,15 @@
 body {
 }
 
+
+.reset-float{
+  position: -webkit-sticky;
+  position: sticky !important;
+  top: 0;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
 .red{
   color: red;
   font-weight: bold;

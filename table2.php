@@ -1,5 +1,5 @@
 <?php
-
+error_reporting(0);
 session_start();
 require "db_conn.php";
 if ($_SESSION['loggedin'] != 'TRUE') {
@@ -36,13 +36,18 @@ if($_SESSION['ansid'] != ""){
       background-image: url('bg1.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;  
-  background-size: cover;">
+  background-size: cover;" onload="checkthis();">
 
         <div class="flex-container">
             <div id="logo">
                 <img src="NMIT Header.jpg" width="1900px" height="150px">
             </div>
             <form action="./process2.php" method="post">
+            <div class="float-right reset-float">
+  
+  <input type="reset" value="Reset" class="btn btn-danger btn-lg fifth float-right resetbn"> </input>&nbsp &nbsp	Resets all fields
+  
+  </div>
                 <div class="flex-containers">
 
                     <table class="tg" style="table-layout: fixed; width: 1479px">
@@ -1211,6 +1216,13 @@ if($_SESSION['ansid'] != ""){
             </button>
 
             <script>
+                    function checkthis(){
+                    var arr = ['18c2','18c4','18c6','18c8','19a2','19a4','19a6','19c2','19c4','19d2','19d4'];
+                    for (var i = 0; i < arr.length; i++){
+                        togglebox(arr[i]);
+
+                    }
+                }
                 // When the user clicks on div, open the popup
                 function myFunction() {
                     var popup = document.getElementById("myPopup");
@@ -1219,7 +1231,6 @@ if($_SESSION['ansid'] != ""){
                 function togglebox(id_sent){ 
 
                     var x = ""+ parseInt(id_sent.charAt(id_sent.length-1))-1;
-                    console.log(  );
                     if (document.getElementById(""+id_sent.substring(0, id_sent.length-1) + x).checked) {
                     document.getElementById(id_sent).disabled = false;
                     }
