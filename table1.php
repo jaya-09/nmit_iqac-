@@ -2,7 +2,7 @@
 session_start();
 include 'db_conn.php';
 
-  // error_reporting(0);
+  error_reporting(0);
 if($_SESSION['loggedin']!='TRUE'){
   header("Location: login-error.html");
   exit();
@@ -30,6 +30,8 @@ if($_GET['id'] != NULL){
   $_SESSION['sub3c'] = $row[14];
   $_SESSION['sub4'] = $row[15];
   $_SESSION['sub4c'] = $row[16];
+
+}
   ?>
 
 <!DOCTYPE html>
@@ -333,14 +335,14 @@ if($_GET['id'] != NULL){
             </td>
             <td class="tg-0pky">
               <div class="form-check">
-                <input class="form-check-input" type="radio" name="2a1" id="2a11" value="option1">
-                <label class="form-check-label" for="2a11">
+                <input class="form-check-input" type="radio" name="2a1" id="2a1" value="option1">
+                <label class="form-check-label" for="2a1">
                   YES
                 </label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="radio" name="2a1" id="2a11" value="option2">
-                <label class="form-check-label" for="2a11">
+                <input class="form-check-input" type="radio" name="2a1" id="2a12" value="option2">
+                <label class="form-check-label" for="2a12">
                   NO
                 </label>
               </div>
@@ -2735,13 +2737,13 @@ if($_GET['id'] != NULL){
               <td class="tg-0pky">
               <div class="form-check">
                   <input class="form-check-input" type="radio" name="12a3" id="12a3" value="option1">
-                  <label class="form-check-label" for="12a33">
+                  <label class="form-check-label" for="12a3">
                   >=4
                   </label>
                 </div>
                 <div class="form-check">
                   <input class="form-check-input" type="radio" name="12a3" id="12a33" value="option2">
-                  <label class="form-check-label" for="12a3">
+                  <label class="form-check-label" for="12a33">
                   Less than 4
                   </label>
                 </div>
@@ -4610,7 +4612,7 @@ if($_GET['id'] != NULL){
     $i = 17;
     while($i < $count){
         $corrvalue = $row[$i];
-        echo $corrvalue;
+        // echo $corrvalue;
         echo "
         <script>
             var corr = document.getElementsByName('$corrFields[$i]');
@@ -4628,11 +4630,13 @@ if($_GET['id'] != NULL){
             else if (corr[0].type == 'checkbox') {
                 corr[0].checked = true;
             }
+            else if (corr[0].type == 'text' || corr[0].type =='textarea' || corr[0].type == 'number') {
+                corr[0].value = '$corrvalue';
+            }
         </script>
         ";
         $i++;
     }
 
-}
 ?>
 </html>
