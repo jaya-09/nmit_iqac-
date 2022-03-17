@@ -30,6 +30,7 @@ if($_GET['id'] != NULL){
   $_SESSION['sub3c'] = $row[14];
   $_SESSION['sub4'] = $row[15];
   $_SESSION['sub4c'] = $row[16];
+  $_SESSION['ansid'] = $_GET['id'];
 
 }
   ?>
