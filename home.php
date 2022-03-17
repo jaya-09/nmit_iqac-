@@ -5,6 +5,7 @@ if($_SESSION['loggedin']!='TRUE'){
   header("Location: login-error.html");
   exit();
 };
+include 'db_conn.php';
 
 
 echo "<script>console.log('".$_SESSION['userid']."');</script>";
@@ -155,8 +156,59 @@ echo "<script>console.log('".$_SESSION['userid']."');</script>";
                   <br>
 
                 </div>
-              </div>
-            </div>
+                </div>
+            </div><br>
+
+                <div class="card grid-margin">
+                <div class="card-body">
+                    <h3 id="fileStructure" class="mb-4">Previous entries</h3>
+                    <table class="table table-striped">
+                      <thead class = "thead-dark">
+                      <th>
+                        Faculty Name
+                      </th>
+                      <th>
+                        Faculty ID
+                      </th>
+                      <th>
+                        Academic Year
+                      </th>
+                      <th>
+                        Semester
+                      </th>
+                      
+                      <th>
+                      </th>
+</thead>
+                      <?php
+                      $sql = "SELECT * FROM answers1 where userid='".$_SESSION['userid']."'";
+                      $result = mysqli_query($conn, $sql);
+                      // if (count($result) > 0) {
+                        while ($row = mysqli_fetch_assoc($result)) {
+                          echo "<tr>";
+                          echo "<td>";
+                          echo $row['fname'];
+                          echo "</td>";
+                          echo "<td>";
+                          echo $row['fid'];
+                          echo "</td>";
+                          echo "<td>";
+                          echo $row['fromy'] . "-" . $row['toy'];
+                          echo "</td>";
+                          echo "<td>";
+                          echo $row['sem'];
+                          echo "</td>";
+                          echo "<td>";
+                          echo "<a href='./table1.php?id=".$row['ansid']."'><button type='button' class='btn btn-primary'>Edit</button></a>";
+                          echo "</td>";
+                          echo "</tr>";
+                        }
+                      // }
+                      ?>
+                </table>
+                </div>
+                </div>
+
 
 
           </div>

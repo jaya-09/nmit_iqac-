@@ -15,8 +15,21 @@ $corrFields = ['userid','fname','fid','fdesig','fdept','fromy','toy','sem',"sub1
 
 while($row = mysqli_fetch_row($retval))
 {
-    $i = 16;
+    $i = 17;
     while($i < $count){
+        $corrvalue = $row[$i];
+        echo "
+        <script>
+            var corr = document.getElementsByName(corrFields[i]);
+            if(corr[0].type == 'radio'){
+                $corrvalue == 'option1' ? corr[0].checked = true : corr[1].checked = true;
+            }
+            else if (corr[0].type == 'checkbox') {
+                corr[0].checked = true;
+            }
+
+        </script>
+        ";
     }
 }
 
