@@ -105,6 +105,10 @@ echo "<script>console.log('".$_SESSION['userid']."');</script>";
                     <option value="9">Mechanical Engineering</option>
                     <option value="10">MBA</option>
                     <option value="11">MCA</option>
+                    <option value="12">Dept. of Mathematics</option>
+                    <option value="13">Dept. of Physics</option>
+                    <option value="14">Dept. of Chemistry</option>
+                    <option value="15">Dept. of Humanities</option>
 
                   </select>
                 </div>
