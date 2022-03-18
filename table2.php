@@ -539,7 +539,7 @@ if($_SESSION['ansid'] != ""){
                                     </div>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" name="18c7" id="18c7" value="ANY OTHER" onchange="togglebox('18c8')">
+                    <input class="form-check-input" type="checkbox" name="18c7" id="18c7" value="OTHER" onchange="togglebox('18c8')">
                     <label class="form-check-label" for="18c7">
                         ANY OTHER
                     </label>
