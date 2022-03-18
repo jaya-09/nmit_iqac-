@@ -3133,9 +3133,9 @@ if($_GET['id'] != NULL){
 
               <td class="tg-0pky">
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="313b" id="313b1"
+                  <input class="form-check-input" type="radio" name="13b3" id="13b31"
                     value="option1">
-                  <label class="form-check-label" for="313b1">Accurate</label>
+                  <label class="form-check-label" for="13b31">Accurate</label>
                 </div>
                 <div class="form-check form-check-inline">
                   <input class="form-check-input" type="radio" name="13b3" id="13b32"
