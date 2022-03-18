@@ -1217,7 +1217,7 @@ if($_SESSION['ansid'] != ""){
 
             <script>
                     function checkthis(){
-                    var arr = ['18c2','18c4','18c6','18c8','19a2','19a4','19a6','19c2','19c4','19d2','19d4'];
+                    var arr = ['18c2','18c4','18c6','18c8','19a2','19a4','19a6','19c2','19c4','19d2','19d4','19d6'];
                     for (var i = 0; i < arr.length; i++){
                         togglebox(arr[i]);
 
