@@ -735,13 +735,13 @@ if($_GET['id'] != NULL){
 
             <td class="tg-0pky">
               <div class="form-check">
-                <input class="form-check-input" type="radio" name="4ac3" id="4ac3">
+                <input class="form-check-input" type="radio" name="4ac3" id="4ac3" value="option1">
                 <label class="form-check-label" for="4ac3">
                   YES
                 </label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="radio" name="4ac3" id="4ac33">
+                <input class="form-check-input" type="radio" name="4ac3" id="4ac33" value="option2">
                 <label class="form-check-label" for="4ac33">
                   NO
                 </label>
