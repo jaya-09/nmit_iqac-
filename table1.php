@@ -8,7 +8,7 @@ if($_SESSION['loggedin']!='TRUE'){
   exit();
 };
 
-$_SESSION['ansid'] = -1;
+// $_SESSION['ansid'] = -1;
 
 if($_GET['id'] != NULL){
   $query = 'select * from answers1 where ansid="'.$_GET['id'].'"';
@@ -4606,7 +4606,7 @@ if($_GET['id'] != NULL){
 
   </body>
 <?php
-if($_SESSION['ansid'] != ""){
+if(isset($_SESSION['ansid'])){
     $i = 17;
     while($i < $count){
         $corrvalue = $row[$i];

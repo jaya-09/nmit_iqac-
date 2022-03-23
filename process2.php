@@ -155,8 +155,8 @@ $temp = $_SESSION["csv_line"];
 fputcsv($fcon,$_SESSION['csv_line']);
  fclose($fcon);
  
-  echo $_SESSION['ansid'];
- if($_SESSION['ansid'] != -1){  
+//   echo $_SESSION['ansid'];
+ if(isset($_SESSION['ansid'])){  
     $sql1 = "UPDATE answers2 set
     field270 = '$field270',
     field271 = '$field271',

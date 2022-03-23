@@ -6,7 +6,7 @@ if ($_SESSION['loggedin'] != 'TRUE') {
     header("Location: login-error.html");
     exit();
 }
-if($_SESSION['ansid'] != ""){
+if(isset($_SESSION['ansid'])){
     $query = 'select * from answers2 where ansid="'.$_SESSION['ansid'].'"';
   $cntQry = "select count(*) from information_schema.columns where table_name='answers2'";
   $retval = mysqli_query($conn, $query);
@@ -1255,7 +1255,7 @@ if($_SESSION['ansid'] != ""){
 
     </body>
 <?php
-if($_SESSION['ansid'] != -1){
+if(isset($_SESSION['ansid'])){
     $i = 6;
     while($i < $count){
         $corrvalue = $row[$i];
