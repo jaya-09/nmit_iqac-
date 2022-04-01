@@ -1,18 +1,18 @@
 <?php
 session_start();
-
+include "db_conn.php";
 if($_SESSION['loggedin']!='TRUE'){
   header("Location: login-error.html");
   exit();
 };
- $sub1 = $_POST["sub1"];
- $sub1c = $_POST["sub1c"];
- $sub2 = $_POST["sub2"];
- $sub2c = $_POST["sub2c"];
- $sub3 = $_POST["sub3"];
- $sub3c = $_POST["sub3c"];
- $sub4 = $_POST["sub4"];
- $sub4c = $_POST["sub4c"];
+ $sub1 = mysqli_real_escape_string($conn,$_POST["sub1"]);
+ $sub1c = mysqli_real_escape_string($conn,$_POST["sub1c"]);
+ $sub2 = mysqli_real_escape_string($conn,$_POST["sub2"]);
+ $sub2c = mysqli_real_escape_string($conn,$_POST["sub2c"]);
+ $sub3 = mysqli_real_escape_string($conn,$_POST["sub3"]);
+ $sub3c = mysqli_real_escape_string($conn,$_POST["sub3c"]);
+ $sub4 = mysqli_real_escape_string($conn,$_POST["sub4"]);
+ $sub4c = mysqli_real_escape_string($conn,$_POST["sub4c"]);
  $_SESSION['sub1'] = $sub1;
  $_SESSION['sub1c'] = $sub1c;
  $_SESSION['sub2'] = $sub2;

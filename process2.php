@@ -9,136 +9,136 @@ if($_SESSION['loggedin']!='TRUE'){
   exit();
 };
 
-    $field270 = $_POST["16a"];
+    $field270 = mysqli_real_escape_string($conn,$_POST["16a"]);
 
-    $field271 = $_POST["16b1"];
-    $field272 = $_POST["16b2"];
-    $field273 = $_POST["16b3"];
-    $field274 = $_POST["16b4"];   
-    $field275 = $_POST["16b5"];
-    $field276 = $_POST["16b6"];
+    $field271 = mysqli_real_escape_string($conn,$_POST["16b1"]);
+    $field272 = mysqli_real_escape_string($conn,$_POST["16b2"]);
+    $field273 = mysqli_real_escape_string($conn,$_POST["16b3"]);
+    $field274 = mysqli_real_escape_string($conn,$_POST["16b4"]);   
+    $field275 = mysqli_real_escape_string($conn,$_POST["16b5"]);
+    $field276 = mysqli_real_escape_string($conn,$_POST["16b6"]);
 
-    $field277 = $_POST["16c1"];
-    $field278 = $_POST["16c2"];
-    $field279 = $_POST["16c3"];
-    $field280 = $_POST["16c4"];
+    $field277 = mysqli_real_escape_string($conn,$_POST["16c1"]);
+    $field278 = mysqli_real_escape_string($conn,$_POST["16c2"]);
+    $field279 = mysqli_real_escape_string($conn,$_POST["16c3"]);
+    $field280 = mysqli_real_escape_string($conn,$_POST["16c4"]);
 
-    $field281 = $_POST["16da"];
-    $field282 = $_POST["16dr1"];
-    $field283 = $_POST["16dr2"];
+    $field281 = mysqli_real_escape_string($conn,$_POST["16da"]);
+    $field282 = mysqli_real_escape_string($conn,$_POST["16dr1"]);
+    $field283 = mysqli_real_escape_string($conn,$_POST["16dr2"]);
 
-    $field284 = $_POST["16e"];
+    $field284 = mysqli_real_escape_string($conn,$_POST["16e"]);
 
-    $field285 = $_POST["16r"];
+    $field285 = mysqli_real_escape_string($conn,$_POST["16r"]);
 
 
-    $field286 = $_POST["17a"];
-    $field287 = $_POST["17b"];
-    $field288 = $_POST["17c"];
-    $field289 = $_POST["17d"];
-    $field290 = $_POST["17e"];
-    $field291 = $_POST["17f"];
+    $field286 = mysqli_real_escape_string($conn,$_POST["17a"]);
+    $field287 = mysqli_real_escape_string($conn,$_POST["17b"]);
+    $field288 = mysqli_real_escape_string($conn,$_POST["17c"]);
+    $field289 = mysqli_real_escape_string($conn,$_POST["17d"]);
+    $field290 = mysqli_real_escape_string($conn,$_POST["17e"]);
+    $field291 = mysqli_real_escape_string($conn,$_POST["17f"]);
 
-    $field292 = $_POST["17g1"];
-    $field293 = $_POST["17g2"];
+    $field292 = mysqli_real_escape_string($conn,$_POST["17g1"]);
+    $field293 = mysqli_real_escape_string($conn,$_POST["17g2"]);
 
-    $field294 = $_POST["17h"];
-    $field295 = $_POST["17i"];
-    $field296 = $_POST["17j"];
+    $field294 = mysqli_real_escape_string($conn,$_POST["17h"]);
+    $field295 = mysqli_real_escape_string($conn,$_POST["17i"]);
+    $field296 = mysqli_real_escape_string($conn,$_POST["17j"]);
     
 
-    $field297 = $_POST["18a"];
-    $field298 = $_POST["18b"];
+    $field297 = mysqli_real_escape_string($conn,$_POST["18a"]);
+    $field298 = mysqli_real_escape_string($conn,$_POST["18b"]);
     
-    $field299 = $_POST["18c1"];
-    $field300 = $_POST["18c2"];
-    $field339 = $_POST["18c3"];
-    $field340 = $_POST["18c4"];
-    $field341 = $_POST["18c5"];
-    $field342 = $_POST["18c6"];
-    $field343 = $_POST["18c7"];
-    $field344 = $_POST["18c8"];
+    $field299 = mysqli_real_escape_string($conn,$_POST["18c1"]);
+    $field300 = mysqli_real_escape_string($conn,$_POST["18c2"]);
+    $field339 = mysqli_real_escape_string($conn,$_POST["18c3"]);
+    $field340 = mysqli_real_escape_string($conn,$_POST["18c4"]);
+    $field341 = mysqli_real_escape_string($conn,$_POST["18c5"]);
+    $field342 = mysqli_real_escape_string($conn,$_POST["18c6"]);
+    $field343 = mysqli_real_escape_string($conn,$_POST["18c7"]);
+    $field344 = mysqli_real_escape_string($conn,$_POST["18c8"]);
 
-    $field301 = $_POST["18d"];
-
-
-    $field302 = $_POST["19aa"];
-    $field345 = $_POST["19a1"];
-    $field346 = $_POST["19a2"];
-    $field347 = $_POST["19a3"];
-    $field348 = $_POST["19a4"];
-    $field349 = $_POST["19a5"];
-    $field350 = $_POST["19a6"];
-
-    $field303 = $_POST["19b"];
-
-    $field304 = $_POST["19c1"];
-    $field351 = $_POST["19c2"];
-    $field352 = $_POST["19c3"];
-    $field353 = $_POST["19c4"];
-
-    $field305 = $_POST["19d1"];
-    $field354 = $_POST["19d2"];
-    $field355 = $_POST["19d3"];
-    $field356 = $_POST["19d4"];
-    $field357 = $_POST["19d5"];
-    $field358 = $_POST["19d6"];
-
-    $field306 = $_POST["19e"];
+    $field301 = mysqli_real_escape_string($conn,$_POST["18d"]);
 
 
-    $field307 = $_POST["20a"];
+    $field302 = mysqli_real_escape_string($conn,$_POST["19aa"]);
+    $field345 = mysqli_real_escape_string($conn,$_POST["19a1"]);
+    $field346 = mysqli_real_escape_string($conn,$_POST["19a2"]);
+    $field347 = mysqli_real_escape_string($conn,$_POST["19a3"]);
+    $field348 = mysqli_real_escape_string($conn,$_POST["19a4"]);
+    $field349 = mysqli_real_escape_string($conn,$_POST["19a5"]);
+    $field350 = mysqli_real_escape_string($conn,$_POST["19a6"]);
 
-    $field308 = $_POST["20b1"];
-    $field309 = $_POST["20b2"];
-    $field310 = $_POST["20b3"];
-    $field311 = $_POST["20b4"];
-    $field312 = $_POST["20b5"];
-    $field313 = $_POST["20b6"];
+    $field303 = mysqli_real_escape_string($conn,$_POST["19b"]);
 
-    $field314 = $_POST["20c"];
+    $field304 = mysqli_real_escape_string($conn,$_POST["19c1"]);
+    $field351 = mysqli_real_escape_string($conn,$_POST["19c2"]);
+    $field352 = mysqli_real_escape_string($conn,$_POST["19c3"]);
+    $field353 = mysqli_real_escape_string($conn,$_POST["19c4"]);
 
-    $field315 = $_POST["20d1"];
-    $field316 = $_POST["20d2"];
-    $field317 = $_POST["20d3"];
+    $field305 = mysqli_real_escape_string($conn,$_POST["19d1"]);
+    $field354 = mysqli_real_escape_string($conn,$_POST["19d2"]);
+    $field355 = mysqli_real_escape_string($conn,$_POST["19d3"]);
+    $field356 = mysqli_real_escape_string($conn,$_POST["19d4"]);
+    $field357 = mysqli_real_escape_string($conn,$_POST["19d5"]);
+    $field358 = mysqli_real_escape_string($conn,$_POST["19d6"]);
 
-    $field318 = $_POST["20e"];
+    $field306 = mysqli_real_escape_string($conn,$_POST["19e"]);
+
+
+    $field307 = mysqli_real_escape_string($conn,$_POST["20a"]);
+
+    $field308 = mysqli_real_escape_string($conn,$_POST["20b1"]);
+    $field309 = mysqli_real_escape_string($conn,$_POST["20b2"]);
+    $field310 = mysqli_real_escape_string($conn,$_POST["20b3"]);
+    $field311 = mysqli_real_escape_string($conn,$_POST["20b4"]);
+    $field312 = mysqli_real_escape_string($conn,$_POST["20b5"]);
+    $field313 = mysqli_real_escape_string($conn,$_POST["20b6"]);
+
+    $field314 = mysqli_real_escape_string($conn,$_POST["20c"]);
+
+    $field315 = mysqli_real_escape_string($conn,$_POST["20d1"]);
+    $field316 = mysqli_real_escape_string($conn,$_POST["20d2"]);
+    $field317 = mysqli_real_escape_string($conn,$_POST["20d3"]);
+
+    $field318 = mysqli_real_escape_string($conn,$_POST["20e"]);
     
 
-    $field319 = $_POST["21a"];
-    $field320 = $_POST["21b"];
+    $field319 = mysqli_real_escape_string($conn,$_POST["21a"]);
+    $field320 = mysqli_real_escape_string($conn,$_POST["21b"]);
 
 
-    $field321 = $_POST["22a"];
-    $field322 = $_POST["22b"];
-    $field323 = $_POST["22c"];
-    $field324 = $_POST["22d"];
+    $field321 = mysqli_real_escape_string($conn,$_POST["22a"]);
+    $field322 = mysqli_real_escape_string($conn,$_POST["22b"]);
+    $field323 = mysqli_real_escape_string($conn,$_POST["22c"]);
+    $field324 = mysqli_real_escape_string($conn,$_POST["22d"]);
 
 
-    $field325 = $_POST["23a"];
-    $field326 = $_POST["23b"];
+    $field325 = mysqli_real_escape_string($conn,$_POST["23a"]);
+    $field326 = mysqli_real_escape_string($conn,$_POST["23b"]);
 
 
-    $field327 = $_POST["24a1"];
-    $field328 = $_POST["24a2"];
-    $field329 = $_POST["24a3"];
-    $field330 = $_POST["24a4"];
+    $field327 = mysqli_real_escape_string($conn,$_POST["24a1"]);
+    $field328 = mysqli_real_escape_string($conn,$_POST["24a2"]);
+    $field329 = mysqli_real_escape_string($conn,$_POST["24a3"]);
+    $field330 = mysqli_real_escape_string($conn,$_POST["24a4"]);
 
  
-    $field331 = $_POST["25a"];
-    $field332 = $_POST["25b"];
-    $field333 = $_POST["25c"];
-    $field334 = $_POST["25d"];
-    $field335 = $_POST["25e"];
+    $field331 = mysqli_real_escape_string($conn,$_POST["25a"]);
+    $field332 = mysqli_real_escape_string($conn,$_POST["25b"]);
+    $field333 = mysqli_real_escape_string($conn,$_POST["25c"]);
+    $field334 = mysqli_real_escape_string($conn,$_POST["25d"]);
+    $field335 = mysqli_real_escape_string($conn,$_POST["25e"]);
 
 
-    $field336 = $_POST["26a"];
+    $field336 = mysqli_real_escape_string($conn,$_POST["26a"]);
 
 
-    $field337 = $_POST["27a"];
+    $field337 = mysqli_real_escape_string($conn,$_POST["27a"]);
 
 
-    $field338 = $_POST["28a"];
+    $field338 = mysqli_real_escape_string($conn,$_POST["28a"]);
 
   
 

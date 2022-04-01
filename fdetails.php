@@ -2,27 +2,27 @@
 <?php
 error_reporting(0);
 session_start();
-
+include "db_conn.php";
 if($_SESSION['loggedin']!='TRUE'){
   header("Location: login-error.html");
   exit();
 };
 
-$fname = $_POST["fname"];
- $fid = $_POST["fid"];
- $fdept = $_POST["fdept"];
- $fdesig = $_POST["fdesig"];
- $fromy = $_POST["fromy"];
- $toy = $_POST["toy"];
- $sem = $_POST["sem"];
+$fname = mysqli_real_escape_string($conn,$_POST["fname"]);
+ $fid = mysqli_real_escape_string($conn,$_POST["fid"]);
+ $fdept = mysqli_real_escape_string($conn,$_POST["fdept"]);
+ $fdesig = mysqli_real_escape_string($conn,$_POST["fdesig"]);
+ $fromy = mysqli_real_escape_string($conn,$_POST["fromy"]);
+ $toy = mysqli_real_escape_string($conn,$_POST["toy"]);
+ $sem = mysqli_real_escape_string($conn,$_POST["sem"]);
 
- $_SESSION['fname'] = $_POST["fname"];
- $_SESSION['fid'] = $_POST["fid"];
- $_SESSION['fdept'] = $_POST["fdept"];
- $_SESSION['fdesig'] = $_POST["fdesig"];
- $_SESSION['fromy'] = $_POST["fromy"];
- $_SESSION['toy'] = $_POST["toy"];
- $_SESSION['sem'] = $_POST["sem"];
+ $_SESSION['fname'] = mysqli_real_escape_string($conn,$_POST["fname"]);
+ $_SESSION['fid'] = mysqli_real_escape_string($conn,$_POST["fid"]);
+ $_SESSION['fdept'] = mysqli_real_escape_string($conn,$_POST["fdept"]);
+ $_SESSION['fdesig'] = mysqli_real_escape_string($conn,$_POST["fdesig"]);
+ $_SESSION['fromy'] = mysqli_real_escape_string($conn,$_POST["fromy"]);
+ $_SESSION['toy'] = mysqli_real_escape_string($conn,$_POST["toy"]);
+ $_SESSION['sem'] = mysqli_real_escape_string($conn,$_POST["sem"]);
  $keys = array($fname,$fid,$fdesig,$fdept,$fromy,$toy,$sem); 
  $csv_line = $keys;
  foreach($keys as $key){
