@@ -397,7 +397,7 @@ array_push($_SESSION['csv_line'],"FACULTY DETAILS:");
 $semdetails = $_SESSION['sem'];
 
 
-if(isset($_SESSION['ansid'])){
+if($_SESSION['ansid'] != "-1"){
 
     $sql = "UPDATE answers1 set
     field1 = '$field1',
